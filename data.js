@@ -1,0 +1,1463 @@
+const romData = {
+     "Samsung Galaxy S (i9000)": [
+    {
+      rom: "Cyanogenmod 7",
+      android: "2.3",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/cm-7.2.0-galaxysmtd.zip"
+    },
+    {
+      rom: "Cyanogenmod 9",
+      android: "4.0.4",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/cm-9.1.0-galaxysmtd.zip"
+    },
+    {
+      rom: "Cyanogenmod 10",
+      android: "4.1",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://archive.org/download/cyanogenmod-archive/10.0.0/stable/cm-10.0.0-galaxysmtd.zip"
+    },
+    {
+      rom: "Cyanogenmod 10.1.3",
+      android: "4.2.2",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/cm-10.1.3-galaxysmtd.zip"
+    },
+    {
+      rom: "Cyanogenmod 10.2",
+      android: "4.3",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/cm-10.2.1-galaxysmtd.zip"
+    },
+    {
+      rom: "Cyanogenmod 11",
+      android: "4.4",
+      date: "-",
+      type: "SNAPSHOT",
+      url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/cm-11-20150901-SNAPSHOT-XNG3CAO3G0-galaxysmtd.zip"
+    },
+    {
+      rom: "Omni",
+      android: "4.4",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/omni-4.4.4-20150520-galaxysmtd-FINAL%20%281%29.zip"
+    },
+    {
+      rom: "CARBON",
+      android: "4.4",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/CARBON-KK-UNOFFICIAL-20140713-1450-galaxysmtd.zip"
+    },
+    {
+      rom: "Full Advance",
+      android: "6.0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/Full%2BAdvance-6.0.1-20160919-galaxysmtd-Final.zip"
+    },
+    {
+      rom: "Full Advance",
+      android: "5.1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/OmniROM%205.1/Full%2BAdvance-5.1.1-20151205-galaxysmtd-stable.zip"
+    },
+    {
+      rom: "Omni",
+      android: "6.0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/omni-6.0.1-20160309-galaxysmtd-HOMEMADE.zip"
+    },
+    {
+      rom: "LineageOS 14.1",
+      android: "7.1",
+      date: "2018-01-27",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=962187416754456594"
+    },
+    {
+      rom: "Postinstall",
+      android: "Postinstall",
+      date: "-",
+      type: "LineageOS 14.1 den sonra kurun!",
+      url: "https://androidfilehost.com/?fid=673956719939815508"
+    },
+    {
+      rom: "Odin3",
+      android: "1.83",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://odindownloader.com/wp-content/uploads/Odin3_v1.83.zip"
+    },
+    {
+      rom: "TWRP",
+      android: "2.8",
+      date: "-",
+      type: "DENEYSEL!!!",
+      url: "https://xdaforums.com/attachments/kernel-tar.3515622/"
+    },
+    {
+      rom: "CWM",
+      android: "3.0",
+      date: "-",
+      type: "???",
+      url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/Odin/CF-Root-XX_OXA_JW4-v4.4-CWM3RFS.tar"
+    },
+    {
+      rom: "CWM",
+      android: "6.0",
+      date: "-",
+      type: "???",
+      url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/Odin/Semaphore_KK_3.4.3.tar"
+    },
+  ],
+   "Samsung S2 (i9100)": [
+    {
+      rom: "LineageOS 14.1",
+      android: "7.1",
+      date: "2018-10-03",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/rxu2r54r3bky57x/lineage-14.1-20181216-nightly-i9100-signed.zip/file"
+    },
+    {
+      rom: "LineageOS 15.1",
+      android: "8.1",
+      date: "2018-10-03",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/w9xs878odi6frsr/lineage-15.1-20181003-UNOFFICIAL-i9100_SU_MicroG.zip/file"
+    },
+    {
+      rom: "LineageOS 16.0",
+      android: "9",
+      date: "2019-12-20",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=4349826312261680826"
+    },
+    {
+      rom: "TWRP's",
+      android: "2.8-3.6...",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://app.mediafire.com/folder/08sb6fn9smlj0"
+    },
+  ],
+  "Samsung Galaxy S3 (i9300)": [
+    {
+      rom: "CyanogenMod 9",
+      android: "4.0",
+      date: "2012",
+      type: "Stable",
+      url: "https://drive.google.com/file/d/1-DfAAQEhd5Vp5n97cIsRiB8pOmP6iy48/view"
+    },
+    {
+      rom: "CyanogenMod 10.1.3.1",
+      android: "4.2",
+      date: "2012",
+      type: "Stable",
+      url: "https://drive.google.com/file/d/1Vs4Ci-Sd5Es_7Ns7AB0vF3iJFCoXcNIP/view"
+    },
+    {
+      rom: "Galaxy S6 Port",
+      android: "4.4",
+      date: "2015",
+      type: "PORT",
+      url: "https://drive.google.com/file/d/19FNICe7Ra_3ih-F5aoyATGMTlFuBVnXw/view"
+    },
+    {
+      rom: "CyanogenMod 12",
+      android: "5.1",
+      date: "2015-04-03",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1J2DyUwmo6mcKICICDD6zRwFwBPv3mRzv/view"
+    },
+
+     {
+      rom: "CyanogenMod 13",
+      android: "6.0",
+      date: "2016-12-20",
+      type: "SNAPSHOT",
+      url: "https://drive.google.com/file/d/1lIrUKCVeCCzQeMLe0aIgH9uA3x4N2va2/view"
+    },
+    
+    {
+      rom: "LineageOS 14.1",
+      android: "7.1",
+      date: "2017",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1VoQZdXSEfgaAzSP9bP1wFAfIq4R6-t2x/view"
+    },
+
+     {
+      rom: "LineageOS 14.1",
+      android: "7.1",
+      date: "2019-02-17",
+      type: "NIGHTLY",
+      url: "https://www.mediafire.com/file/6f4nep1pd539z6n/lineage-14.1-20190217-nightly-i9300-signed_%25281%2529.zip/file"
+    },
+
+    {
+      rom: "LineageOS 15.1",
+      android: "8.1",
+      date: "2019-06-19",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1mNAKRhm0q_VJZJ3nRtjWRWnlU54vtso5/view"
+    },
+
+     
+    {
+      rom: "LineageOS 16.0",
+      android: "9",
+      date: "2020-09-20",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1L8bh2tFpVGFa-zjxLjsBKQJIL8wmlVtS/view"
+    },
+    
+    {
+      rom: "LineageOS 17.1",
+      android: "10",
+      date: "2020-07-17",
+      type: "UNOFFICIAL",
+      url: "https://ava3.androidfilehost.com/dl/WCmMUE3mXEVSyQAwDza2fA/1766958670/8889791610682894044/lineage-17.1-20200717-UNOFFICIAL-i9300.zip"
+    },
+
+    {
+      rom: "LineageOS 18.1",
+      android: "11",
+      date: "2022-04-20",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1o3PZ1di9mCd0kK44bwPEpOBPAtWtJp1Q/view"
+    },
+
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2023-03-06",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/s4jmnv4j3p9qmrm/20.0-20230306-HTML6405-i9300.zip/file"
+    },
+    {
+      rom: "LineageOS 21",
+      android: "14",
+      date: "2024-10-29",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/bpmgudoj6b024fq/21.0-20241029-HTML6405-i9300.zip/file"
+    },
+
+    {
+      rom: "chrono_kernel",
+      android: "CM 14.1 de uyumlu",
+      date: "-",
+      type: "kernel",
+      url: "https://www.mediafire.com/file/hev22jhzqisfrqk/chrono_kernel_r1.0-25-2dd151f1068-m0.zip/file"
+    },
+  ],
+   "Samsung Galaxy S3 Neo (s3ve3gjv,s3ve3gds)": [
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2023-10-23",
+      type: "s3ve3gjv",
+      url: "https://ota.html6405.com/s3ve3gjv/LOS20/20.0-20231023-HTML6405-s3ve3gjv.zip"
+    },
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2023-10-23",
+      type: "s3ve3gds",
+      url: "https://ota.html6405.com/s3ve3gds/LOS20/20.0-20231023-HTML6405-s3ve3gds.zip"
+    },
+    
+  ],
+  "Samsung Galaxy S3 Mini (i8190)": [
+     
+    {
+      rom: "TWRP",
+      android: "3.1.1-1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/5kkhwjkeeshcni5/GT-I8190_TWRP_3.1.1-1.tar.md5/file"
+    },
+    {
+      rom: "CyanogenMod 10.1",
+      android: "4.2.2",
+      date: "2014-04-30",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/qvvfwsr27o4tv3k/cm10.1_golden.nova.20140430.zip/file"
+    },
+     
+    {
+      rom: "CyanogenMod 10.2",
+      android: "4.3",
+      date: "2013",
+      type: "Stable",
+      url: "https://drive.google.com/file/d/19JUF4fnNiZJbaGl7s3AJ9inHuXsd89A5/view"
+    },
+
+    {
+      rom: "CyanogenMod 11",
+      android: "4.4",
+      date: "2015-10-17",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/w5c51op9nkuq4i3/cm11.0_golden.nova.20151017.zip/file"
+    },
+    
+    {
+      rom: "OmniROM 5.1.1",
+      android: "5.1",
+      date: "2016-10-03",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1zFjI5RY3J9_AUrvtCWGwbJYbg0dlCie1/view"
+    },
+
+    {
+      rom: "Resurrection Remix",
+      android: "5.1",
+      date: "2016-09-08",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/bg6eto6dxj2xoi0/rr5.1_golden.nova.20160908.zip/file"
+    },
+
+    
+    {
+      rom: "CyanogenMod 12.1",
+      android: "5.1",
+      date: "2016-06-15",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1zNgxDOwAlyk2oVrgyYyQcl5flbEgwNG-/view"
+    },
+
+
+     {
+      rom: "Cyanogenmod 13",
+      android: "6",
+      date: "2017-01-18",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1c3H-kycuThpOtT42ZLAep-qTPMSA4825/view?usp=drive_link"
+    },
+   
+    {
+      rom: "LineageOS 14.1",
+      android: "7.1",
+      date: "2018-01-09",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/ym4dgo2l7s7py70/los14.1_golden.nova.20180109_%25281%2529.zip/file"
+    },
+       
+    {
+      rom: "LineageOS 15.1",
+      android: "8.1",
+      date: "2018-10-30",
+      type: "DENEYSEL!!!",
+      url: "https://drive.google.com/file/d/1cYMPDCKz8G2XwlHOShJwSmAL3EKumLk4/view?usp=drive_link"
+    },
+
+  ],
+  
+  "Samsung Galaxy S3 Mini Value Edition (i8200Q/N)": [
+    {
+      rom: "CyanogenMod 11",
+      android: "4.4",
+      date: "2020-03-10",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1Xmy-sPL6-WVhQLwDPJLQXLD925iTsdMj/view"
+    },
+    {
+      rom: "TWRP",
+      android: "2.8.2.0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/rgnsy89usw6qdjx/twrp-2.8.2.0-i8200Q.tar/file"
+    }
+  ],
+   "Samsung S4 (i9500)": [
+    {
+      rom: "LineageOS 14.1",
+      android: "7.1",
+      date: "2022-04-05",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1UCDgHIz6QMiaSLlayzCXS-9NaVVZ3Va5/view"
+    },
+    {
+      rom: "TWRP",
+      android: "3.1.1-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://dl.twrp.me/i9500/twrp-3.1.1-0-i9500.img.tar"
+    }
+  ],
+   "Samsung S4 LTE (i9505)": [
+    {
+      rom: "Crdroid",
+      android: "11",
+      date: "2024-08-28",
+      type: "UNOFFICIAL",
+      url: "https://crdroid.manty.net/jfltexx/crDroidAndroid-11.0-20240827-jfltexx-v7.45.zip"
+    },
+    {
+      rom: "TWRP",
+      android: "3.1.1-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://dl.twrp.me/i9500/twrp-3.1.1-0-i9500.img.tar"
+    }
+  ],
+  "Samsung S4 Mini 3G (i9190)": [
+    {
+      rom: "LineageOS 17.1",
+      android: "10",
+      date: "2022-08-16",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1KCXhiFM36Cu9Spmi-B6d3IqvNIbSzNU5/view?usp=drive_link"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/plndofx9pd337i7/twrp-3.7.0_9-0-serrano3gxx.img.tar/file"
+    }
+  ],
+
+  "Samsung Galaxy S5 (Exynos)": [
+    {
+      rom: "LineageOS 14.1",
+      android: "7.1",
+      date: "2018-11-09",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/nyxq6maj6ikk44h/lineage-14.1-20181109-nightly-k3gxx-signed.zip/file"
+    },
+    
+  ],
+   "Samsung Galaxy S5 Mini (Qualcomm)": [
+    {
+      rom: "LineageOS 16",
+      android: "9",
+      date: "2020-11-07",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1ID2bReNNM3jnS1R_25leCBwT9gBMTJzl/view"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://eu.dl.twrp.me/kmini3g/twrp-3.7.0_9-0-kmini3g.img.tar"
+    },
+    
+  ],
+   "Samsung Galaxy S6 (Exynos)": [
+    {
+      rom: "LineageOS 19.1",
+      android: "12",
+      date: "2025-08-22",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/d33hkvfjp35cn08/lineage-19.1-20250822-UNOFFICIAL-zeroflte.zip/file"
+    },
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2025-12-04",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/inn198nxuqdstq1/lineage-20.0-20251204-UNOFFICIAL-zeroflte.zip/file"
+    },
+  ],
+
+  "Samsung Galaxy S7 (Exynos)": [
+    {
+      rom: "LineageOS 17.1",
+      android: "10",
+      date: "2023-02-12",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1SXqxWZjeCqorgUycsW8qvDA2fVUVVJCy/view"
+    },
+    {
+      rom: "LineageOS 18.1",
+      android: "11",
+      date: "2025-02-27",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/11EcZ09Bd1DN-HqomwrfZxRCV-PJRI7WW/view"
+    },
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2025-05-15",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/14CSwq3q8MHm5eRF6xPHKFjLIbHLWE1FD/view"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "2025-02-27",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/m2a7sj4wwlvlmsv/twrp-3.7.0_9-1-herolte.img.tar/file"
+    }
+  ],
+   "Samsung Galaxy S8 (Exynos)": [
+    {
+      rom: "Evoluiton X",
+      android: "13",
+      date: "?",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1wnLD_-eLyKvQpOD__MYn3QzJ9PKPb1UU/view?usp=drive_link"
+    },
+    {
+      rom: "ONE UI 7",
+      android: "15",
+      date: "2025-08-02",
+      type: "PORT",
+      url: "https://xdaforums.com/attachments/exynos8895-15-0-0_v1-0-5-1-rc-20250802-zip.6256165/"
+    }
+    
+  ],
+   "Samsung Galaxy S8+(Exynos)": [
+    {
+      rom: "Evoluiton X",
+      android: "13",
+      date: "?",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1KS4YJ2hSP_Ro457oT9NO_X8Ux7m9rA7b/view?usp=drive_link"
+    },
+    {
+      rom: "ONE UI 7",
+      android: "15",
+      date: "2025-08-02",
+      type: "PORT",
+      url: "https://xdaforums.com/attachments/exynos8895-15-0-0_v1-0-5-1-rc-20250802-zip.6256165/"
+    }
+    
+  ],
+   "Samsung A7 2017 (Exynos)": [
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2023-01-15",
+      type: "A5/A7 2017(UNOFFICIAL)",
+      url: "https://drive.google.com/file/d/1PPZdg00PYeQ34y3x6euT9WtZZfQHAmNH/view?usp=drive_link"
+    },
+    {
+      rom: "LineageOS 21",
+      android: "14",
+      date: "2024-03-24",
+      type: "A5/A7 2017(UNOFFICIAL)",
+      url: "https://drive.google.com/file/d/1f9LZLwmZnO_h2PDSdMb_qmCRls7Y2mnV/view?usp=drive_link"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://eu.dl.twrp.me/a7y17lte/twrp-3.7.0_9-0-a7y17lte.img.tar.html"
+    }
+  ],
+   "Samsung Wave (S8500)": [
+    {
+      rom: "AOSP",
+      android: "4.4",
+      date: "?",
+      type: "?",
+      url: "https://androidfilehost.com/?fid=14655340768118440541"
+    },
+    {
+      rom: "Cyanogenmod 11",
+      android: "4.4",
+      date: "?",
+      type: "?",
+      url: "https://androidfilehost.com/?fid=14655340768118441874"
+    },
+    {
+      rom: "Omni",
+      android: "4.4",
+      date: "?",
+      type: "?",
+      url: "https://androidfilehost.com/?fid=14655340768118441836"
+    },
+    {
+      rom: "Omni",
+      android: "5.0.2",
+      date: "?",
+      type: "?",
+      url: "https://androidfilehost.com/?fid=14655340768118442606"
+    },
+    {
+      rom: "Omni",
+      android: "6.0.1",
+      date: "?",
+      type: "?",
+      url: "https://androidfilehost.com/?fid=14655340768118442592"
+    },
+    
+  ],
+    "Samsung Note 2 (N7100)": [
+    {
+      rom: "LineageOS 18.1",
+      android: "11",
+      date: "2020-03-10",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/mq6yzxe1vowkjcl/lineage-18.1-20220420-HTML6405-n7100.zip/file"
+    },
+    {
+      rom: "LineageOS 19.1",
+      android: "12L",
+      date: "2022-06-15",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/w68gav1n0iukmiv/19.1-20220615-HTML6405-n7100.zip/file"
+    },
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2023-01-26",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/giq03jgpwfnkphe/20.0-20230126-HTML6405-n7100.zip/file"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/gx7hzi0tqg4c6cy/twrp-3.7.0_9-0-n7100.img.tar/file"
+    }
+  ],
+
+  "Samsung Galaxy Note 3 (Exynos)": [
+    {
+      rom: "CyanogenMod 12.1",
+      android: "5.1",
+      date: "2015-07-31",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1sKKT30SKLq523oqyD3cT8hm3W_5uuOWC/view"
+    },
+    {
+      rom: "LineageOS 17.1",
+      android: "10",
+      date: "2025-03-20",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1CFECeHLyRMzCeZ-xSO1GacWxgTMlbApq/view"
+    },
+    {
+      rom: "LineageOS 19.1",
+      android: "12",
+      date: "2025-05-03",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1T3FejDzlHslAvKaEi8Q7a3-3lebgbuUm/view?usp=drive_link"
+    },
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2025-11-06",
+      type: "EXPERIMENTAL",
+      url: "https://drive.google.com/file/d/1QLzrS-4j0OGQ3CctxLVa2q9dnckLWNvU/view"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9",
+      date: "2022",
+      type: "OFFICIAL",
+      url: "https://e.pcloud.link/publink/show?code=XZzX1NZzGHvgWCXU3FNYqIe9NIG4Yk1isf7"
+    }
+    
+  ],
+   "Samsung Note 4 (Exynos)": [
+    {
+      rom:"LineageOS 16.0",
+      android:"9",
+      date:"2019-09-14",
+      type:"UNOFFICIAL",
+      url:"https://androidfilehost.com/?fid=1899786940962585939"
+    },
+    {
+      rom: "LineageOS 19.1",
+      android: "12",
+      date: "2025-06-17",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/12hKpbaNeG0KvXyyvnqz3BnMiiPr5CzN4/view"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/ny0k8v551m9ifoh/twrp-3.7.0_9-0-treltexx.img.tar/file"
+    }
+  ],
+  
+  "Samsung Note 5 (noblelte)": [
+     {
+      rom: "LineageOS 18.1",
+      android: "11",
+      date: "2026-01-05",
+      type: "UNOFFICIAL",
+      url: "https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-05012026/lineage-18.1-20260105-UNOFFICIAL-noblelte.zip"
+    },
+    {
+      rom: "LineageOS 19.1",
+      android: "12",
+      date: "2026-01-08",
+      type: "UNOFFICIAL",
+      url: "https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-09012026/lineage-19.1-20260108-UNOFFICIAL-noblelte.zip"
+    },
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2025-12-04",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/gy5213jhqq24vbl/lineage-20.0-20251204-UNOFFICIAL-noblelte.zip/file"
+    },
+    {
+      rom: "TWRP",
+      android: "3.4.0-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/c5nt0cexzdfmfvc/twrp-3.4.0-0-noblelte.img.tar/file"
+    },
+    
+  ],
+
+   "Samsung Note 7 (Exynos)": [
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2025-05-15",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1orAyR2us5bn2WOv7YJgYFnP0fu0d57WJ/view"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/kdarns597haa8g5/twrp-3.7.0_9-0-gracelte.img.tar/file"
+    }
+  ],
+
+   "Samsung Note 8 (Exynos)": [
+
+    {
+      rom: "TWRP",
+      android: "3.7",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/5yob95pb6apbo6l/twrp-3.7.0_9-0-greatlte.img.tar/file"
+    },
+    {
+      rom: "Evoluiton X",
+      android: "13",
+      date: "?",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1vmR_7Ej1EnWSfepHdje7Ms8iaGrfIRsa/view?usp=drive_link"
+    },
+    {
+      rom: "ONE UI 7",
+      android: "15",
+      date: "2025-08-02",
+      type: "PORT",
+      url: "https://xdaforums.com/attachments/exynos8895-15-0-0_v1-0-5-1-rc-20250802-zip.6256165/"
+    }
+  ],
+  
+   "Samsung Note 9 (Exynos)": [
+
+    {
+      rom: "TWRP",
+      android: "3.7",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://eu.dl.twrp.me/crownlte/twrp-3.7.0_9-0-crownlte.img.tar"
+    },
+    {
+      rom: "LineageOS 23",
+      android: "16",
+      date: "2026-01-05",
+      type: "UNOFFICIAL",
+      url: "https://images.krazey.de/23.0/lineage-23.0-20260105-unofficial-crownlte.zip"
+    }
+  ],
+   "Samsung Galaxy Grand 2 SM-G7102 (ms013g)": [
+    {
+      rom: "LineageOS 17.1",
+      android: "7.1",
+      date: "2025-05-10",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/13uQjchKf4ixSumhTY2qd6A5xL99-dZ7q/view"
+    },
+    {
+      rom: "TWRP",
+      android: "3.2",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=1395089523397913487"
+    }
+  ],
+  
+   "Samsung Galaxy Grand 2 SM-G7105 (ms01lte)": [
+    {
+      rom: "LineageOS 14.1",
+      android: "7.1",
+      date: "2018-11-03",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/qilpm4u430fn8s6/lineage-14.1-20181103-UNOFFICIAL-ms01lte.zip/file"
+    }
+  ],
+  
+   "Samsung Galaxy Grand Prime (fortuna3g)": [
+    {
+      rom: "LineageOS 17.1",
+      android: "10",
+      date: "2021-01-03",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=17248734326145708792"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://dl.twrp.me/fortuna3g/twrp-3.7.0_9-0-fortuna3g.img.tar"
+    },
+
+  ],
+   "Samsung Galaxy Tab 3 Lite (T113)": [
+    {
+      rom: "LineageOS 15.1",
+      android: "8.1",
+      date: "2025-07-21",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1ZIE8f006V1CRh_Mf6JCT6fH5BUjmrLag/view"
+    },
+    {
+      rom: "TWRP",
+      android: "2.8.7.0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/xjciivrw774bff8/twrp-2.8.7.0-goyave.img.tar/file"
+    }
+
+  ],
+   "Samsung Tab 10.1 (p4wifi)": [
+    {
+      rom: "Cyanogenmod 9",
+      android: "4.0",
+      date: "2012-10-07",
+      type: "EXPERIMENTAL",
+      url: "https://droidbasement.com/galaxy/roms/cm9/p4wifi/cm-9-20121007-EXPERIMENTAL-p4wifi.zip"
+    },
+    {
+      rom: "Cyanogenmod 10",
+      android: "4.1",
+      date: "2013-01-22",
+      type: "UNOFFICIAL",
+      url: "https://droidbasement.com/galaxy/roms/cm10/p4wifi/cm-10-20130122-UNOFFICIAL-p4wifi.zip"
+    },
+    {
+      rom: "Cyanogenmod 10.1",
+      android: "4.2",
+      date: "2013-01-16",
+      type: "UNOFFICIAL",
+      url: "https://droidbasement.com/galaxy/roms/cm10.1/p4wifi/cm-10.1-20130116-UNOFFICIAL-p4wifi.zip"
+    },
+  ],
+  "Samsung Tab 10.1 (p4)": [
+    {
+      rom: "Cyanogenmod 9",
+      android: "4.0",
+      date: "2012-10-07",
+      type: "EXPERIMENTAL",
+      url: "https://droidbasement.com/galaxy/roms/cm9/p4/cm-9-20121007-EXPERIMENTAL-p4.zip"
+    },
+    {
+      rom: "Cyanogenmod 10",
+      android: "4.1",
+      date: "2013-01-22",
+      type: "UNOFFICIAL",
+      url: "https://droidbasement.com/galaxy/roms/cm10/p4/cm-10-20130122-UNOFFICIAL-p4.zip"
+    },
+    {
+      rom: "Cyanogenmod 10.1",
+      android: "4.2",
+      date: "2013-01-16",
+      type: "UNOFFICIAL",
+      url: "https://droidbasement.com/galaxy/roms/cm10.1/p4/cm-10.1-20130116-UNOFFICIAL-p4.zip"
+    },
+  ],
+  
+   "Samsung Note 10.1 (N8000,N8010,N8020)": [
+
+    {
+      rom: "LineageOS 21",
+      android: "14",
+      date: "2024-06-20",
+      type: "N8000 için",
+      url: "https://ota.html6405.com/n8000/LOS21/21.0-20240620-HTML6405-n8000.zip"
+    },
+    {
+      rom: "LineageOS 21",
+      android: "14",
+      date: "2024-06-20",
+      type: "N8010 için",
+      url: "https://ota.html6405.com/n8010/LOS21/21.0-20240620-HTML6405-n8010.zip"
+    },
+    {
+      rom: "LineageOS 21",
+      android: "14",
+      date: "2024-07-21",
+      type: "N8020 için",
+      url: "https://ota.html6405.com/n8020/LOS21/21.0-20240721-HTML6405-n8020.zip"
+    }
+  ],
+   "Samsung Note 10.1 2014 (P605)(lt03lte)": [
+    {
+      rom: "LineageOS 17.1",
+      android: "10",
+      date: "2021-03-20",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=2188818919693764995"
+    },
+    {
+      rom: "TWRP",
+      android: "3.5.1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=8889791610682936560"
+    }
+  ],
+   "Samsung Tab 2 7.0 (p3110)": [
+    {
+      rom: "omni",
+      android: "6.0.1",
+      date: "2016-11-24",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/w53k13iz629xll7/omni-6.0.1-20161124-espressowifi-FINAL.zip/file"
+    },
+    {
+      rom: "TWRP",
+      android: "3.1.1-0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/j4v8wimygtw92z2/twrp-3.1.1-0-p3110%2528Tab2-7.0%2529.tar/file"
+    }
+  ],
+     "Samsung Tab E (t560)": [
+    {
+      rom: "ViperOS v5.1",
+      android: "7.1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/uy8b5iy9owf6xa6/T560_Viper_V5.18android7.zip/file"
+    },
+    {
+      rom: "TWRP",
+      android: "3.0.2-1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/hx6fprgja879i9h/twrp_3.0.2-1_sm-t560%2528Tab-E-9.6%2529.tar/file"
+    }
+  ],
+   "Samsung Tab A (T350)": [
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2025-11-17",
+      type: "UNOFFICIAL",
+      url: "https://sourceforge.net/projects/retiredtab/files/SM-T350/20/lineage-20.0-20251117-UNOFFICIAL-gt58wifi.zip/download"
+    },
+    {
+      rom: "TWRP",
+      android: "3.1.1-1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=673791459329063717"
+    }
+  ],
+   "Samsung Mini (GT-S5570)": [
+    {
+      rom: "Cyanogenmod 11",
+      android: "4.4",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/4ydna2awwna77jv/cm-11-20170419-STABLE-tass.zip"
+    },
+    {
+      rom: "CWM",
+      android: "???",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://xdaforums.com/attachments/tass-recovery-cwm-tar.779527/"
+    }
+  ],
+
+  "Samsung Mini 2 (S6500D)": [
+    {
+      rom: "CyanogenMod 7",
+      android: "2.3.7",
+      date: "2014-05-30",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/0ppwimpqrpkcua1/cm-7-20140530-UNOFFICIAL-jena.zip/file"
+    },
+
+    {
+      rom: "CyanogenMod 10.1",
+      android: "4.2.2",
+      date: "2014-2015",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/drive/folders/1AF2W9-crfeCCgLze4TEbOrKN4VoQYH9X?usp=drive_link"
+    },
+
+     {
+      rom: "JenaMIUI",
+      android: "4.1.2",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://mega.nz/folder/Q4g3SLCD#w_MwKweXLu6oymNOtLxyTA/file/I5hgQLjR"
+    },
+
+    {
+      rom: "Cyanogenmod 11",
+      android: "4.4",
+      date: "2018",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1LWCLGVKpQgcFa5iEGB3TNttQvPsDZZ-E/view?usp=drive_link"
+    },
+
+    {
+      rom: "Omni",
+      android: "4.4",
+      date: "2016-10-03",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/2dnhmxjsmbf1znz/omni-5.1.1-20161003-golden-HOMEMADE.zip/file"
+    },
+
+    {
+      rom: "Cyanogenmod 10.2",
+      android: "4.3",
+      date: "2013-10-13",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1S8RkpBnRmlQTcc_Urwc_xc9AZbrEhnYU/view"
+    },
+     {
+      rom: "TWRP",
+      android: "3.0.2-0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/pld8981suw4e32m/TWRP-v3.0.2.0-jenad_only_odin.zip/file"
+    },
+
+     {
+      rom: "CWM Recovery",
+      android: "5.2.0.8",
+      date: "-",
+      type: "(odin3) UNOFFICIAL",
+      url: "https://www.mediafire.com/file/5j7nco58xdione0/clockworkmod-jena.5.2.0.8.tar.md5/file"
+    },
+    {
+      rom: "CWM Recovery",
+      android: "6.0.2.8",
+      date: "-",
+      type: "(.zip flashable) UNOFFICIAL",
+      url: "https://www.mediafire.com/file/0chrfvglb0k3nq5/cwm-6.0.2.8-jena.zip/file"
+    }
+  ],
+   "Samsung Ace-i (s5830i)": [
+    {
+      rom: "Cyanogenmod 9",
+      android: "4.0",
+      date: "",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/download/mdb16m1hgis6673/CM9_cooperve_Beta_05.zip"
+    },
+    {
+      rom: "TWRP",
+      android: "3.0.2-0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/9exa0das0wsmk5u/TWRP-3.0.2-0-cooperve.zip/file"
+    }
+  ],
+  
+  "Samsung J6+ (J610F)": [
+    {
+      rom: "LineageOS 17.1",
+      android: "10",
+      date: "2020-03-18",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/pmj41ik9tmh1hvj/lineage-17.1-20200318-UNOFFICIAL-j6primelte.zip/file"
+    },
+    {
+      rom: "TWRP",
+      android: "3.2.3-1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/jag0qpric5lpsc2/twrp_3.2.3-1_J610_21230.tar/file"
+    }
+  ],
+   "Samsung J7 2016 (Exynos)": [
+    {
+      rom: "TWRP",
+      android: "3.7",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://eu.dl.twrp.me/j7xelte/twrp-3.2.1-0-j7xelte.img.tar.html"
+    },
+    {
+      rom: "LineageOS 15.1",
+      android: "8.1",
+      date: "2018-06-24",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=818222786056041545"
+    }
+  ],
+   "Samsung J7 Prime (G610F)": [
+    {
+      rom: "Lineage 18.1",
+      android: "11",
+      date: "2024-05-08",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/y6dhzrzsrhbjnq4/lineage-18.1-20240508-UNOFFICIAL-on7xelte.zip/file"
+    },
+
+    {
+      rom: "LineageOS 16.0",
+      android: "9",
+      date: "2018-12-21",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/k6tqzw54n7x44qe/lineage-16.0-20181221-UNOFFICIAL-on7xelte.zip/file"
+    },
+
+    {
+      rom: "TWRP",
+      android: "3.7.1",
+      date: "2024-05-08",
+      type: ".img (recovery update), UNOFFICIAL",
+      url: "https://www.mediafire.com/file/ijv5vkam65pvgxg/TWRP-3.7.1-on7xelte.img/file"
+    },
+
+     {
+      rom: "TWRP",
+      android: "3.2.1",
+      date: "-",
+      type: ".tar (odin3) UNOFFICIAL",
+      url: "https://www.mediafire.com/file/1wu9j5febmb7dct/TWRP-3.2.1-For-Galaxy-J7-Prime.tar/file"
+    }
+  ],
+
+  "Samsung Trend Plus (kylepro)": [
+    {
+      rom: "Cyanogenmod 12.1",
+      android: "5.1",
+      date: "2016-06-03",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/96zcqhh19swh74u/cm-12.1-20160603-UNOFFICIAL-kylepro.zip/file"
+    },
+    
+  ],
+  
+   "Samsung Galaxy Core Prime (G360H)": [
+    {
+      rom: "LineageOS 14.1",
+      android: "7.1",
+      date: "2018-06-15",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/j824n6buzyxs7u2/lineage-14.1-20180615-UNOFFICIAL-core33g.zip/file"
+    },
+    {
+      rom:"TWRP",
+      android:"3.7.0_9-0",
+      date:"-",
+      type:"OFFICIAL",
+      url:"https://www.mediafire.com/file/ne6xj4o5lrda5i7/twrp-3.7.0_9-0-core33g.img.tar/file"
+    }
+  ],
+  "HTC One M7": [
+    {
+      rom: "LineageOS 19.1",
+      android: "11",
+      date: "2022-10-21",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=14871746926876839216"
+    }
+  ],
+   "GM 5 Plus": [
+
+    {
+      rom: "TWRP",
+      android: "3.7",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://dl.twrp.me/shamrock/twrp-3.7.0_9-0-shamrock.img.html"
+    },
+    {
+      rom: "LineageOS 17.1",
+      android: "10",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://drive.usercontent.google.com/download?id=16aSDWscpGKh7jCgljtpoks2-I6I7MBRg&export=download&authuser=0"
+    }
+  ],
+  "Huawei P8 Lite 2015": [
+    {
+      rom: "LineageOS 15.1",
+      android: "8.1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=14943124697586351761"
+    }
+  ],
+  "LG G2 (D802)": [
+    {
+      rom: "CAF Bootstack",
+      android: "—",
+      date: "—",
+      type: "Bootstack",
+      url: "https://drive.google.com/file/d/1w2skZG1gp-OrVnc3BXYxsOt6ajZ-DZWF/view"
+    },
+    {
+      rom: "Cyanogenmod 10.3",
+      android: "4.3",
+      date: "2013-11-02",
+      type: "SNAPSHOT",
+      url: "https://drive.google.com/file/d/1K_YfhO9IzBdDzknobIzJRyP29wFZ8wBR/view?usp=drive_link"
+    },
+    {
+      rom: "Cyanogenmod 13",
+      android: "6",
+      date: "2016-11-19",
+      type: "SNAPSHOT",
+      url: "https://drive.google.com/file/d/1K_YfhO9IzBdDzknobIzJRyP29wFZ8wBR/view?usp=drive_link"
+    },
+    {
+      rom: "LineageOS 14.1",
+      android: "7.1",
+      date: "2017-07-31",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1B1HcDVmiYBt3iA8oQ22otAEyeJraXDN5/view"
+    },
+     {
+      rom: "LineageOS 15.1",
+      android: "8.1",
+      date: "",
+      type: "OFFICIAL",
+      url: "https://b4.timschumi.net/lineage-archive/lineage-15.1-20190221-nightly-d802-signed.zip"
+    },
+    {
+      rom: "LineageOS 16",
+      android: "9",
+      date: "2020-03-25",
+      type: "OFFICIAL",
+      url: "https://b4.timschumi.net/lineage-archive/lineage-16.0-20200325-nightly-d802-signed.zip"
+    },
+    {
+      rom: "LineageOS 17.1",
+      android: "10",
+      date: "2021-03-25",
+      type: "OFFICIAL",
+      url: "https://b4.timschumi.net/lineage-archive/lineage-17.1-20210325-nightly-d802-signed.zip"
+    },
+    {
+      rom: "LineageOS 18.1",
+      android: "11",
+      date: "2022-10-20",
+      type: "OFFICIAL",
+      url: "https://b4.timschumi.net/lineage-archive/lineage-18.1-20221020-nightly-d802-signed.zip"
+    }
+    
+  ],
+   
+  "LG G3 (d855)": [
+    {
+      rom: "LineageOS 18.1",
+      android: "11",
+      date: "2022-10-22",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/tnycowzr7q9an1h/lineage-18.1-20221022-nightly-d855-signed.zip/file"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/993srzz5y3535n0/twrp-3.7.0_9-0-d855.img/file"
+    },
+  ],
+
+   "LG G3s (d722)": [
+    {
+      rom: "CyanogenMod 13",
+      android: "6",
+      date: "2016-03-16",
+      type: "SNAPSHOT",
+      url: "https://www.mediafire.com/file/3373tj7ne1kg09s/cm-13.0-20160316-SNAPSHOT-ZNH0EAO1QD-jagnm.zip/file",
+    }
+  ],
+     "LG Optimus L5 (e610)": [
+    {
+      rom: "CyanogenMod 10",
+      android: "4.1",
+      date: "2013-09-01",
+      type: "NIGHTLY",
+      url: "https://drive.google.com/file/d/1NEdRhqGifBHwDBVSFf9GjQKFUFSeP2lb/view?usp=drive_link"
+    },
+    {
+      rom: "CyanogenMod 10.2",
+      android: "4.3",
+      date: "2013-11-28",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1NEdRhqGifBHwDBVSFf9GjQKFUFSeP2lb/view?usp=drive_link"
+    },
+    {
+      rom: "CyanogenMod 11",
+      android: "4.4",
+      date: "2015-03-25",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/2844oco9cp2swcc/cm-11-20150325-UNOFFICIAL-e610.zip"
+    },
+    {
+      rom: "CyanogenMod 12.1",
+      android: "5.1",
+      date: "2015-03-25",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=10620683726822065480"
+    },
+    {
+      rom: "CyanogenMod 13",
+      android: "6.0",
+      date: "2016-05-31",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=10620683726822065481"
+    }
+  ],
+
+  "LG Optimus L7 (p700)": [
+    {
+      rom: "CyanogenMod 13",
+      android: "6",
+      date: "2016-12-10",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1-kOC4eqV0oEXabFg-yF5Iw2IGgjq2OAT/view"
+    },
+    {
+      rom: "CyanogenMod 12.1",
+      android: "5.1",
+      date: "2016-05-12",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1Wc-7eo_PCVA6yT982Docl6cseYxq2M65/view"
+    }
+     
+  ],
+
+
+  "Sony Xperia Z3 Compact (D5803)": [
+
+    {
+      rom: "CyanogenMod 12.1",
+      android: "5.1",
+      date: "2016-10-16",
+      type: "NIGHTLY",
+      url: "https://drive.google.com/file/d/1fmd6NGJjKXEv8WI_fyaDmAJ4qihfSZm4/view?usp=drive_link"
+    },
+
+    {
+      rom: "Lineage 15.1",
+      android: "8.1",
+      date: "2019-11-14",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/cbl3yavtgkb4cyj/lineage-15.1-20191114-UNOFFICIAL-z3c.zip/file"
+    },
+
+    {
+      rom: "LineageOS 17.1",
+      android: "10",
+      date: "2021-07-13",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1EvAUU2h23N0VJp_VZmbhzZwgUL7fE9_J/view"
+    },
+    {
+      rom: "LineageOS 18.1",
+      android: "11",
+      date: "2024-03-06",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1dI21vinhmdcZoHvML-iBH7-BD-12T-2I/view"
+    }
+    
+  ],
+  "Sony Xperia XZ Premium (G8141)": [
+   {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2025-09-18",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/kpaywgz0chvgyur/[LineageOS20][G8141][4K].zip/file",
+    },
+  ],
+   "Sony Xperia Z3 (d6603)": [
+    {
+      rom: "LineageOS 18.1",
+      android: "11",
+      date: "2024-03-06",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/hxig5kbtq1i9inw/lineage-18.1-20240306-nightly-z3-signed.zip/file"
+    }
+  ],
+  
+   "Sony Ericsson Live with Walkman (WT19i)": [
+    {
+      rom: "CyanogenMod 13",
+      android: "6",
+      date: "2016-04-17",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/wrx2sj2yfqciu71/cm-13.0-20160417-UNOFFICIAL-LegacyXperia-coconut.zip/file"
+    }
+  ],
+  
+   "Turkcell T50 (ztebladevec4g)": [
+    {
+      rom: "CyanogenMod 12.1",
+      android: "5.1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1TWKbMTciGRh1xnEhksjAj-Zir8ZcnCxk/view?usp=drive_link"
+    },
+
+    {
+      rom: "TWRP",
+      android: "3.0_2.0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/ak1ruh301z8r1xv/TWRP_ZTE.zip/file"
+    }
+  ],
+   "Redmi Note 8 (2019/Ginko)": [
+    {
+      rom: "Orangefox Recovery",
+      android: "OrangeFox-ginkgo-stable@R10.1_3",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/athdzdwttheltsy/orangefox-ginkgo-stable.img/file"
+    },
+
+    {
+      rom: "Crdroid",
+      android: "11",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/3o04dk9bb0j5jyg/crDroidAndroid-11.0-20211010-ginkgo-v7.11+(3).zip/file"
+    }
+
+  ],
+
+   "Redmi Note 8 Pro (Mediatek)": [
+    {
+      rom: "BRP(TWRP)",
+      android: "3.5.2",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/5x0iuirad9otryv/BRP3.5.2v3.1-fastboot.zip/file"
+    }
+  ],
+};

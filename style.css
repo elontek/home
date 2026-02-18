@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  background: #f2f2f2;
+  font-family: s BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+  font-size: 17px;
+  color: #333;
+}
+
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 200px;
+  background: #e4ecff;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+}
+
+.sidebar-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #444;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  padding: 7px 2px;
+  cursor: pointer;
+  color: #0062ff;
+}
+
+.sidebar li:hover {
+  text-decoration: underline;
+}
+
+.sidebar li.active {
+  font-weight: bold;
+  color: #006eff;
+}
+
+/* MAIN */
+.main {
+  flex: 122;
+  padding: 5px;
+  background: #fff;
+}
+
+/* TABLE */
+.romtable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+
+.romtable th {
+  background: #d9e8ff;
+  font-weight: normal;
+  text-align: left;
+  padding: 6px;
+  border-bottom: 1px solid #0278ff;
+}
+
+.romtable td {
+  padding: 6px;
+  border-bottom: 1px solid #ddd;
+  vertical-align: top;
+}
+
+/* DOWNLOAD LINK */
+.download {
+  color: #0c4bb1;
+  text-decoration: none;
+}
+
+.download:hover {
+  text-decoration: underline;
+}
