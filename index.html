@@ -7,13 +7,60 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<style>
+body {
+    margin: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    top: 0;
+    background: #74bef0;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navbar a:hover {
+    color: #049fec;
+}
+
+.content {
+    padding: 1px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="navbar">
+    <div><strong class="logo">Elontech's Archive</strong></div>
+    <div>
+        <a href="https://app.mediafire.com/folder/uhsy3rrp8yvwx">Gapps</a>
+        <a href="https://app.mediafire.com/folder/s58ye2eeu71y4">Tools</a>
+    </div>
+</div>
+
+<div class="content">
+   
+    <p style="height:0px"></p>
+</div>
 <div class="wrapper">
 
   <aside class="sidebar">
-    <div class="sidebar-title">Elontech's archive
-    </div>
-    <font size="2" color="#003eff">Devices</font>
+    
+
+    <font size="3" color="#003eff">Devices</font>
     <ul id="deviceList"></ul>
   </aside>
 
@@ -26,11 +73,10 @@
           <th>Tarih</th>
           <th>Tip</th>
           <th>İndir</th>
+          
         </tr>
         
       </thead>
-      
-      
       <tbody id="romTable"></tbody>
       
     </table>
@@ -38,8 +84,11 @@
   </main>
 
 </div>
-<p style="margin-left: 2em; color: rgb(0, 110, 255);">Bu dosyalar bana ait değildir.</p>
+<p style="margin-left: 2em; color: rgb(16, 108, 228);">Bu dosyalar bana ait değildir.</p>
 <script src="data.js"></script>
 <script src="script.js"></script>
+
+
 </body>
+
 </html>
