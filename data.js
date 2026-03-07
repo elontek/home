@@ -124,15 +124,36 @@ const romData = {
     {
       rom: "Cyanogenmod 9",
       android: "4.0",
-      date: "",
+      date: "-",
       type: "OFFICIAL",
       url: "https://www.mediafire.com/file/t9nhqio6wyjihgv/cm-9.0.0-galaxys2.zip/file"
+    },
+    {
+      rom: "Cyanogenmod 10.2",
+      android: "4.3",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/taurx2j94tewczc/cm-10.2-20131102-SNAPSHOT-InstallerBeta3-i9100-signed.zip/file"
+    },
+    {
+      rom: "Cyanogenmod 11",
+      android: "4.4.4",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/xdqp0pc2r81vedx/cm-11-20150614-NIGHTLY-i9100.zip/file"
+    },
+    {
+      rom: "Cyanogenmod 12.1",
+      android: "5.1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/7vaa26w1tfmg4h3/cm-12.1-20150617-UNOFFICIAL-i9100.zip/file"
     },
     {
       rom: "LineageOS 14.1",
       android: "7.1",
       date: "2018-10-03",
-      type: "UNOFFICIAL",
+      type: "OFFICIAL",
       url: "https://www.mediafire.com/file/rxu2r54r3bky57x/lineage-14.1-20181216-nightly-i9100-signed.zip/file"
     },
     {
@@ -147,7 +168,7 @@ const romData = {
       android: "9",
       date: "2019-12-20",
       type: "UNOFFICIAL",
-      url: "https://androidfilehost.com/?fid=4349826312261680826"
+      url: "https://www.mediafire.com/file/5hyy8hx5vxw3t7p/lineage-16.0-20191220-UNOFFICIAL-i9100.zip/file"
     },
     {
       rom: "TWRP's",
@@ -162,14 +183,14 @@ const romData = {
       rom: "CyanogenMod 9",
       android: "4.0",
       date: "2012",
-      type: "Stable",
+      type: "OFFICIAL",
       url: "https://drive.google.com/file/d/1-DfAAQEhd5Vp5n97cIsRiB8pOmP6iy48/view"
     },
     {
       rom: "CyanogenMod 10.1.3.1",
       android: "4.2",
       date: "2012",
-      type: "Stable",
+      type: "OFFICIAL",
       url: "https://drive.google.com/file/d/1Vs4Ci-Sd5Es_7Ns7AB0vF3iJFCoXcNIP/view"
     },
     {
@@ -180,21 +201,33 @@ const romData = {
       url: "https://drive.google.com/file/d/19FNICe7Ra_3ih-F5aoyATGMTlFuBVnXw/view"
     },
     {
+      rom: "CyanogenMod 11",
+      android: "4.4.4",
+      date: "2015-06-14",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/xdqp0pc2r81vedx/cm-11-20150614-NIGHTLY-i9100.zip/file"
+    },
+    {
       rom: "CyanogenMod 12",
       android: "5.1",
       date: "2015-04-03",
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1J2DyUwmo6mcKICICDD6zRwFwBPv3mRzv/view"
     },
-
-     {
+    {
       rom: "CyanogenMod 13",
       android: "6.0",
       date: "2016-12-20",
       type: "SNAPSHOT",
       url: "https://drive.google.com/file/d/1lIrUKCVeCCzQeMLe0aIgH9uA3x4N2va2/view"
     },
-    
+     {
+      rom: "CyanogenMod 13",
+      android: "6.0",
+      date: "2016-06-25",
+      type: "NIGHTLY",
+      url: "https://www.mediafire.com/file/l3wxcaapoznak6h/cm-13.0-20160625-NIGHTLY-i9300.zip/file"
+    },
     {
       rom: "LineageOS 14.1",
       android: "7.1",
@@ -287,11 +320,11 @@ const romData = {
   "Samsung Galaxy S3 Mini (i8190)": [
      
     {
-      rom: "TWRP",
-      android: "3.1.1-1",
+      rom: "TWRP'ler...",
+      android: "2.6-3.1...",
       date: "-",
       type: "UNOFFICIAL",
-      url: "https://www.mediafire.com/file/5kkhwjkeeshcni5/GT-I8190_TWRP_3.1.1-1.tar.md5/file"
+      url:  "https://app.mediafire.com/folder/fxstqew10pcx2"
     },
     {
       rom: "CyanogenMod 10.1",
@@ -324,16 +357,6 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1zFjI5RY3J9_AUrvtCWGwbJYbg0dlCie1/view"
     },
-
-    {
-      rom: "Resurrection Remix",
-      android: "5.1",
-      date: "2016-09-08",
-      type: "UNOFFICIAL",
-      url: "https://www.mediafire.com/file/bg6eto6dxj2xoi0/rr5.1_golden.nova.20160908.zip/file"
-    },
-
-    
     {
       rom: "CyanogenMod 12.1",
       android: "5.1",
@@ -341,14 +364,12 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1zNgxDOwAlyk2oVrgyYyQcl5flbEgwNG-/view"
     },
-
-
-     {
+    {
       rom: "Cyanogenmod 13",
       android: "6",
       date: "2017-01-18",
       type: "UNOFFICIAL",
-      url: "https://drive.google.com/file/d/1c3H-kycuThpOtT42ZLAep-qTPMSA4825/view?usp=drive_link"
+      url: "https://www.mediafire.com/file/4x0cd0h8aymqb5o/cm-13.0-20161120-UNOFFICIAL-golden.zip/file"
     },
    
     {
@@ -387,6 +408,13 @@ const romData = {
   ],
    "Samsung S4 (ja3g) (i9500)": [
     {
+      rom: "LineageOS 17.1",
+      android: "10",
+      date: "2026-02-10",
+      type: "UNOFFICIAL",
+      url: "https://mega.nz/folder/QCgVzIbQ#oc-TOIB0aoD5xi-5s1BbiQ"
+    },
+    {
       rom: "LineageOS 14.1",
       android: "7.1",
       date: "2022-04-05",
@@ -398,7 +426,7 @@ const romData = {
       android: "3.1.1-0",
       date: "-",
       type: "OFFICIAL",
-      url: "https://dl.twrp.me/i9500/twrp-3.1.1-0-i9500.img.tar"
+      url: "https://www.mediafire.com/file/co67wukidu7g0j5/twrp-3.1.1-0-i9500.img.tar/file"
     }
   ],
    "Samsung S4 LTE (jfltexx) (i9505)": [
@@ -411,10 +439,10 @@ const romData = {
     },
     {
       rom: "TWRP",
-      android: "3.1.1-0",
+      android: "3.6.1_9-0",
       date: "-",
       type: "OFFICIAL",
-      url: "https://dl.twrp.me/i9500/twrp-3.1.1-0-i9500.img.tar"
+      url: "https://www.mediafire.com/file/8ppv6znjuykfaah/twrp-3.6.1_9-0-jflte.img.tar/file"
     }
   ],
   "Samsung S4 Mini 3G (serrano3gxx) (i9190)": [
@@ -442,6 +470,13 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/nyxq6maj6ikk44h/lineage-14.1-20181109-nightly-k3gxx-signed.zip/file"
     },
+    {
+      rom: "TWRP",
+      android: "3.7",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/rvmo43glmefrage/twrp-3.7.0_9-0-k3g.img.tar/file"
+    }
     
   ],
    "Samsung Galaxy S5 Mini (kmini3g) (Qualcomm)": [
@@ -457,11 +492,18 @@ const romData = {
       android: "3.7.0_9-0",
       date: "-",
       type: "OFFICIAL",
-      url: "https://eu.dl.twrp.me/kmini3g/twrp-3.7.0_9-0-kmini3g.img.tar"
+      url: "https://www.mediafire.com/file/5yzalpz9yy74zdi/twrp-3.7.0_9-0-kmini3g.img.tar/file"
     },
     
   ],
    "Samsung Galaxy S6 (zeroflte)(Exynos)": [
+    {
+      rom: "TWRP",
+      android: "3.3.1-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/vsqhv5duzr2ivqn/twrp-3.3.1-0-zeroflte.img.tar/file"
+    },
     {
       rom: "LineageOS 19.1",
       android: "12",
@@ -533,9 +575,9 @@ const romData = {
     {
       rom: "TWRP",
       android: "3.7.0_9-0",
-      date: "2025-02-27",
-      type: "UNOFFICIAL",
-      url: ""
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/68bicqr1hbx38a8/twrp-3.7.0_9-0-hero2lte.img.tar/file"
     }
   ],
    "Samsung Galaxy S8 (dreamlte) (Exynos)": [
@@ -573,6 +615,13 @@ const romData = {
       date: "2025-08-02",
       type: "PORT",
       url: "https://xdaforums.com/attachments/exynos8895-15-0-0_v1-0-5-1-rc-20250802-zip.6256165/"
+    },
+     {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/db3ha5stu37wu5o/twrp-3.7.0_9-0-dreamlte.img.tar/file"
     }
     
   ],
@@ -597,6 +646,13 @@ const romData = {
       date: "2025-08-02",
       type: "PORT",
       url: "https://xdaforums.com/attachments/exynos8895-15-0-0_v1-0-5-1-rc-20250802-zip.6256165/"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/n8t68q1tt5u679e/twrp-3.7.0_9-0-dream2lte.img.tar/file"
     }
     
   ],
@@ -626,7 +682,6 @@ const romData = {
     
   ],
   "Samsung S9+ (star2lte) (Exynos)": [
-
     {
       rom: "TWRP",
       android: "3.7",
@@ -988,14 +1043,14 @@ const romData = {
       android: "10",
       date: "2021-01-03",
       type: "UNOFFICIAL",
-      url: "https://androidfilehost.com/?fid=17248734326145708792"
+      url: "https://drive.google.com/file/d/1jxW8Fkl_kkOtkjYZ94jL6XXOdRZ0-zad/view?usp=drive_link"
     },
     {
       rom: "TWRP",
       android: "3.7.0_9-0",
       date: "-",
       type: "OFFICIAL",
-      url: "https://dl.twrp.me/fortuna3g/twrp-3.7.0_9-0-fortuna3g.img.tar"
+      url: "https://www.mediafire.com/file/3hbg2nwnwrpw6ot/twrp-3.7.0_9-0-fortuna3g.img.tar/file"
     },
 
   ],
@@ -1186,6 +1241,13 @@ const romData = {
       date: "-",
       type: "UNOFFICIAL",
       url: "https://xdaforums.com/attachments/tass-recovery-cwm-tar.779527/"
+    },
+    {
+      rom: "CWM",
+      android: "???",
+      date: "-",
+      type: "(.zip) UNOFFICIAL",
+      url: "https://www.mediafire.com/file/6wrmodu45q83jns/tass-6.0.4.5.zip/file"
     }
   ],
 
@@ -1527,6 +1589,13 @@ const romData = {
   ],
    
   "LG G3 (d855)": [
+     {
+      rom: "LineageOS 17.1",
+      android: "10",
+      date: "2021-03-27",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/6i79jmsweahqvaj/lineage-17.1-20210327-nightly-d855-signed.zip/file"
+    },
     {
       rom: "LineageOS 18.1",
       android: "11",
@@ -1586,7 +1655,7 @@ const romData = {
       android: "6.0",
       date: "2016-05-31",
       type: "UNOFFICIAL",
-      url: "https://androidfilehost.com/?fid=10620683726822065481"
+      url: "https://www.mediafire.com/file/1iz6myut11qea9v/cm-13.0-20160531-UNOFFICIAL-e610.zip/file"
     }
   ],
 
@@ -1608,12 +1677,26 @@ const romData = {
      
   ],
    "Sony Xperia Z2 (sirius)": [
+     {
+      rom: "Pixel Experience",
+      android: "9",
+      date: "2019-06-04",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/h9r2mb1lbxki1fc/PixelExperience_sirius-9.0-20190604-0848-UNOFFICIAL.zip/file"
+    },
     {
       rom: "LineageOS 18.1",
       android: "11",
       date: "2024-03-05",
       type: "OFFICIAL",
       url: "https://www.mediafire.com/file/sviu55kyuttfrdl/lineage-18.1-20240305-nightly-sirius-signed.zip/file"
+    },
+    {
+      rom: "Cyanogenmod 11",
+      android: "4.4.4",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/hci6022hw33796c/cm-11-20140711-EXPERIMENTAL-sirius.zip/file"
     },
     {
       rom: "TWRP",
