@@ -1,0 +1,113 @@
+<!-- index2.html -->
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Geri Bildirim</title>
+<style>
+  body {
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #f4f8ff; /* Açık mavi arka plan */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  #feedback-form {
+    background-color: #ffffff; /* Beyaz form arka planı */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400000px;
+  }
+  #feedback-form input,
+  #feedback-form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #cce0ff;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  }
+
+  #feedback-form textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+
+  #feedback-form button {
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #feedback-form button:hover {
+    background-color: #1669c1;
+  }
+
+  #feedback-form h2 {
+    text-align: left;
+    color: #2a86ff;
+    margin-bottom: 1px;
+  }
+</style>
+</head>
+<body>
+
+  <form id="feedback-form">
+  <h2>Feedback/Geri Bildirim</h2>
+  <p>Sitede hata varsa veya öneriniz varsa belirtmekten çekinmeyin.
+  </p>
+  <input type="text" name="name" placeholder="Name" required>
+  <input type="email" name="email" placeholder="Email" required>
+  <p>(Girdiğiniz mailin gerçek olmasına gerek yoktur e@e.com yazsanız bile geçerlidir.)</p>
+  <textarea name="message" placeholder="Text" required></textarea>
+  <button type="submit" id="submit-btn">Gönder!</button>
+  <p id="form-message" style="color:green; display:none; margin-top:10px;"></p>
+</form>
+
+<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+<script>
+emailjs.init("qOX1uwv6NNuIFrpjU");
+
+const form = document.getElementById("feedback-form");
+const btn = document.getElementById("submit-btn");
+const msg = document.getElementById("form-message");
+
+form.addEventListener("submit", function(event){
+    event.preventDefault();
+
+    btn.disabled = true;
+    btn.innerText = "Gönderiliyor...";
+
+    emailjs.sendForm('service_9mh711z','template_ea8m9he', this)
+      .then(function(){
+          msg.style.color = "green";
+          msg.innerText = "Mesaj gönderildi! Teşekkürler.";
+          msg.style.display = "block";
+          btn.innerText = "Send";
+          btn.disabled = false;
+          form.reset();
+      }, function(error){
+          msg.style.color = "red";
+          msg.innerText = "Mesaj gönderilemedi. Lütfen tekrar deneyin.";
+          msg.style.display = "block";
+          btn.innerText = "Send";
+          btn.disabled = false;
+          console.error("EmailJS hata:", error);
+      });
+});
+</script>
+

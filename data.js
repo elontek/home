@@ -171,6 +171,13 @@ const romData = {
       url: "https://www.mediafire.com/file/5hyy8hx5vxw3t7p/lineage-16.0-20191220-UNOFFICIAL-i9100.zip/file"
     },
     {
+      rom: "LineageOS 17.1",
+      android: "10",
+      date: "2021-03-01",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/jt8gpmo8do4ll64/lineage-17.1-20210301-UNOFFICIAL-i9100.zip/file"
+    },
+    {
       rom: "TWRP's",
       android: "2.8-3.6...",
       date: "-",
@@ -194,6 +201,13 @@ const romData = {
       url: "https://drive.google.com/file/d/1Vs4Ci-Sd5Es_7Ns7AB0vF3iJFCoXcNIP/view"
     },
     {
+      rom: "CyanogenMod 102",
+      android: "4.3",
+      date: "?",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/d44foqpsfjcu2ob/cm-10.2.0-i9300.zip/file"
+    },
+    {
       rom: "Galaxy S6 Port",
       android: "4.4",
       date: "2015",
@@ -205,7 +219,7 @@ const romData = {
       android: "4.4.4",
       date: "2015-06-14",
       type: "OFFICIAL",
-      url: "https://www.mediafire.com/file/xdqp0pc2r81vedx/cm-11-20150614-NIGHTLY-i9100.zip/file"
+      url: "https://www.mediafire.com/file/nurzzn0rdzsk0yq/cm-11-20150712-NIGHTLY-i9300.zip/file"
     },
     {
       rom: "CyanogenMod 12",
@@ -341,7 +355,6 @@ const romData = {
       type: "Stable",
       url: "https://drive.google.com/file/d/19JUF4fnNiZJbaGl7s3AJ9inHuXsd89A5/view"
     },
-
     {
       rom: "CyanogenMod 11",
       android: "4.4",
@@ -349,9 +362,15 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/w5c51op9nkuq4i3/cm11.0_golden.nova.20151017.zip/file"
     },
-    
     {
-      rom: "OmniROM 5.1.1",
+      rom: "OmniRom",
+      android: "4.4",
+      date: "2015-10-17",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/5vpfynzh6tr4d0e/omni-4.4.4-20171009-2009-golden-HOMEMADE.zip/file"
+    },
+    {
+      rom: "OmniRom",
       android: "5.1",
       date: "2016-10-03",
       type: "UNOFFICIAL",
@@ -371,6 +390,13 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/4x0cd0h8aymqb5o/cm-13.0-20161120-UNOFFICIAL-golden.zip/file"
     },
+     {
+      rom: "Cyanogenmod 13",
+      android: "6",
+      date: "2017-03-28",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/voqr6vpncay1sn0/los13.0_golden.nova.20170328.zip/file"
+    },
    
     {
       rom: "LineageOS 14.1",
@@ -379,13 +405,19 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/ym4dgo2l7s7py70/los14.1_golden.nova.20180109_%25281%2529.zip/file"
     },
-       
     {
       rom: "LineageOS 15.1",
       android: "8.1",
       date: "2018-10-30",
       type: "DENEYSEL!!!",
       url: "https://drive.google.com/file/d/1cYMPDCKz8G2XwlHOShJwSmAL3EKumLk4/view?usp=drive_link"
+    },
+    {
+      rom: "Samsung Touchwiz",
+      android: "4.1.2",
+      date: "-",
+      type: "(.zip) stock rom",
+      url: "https://www.mediafire.com/file/kpnlom28ndqqm8t/i8190_XXAMG4_XXAMG4_rootfixed.zip/file"
     },
 
   ],
@@ -1621,6 +1653,22 @@ const romData = {
       url: "https://www.mediafire.com/file/3373tj7ne1kg09s/cm-13.0-20160316-SNAPSHOT-ZNH0EAO1QD-jagnm.zip/file",
     }
   ],
+    "LG G4 (h815)": [
+    {
+      rom: "LineageOS 18.1",
+      android: "11",
+      date: "2023-03-21",
+      type: "UNOFFICIAL",
+      url: "https://leech.binbash.rocks:8008/lineage/18.1/h815/lineage-18.1-20230321-UNOFFICIAL-h815.zip",
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/2il8o47mr08ijyq/twrp-3.7.0_9-0-g4.img/file",
+    },
+  ],
      "LG Optimus L5 (e610)": [
     {
       rom: "CyanogenMod 10",
@@ -1677,7 +1725,21 @@ const romData = {
      
   ],
    "Sony Xperia Z2 (sirius)": [
-     {
+    {
+      rom: "Cyanogenmod 11",
+      android: "4.4.4",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/hci6022hw33796c/cm-11-20140711-EXPERIMENTAL-sirius.zip/file"
+    },
+    {
+      rom: "Cyanogenmod 12.1",
+      android: "5.1",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/hq98iknz5v88pud/cm-12.1-20150923-NIGHTLY-sirius.zip/file"
+    },
+    {
       rom: "Pixel Experience",
       android: "9",
       date: "2019-06-04",
@@ -1690,13 +1752,6 @@ const romData = {
       date: "2024-03-05",
       type: "OFFICIAL",
       url: "https://www.mediafire.com/file/sviu55kyuttfrdl/lineage-18.1-20240305-nightly-sirius-signed.zip/file"
-    },
-    {
-      rom: "Cyanogenmod 11",
-      android: "4.4.4",
-      date: "-",
-      type: "OFFICIAL",
-      url: "https://www.mediafire.com/file/hci6022hw33796c/cm-11-20140711-EXPERIMENTAL-sirius.zip/file"
     },
     {
       rom: "TWRP",
@@ -1787,7 +1842,7 @@ const romData = {
       url: "https://www.mediafire.com/file/ak1ruh301z8r1xv/TWRP_ZTE.zip/file"
     }
   ],
-   "Redmi Note 8 (2019/Ginko)": [
+   "Redmi Note 8 ginkgo": [
     {
       rom: "Orangefox Recovery",
       android: "OrangeFox-ginkgo-stable@R10.1_3",

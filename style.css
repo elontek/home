@@ -36,10 +36,11 @@ body {
 }
 
 .sidebar li {
-  padding: 7px 2px;
+  padding: 8px 3px;
   cursor: pointer;
   color: #0062ff;
 }
+
 
 .sidebar li:hover {
   text-decoration: underline;
@@ -52,7 +53,7 @@ body {
 
 .main {
   flex: 122;
-  padding: 0px;
+  padding: 1px;
   background: #fff;
 }
 
