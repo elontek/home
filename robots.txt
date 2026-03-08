@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://elontek.github.io/sitemap.xml
+Sitemap: https://elontek.github.io/home/sitemap.xml
