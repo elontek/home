@@ -81,14 +81,14 @@ const romData = {
       rom: "LineageOS 14.1",
       android: "7.1",
       date: "2018-01-27",
-      type: "UNOFFICIAL",
+      type: " UNOFFICIAL[Android file host servers down...]",
       url: "https://androidfilehost.com/?fid=962187416754456594"
     },
     {
       rom: "Postinstall",
       android: "Postinstall",
       date: "-",
-      type: "LineageOS 14.1 den sonra kurun!",
+      type: "LineageOS 14.1 den sonra kurun! [Android file host servers down...]",
       url: "https://androidfilehost.com/?fid=673956719939815508"
     },
     {
@@ -201,7 +201,7 @@ const romData = {
       url: "https://drive.google.com/file/d/1Vs4Ci-Sd5Es_7Ns7AB0vF3iJFCoXcNIP/view"
     },
     {
-      rom: "CyanogenMod 102",
+      rom: "CyanogenMod 10.2",
       android: "4.3",
       date: "?",
       type: "OFFICIAL",
@@ -280,9 +280,8 @@ const romData = {
       android: "10",
       date: "2020-07-17",
       type: "UNOFFICIAL",
-      url: "https://ava3.androidfilehost.com/dl/WCmMUE3mXEVSyQAwDza2fA/1766958670/8889791610682894044/lineage-17.1-20200717-UNOFFICIAL-i9300.zip"
+      url: "https://www.mediafire.com/file/uf5ntc7tnq1sk44/lineage-17.1-20200717-UNOFFICIAL-i9300.zip/file"
     },
-
     {
       rom: "LineageOS 18.1",
       android: "11",
@@ -341,6 +340,13 @@ const romData = {
       url:  "https://app.mediafire.com/folder/fxstqew10pcx2"
     },
     {
+      rom: "CyanogenMod 10",
+      android: "4.1.2",
+      date: "2013-07-27",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/k8555uqf5p0o2mf/cm10_golden.maclaw.20130727.zip/file"
+    },
+    {
       rom: "CyanogenMod 10.1",
       android: "4.2.2",
       date: "2014-04-30",
@@ -351,9 +357,9 @@ const romData = {
     {
       rom: "CyanogenMod 10.2",
       android: "4.3",
-      date: "2013",
-      type: "Stable",
-      url: "https://drive.google.com/file/d/19JUF4fnNiZJbaGl7s3AJ9inHuXsd89A5/view"
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/zts5huuropbojmx/cm10.2_golden.nova.20141021.zip/file"
     },
     {
       rom: "CyanogenMod 11",
@@ -871,13 +877,6 @@ const romData = {
   ],
    "Samsung Note 4 (trelte)(Exynos)": [
     {
-      rom:"LineageOS 16.0",
-      android:"9",
-      date:"2019-09-14",
-      type:"UNOFFICIAL",
-      url:"https://androidfilehost.com/?fid=1899786940962585939"
-    },
-    {
       rom: "LineageOS 19.1",
       android: "12",
       date: "2025-06-17",
@@ -890,6 +889,29 @@ const romData = {
       date: "-",
       type: "OFFICIAL",
       url: "https://www.mediafire.com/file/ny0k8v551m9ifoh/twrp-3.7.0_9-0-treltexx.img.tar/file"
+    }
+  ],
+  "Samsung Note 4 N910K (trelteskt)(Exynos)": [
+    {
+      rom:"LineageOS 16.0",
+      android:"9",
+      date:"2019-09-14",
+      type:"UNOFFICIAL ",
+      url:"https://www.mediafire.com/file/594ls0mcquqtllz/lineage-16.0-20201101-UNOFFICIAL-trelteskt.zip/file"
+    },
+    {
+      rom: "LineageOS 19.1",
+      android: "12",
+      date: "2025-06-17",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/12hKpbaNeG0KvXyyvnqz3BnMiiPr5CzN4/view"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/pdt4ywo4v30q9x3/TWRP-3.7.0_9-trelteskt-20221231.tar/file"
     }
   ],
   
@@ -1054,7 +1076,7 @@ const romData = {
       rom: "TWRP",
       android: "3.2",
       date: "-",
-      type: "UNOFFICIAL",
+      type: "UNOFFICIAL [Android file host servers down...]",
       url: "https://androidfilehost.com/?fid=1395089523397913487"
     }
   ],
@@ -1179,14 +1201,14 @@ const romData = {
       rom: "LineageOS 17.1",
       android: "10",
       date: "2021-03-20",
-      type: "UNOFFICIAL",
+      type: "UNOFFICIAL [Android file host servers down...]",
       url: "https://androidfilehost.com/?fid=2188818919693764995"
     },
     {
       rom: "TWRP",
       android: "3.5.1",
       date: "-",
-      type: "UNOFFICIAL",
+      type: "UNOFFICIAL [Android file host servers down...]",
       url: "https://androidfilehost.com/?fid=8889791610682936560"
     }
   ],
@@ -1225,7 +1247,7 @@ const romData = {
       rom: "LineageOS 11",
       android: "4.4",
       date: "2017-11-27",
-      type: "UNOFFICIAL",
+      type: "UNOFFICIAL [Android file host servers down...]",
       url: "https://ava2.androidfilehost.com/dl/0_wWwz1r5S46Wx4qK69Teg/1771769848/889964283620768863/lineage-11-20171127-UNOFFICIAL-gtelwifi.zip"
     },
      {
@@ -1291,7 +1313,13 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/0ppwimpqrpkcua1/cm-7-20140530-UNOFFICIAL-jena.zip/file"
     },
-
+    {
+      rom: "JenaMIUI",
+      android: "4.1.2",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://mega.nz/folder/Q4g3SLCD#w_MwKweXLu6oymNOtLxyTA/file/I5hgQLjR"
+    },
     {
       rom: "CyanogenMod 10.1",
       android: "4.2.2",
@@ -1299,31 +1327,6 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://drive.google.com/drive/folders/1AF2W9-crfeCCgLze4TEbOrKN4VoQYH9X?usp=drive_link"
     },
-
-     {
-      rom: "JenaMIUI",
-      android: "4.1.2",
-      date: "-",
-      type: "UNOFFICIAL",
-      url: "https://mega.nz/folder/Q4g3SLCD#w_MwKweXLu6oymNOtLxyTA/file/I5hgQLjR"
-    },
-
-    {
-      rom: "Cyanogenmod 11",
-      android: "4.4",
-      date: "2018",
-      type: "UNOFFICIAL",
-      url: "https://drive.google.com/file/d/1LWCLGVKpQgcFa5iEGB3TNttQvPsDZZ-E/view?usp=drive_link"
-    },
-
-    {
-      rom: "Omni",
-      android: "4.4",
-      date: "2016-10-03",
-      type: "UNOFFICIAL",
-      url: "https://www.mediafire.com/file/2dnhmxjsmbf1znz/omni-5.1.1-20161003-golden-HOMEMADE.zip/file"
-    },
-
     {
       rom: "Cyanogenmod 10.2",
       android: "4.3",
@@ -1331,7 +1334,14 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1S8RkpBnRmlQTcc_Urwc_xc9AZbrEhnYU/view"
     },
-     {
+    {
+      rom: "CyanogenMod 11",
+      android: "4.4.x",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://app.mediafire.com/folder/0fp1r8g3hktmn"
+    },
+    {
       rom: "TWRP",
       android: "3.0.2-0",
       date: "-",
@@ -1399,7 +1409,7 @@ const romData = {
       rom: "LineageOS 15.1",
       android: "8.1",
       date: "2018-06-24",
-      type: "UNOFFICIAL",
+      type: "UNOFFICIAL [Android file host servers down...]",
       url: "https://androidfilehost.com/?fid=818222786056041545"
     }
   ],
@@ -1492,35 +1502,35 @@ const romData = {
       rom: "AOSP",
       android: "4.4",
       date: "?",
-      type: "?",
+      type: "? [Android file host servers down...]",
       url: "https://androidfilehost.com/?fid=14655340768118440541"
     },
     {
       rom: "Cyanogenmod 11",
       android: "4.4",
       date: "?",
-      type: "?",
+      type: "? [Android file host servers down...]",
       url: "https://androidfilehost.com/?fid=14655340768118441874"
     },
     {
       rom: "Omni",
       android: "4.4",
       date: "?",
-      type: "?",
+      type: "? [Android file host servers down...]",
       url: "https://androidfilehost.com/?fid=14655340768118441836"
     },
     {
       rom: "Omni",
       android: "5.0.2",
       date: "?",
-      type: "?",
+      type: "? [Android file host servers down...]",
       url: "https://androidfilehost.com/?fid=14655340768118442606"
     },
     {
       rom: "Omni",
       android: "6.0.1",
       date: "?",
-      type: "?",
+      type: "? [Android file host servers down...]",
       url: "https://androidfilehost.com/?fid=14655340768118442592"
     },
     
@@ -1530,7 +1540,7 @@ const romData = {
       rom: "LineageOS 19.1",
       android: "11",
       date: "2022-10-21",
-      type: "UNOFFICIAL",
+      type: "UNOFFICIAL [Android file host servers down...]",
       url: "https://androidfilehost.com/?fid=14871746926876839216"
     }
   ],
@@ -1556,7 +1566,7 @@ const romData = {
       rom: "LineageOS 15.1",
       android: "8.1",
       date: "-",
-      type: "UNOFFICIAL",
+      type: "UNOFFICIAL [Android file host servers down...]",
       url: "https://androidfilehost.com/?fid=14943124697586351761"
     }
   ],
@@ -1695,7 +1705,7 @@ const romData = {
       rom: "CyanogenMod 12.1",
       android: "5.1",
       date: "2015-03-25",
-      type: "UNOFFICIAL",
+      type: "UNOFFICIAL [Android file host servers down...]",
       url: "https://androidfilehost.com/?fid=10620683726822065480"
     },
     {
