@@ -184,6 +184,13 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://app.mediafire.com/folder/08sb6fn9smlj0"
     },
+    {
+      rom: "Some i9100 files...",
+      android: "-",
+      date: "-",
+      type: "recovery,kernel,pit",
+      url: "https://app.mediafire.com/folder/qqdmgync4hh07"
+    },
   ],
   "Samsung Galaxy S3 (i9300)": [
     {
@@ -900,13 +907,6 @@ const romData = {
       url:"https://www.mediafire.com/file/594ls0mcquqtllz/lineage-16.0-20201101-UNOFFICIAL-trelteskt.zip/file"
     },
     {
-      rom: "LineageOS 19.1",
-      android: "12",
-      date: "2025-06-17",
-      type: "UNOFFICIAL",
-      url: "https://drive.google.com/file/d/12hKpbaNeG0KvXyyvnqz3BnMiiPr5CzN4/view"
-    },
-    {
       rom: "TWRP",
       android: "3.7.0_9-0",
       date: "-",
@@ -1150,13 +1150,6 @@ const romData = {
   ],
   "Samsung Tab 10.1 (p4)": [
     {
-      rom: "TWRP",
-      android: "2.8.7.0",
-      date: "-",
-      type: "EXPERIMENTAL",
-      url: "https://www.mediafire.com/file/tkak88q4yv4u1fn/twrp2870-20150814-p4.tar/file"
-    },
-    {
       rom: "Cyanogenmod 9",
       android: "4.0",
       date: "2012-10-07",
@@ -1342,7 +1335,7 @@ const romData = {
       url: "https://drive.google.com/file/d/1S8RkpBnRmlQTcc_Urwc_xc9AZbrEhnYU/view"
     },
     {
-      rom: "CyanogenMod 11",
+      rom: "CyanogenMod 11 ler...",
       android: "4.4.x",
       date: "-",
       type: "UNOFFICIAL",
@@ -1832,16 +1825,6 @@ const romData = {
       url: "https://www.mediafire.com/file/kpaywgz0chvgyur/[LineageOS20][G8141][4K].zip/file",
     },
   ],
-   "Sony Ericsson Live with Walkman (WT19i)": [
-    {
-      rom: "CyanogenMod 13",
-      android: "6",
-      date: "2016-04-17",
-      type: "UNOFFICIAL",
-      url: "https://www.mediafire.com/file/wrx2sj2yfqciu71/cm-13.0-20160417-UNOFFICIAL-LegacyXperia-coconut.zip/file"
-    }
-  ],
-  
    "Turkcell T50 (ztebladevec4g)": [
     {
       rom: "CyanogenMod 12.1",
@@ -1888,4 +1871,3 @@ const romData = {
     }
   ],
 };
-
