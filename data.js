@@ -129,6 +129,13 @@ const romData = {
       url: "https://www.mediafire.com/file/t9nhqio6wyjihgv/cm-9.0.0-galaxys2.zip/file"
     },
     {
+      rom: "Cyanogenmod 10.1",
+      android: "4.2.2",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/um4ssmz0mfh11fl/cm-10.1.3.1-i9100-signed.zip/file"
+    },
+    {
       rom: "Cyanogenmod 10.2",
       android: "4.3",
       date: "-",
@@ -460,6 +467,13 @@ const romData = {
       url: "https://mega.nz/folder/QCgVzIbQ#oc-TOIB0aoD5xi-5s1BbiQ"
     },
     {
+      rom: "Cyanogenmod 12.1",
+      android: "5.1",
+      date: "2015-08-10",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=24052804347791163"
+    },
+    {
       rom: "LineageOS 14.1",
       android: "7.1",
       date: "2022-04-05",
@@ -490,6 +504,15 @@ const romData = {
       url: "https://www.mediafire.com/file/8ppv6znjuykfaah/twrp-3.6.1_9-0-jflte.img.tar/file"
     }
   ],
+   "Samsung S4 (i9506) (ks01ltexx)": [
+    {
+      rom: "LineageOS",
+      android: "12",
+      date: "2022-09-07",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=14871746926876821157"
+    },
+  ],
   "Samsung S4 Mini 3G (serrano3gxx) (i9190)": [
     {
       rom: "LineageOS 17.1",
@@ -507,6 +530,24 @@ const romData = {
     }
   ],
 
+   "Samsung Galaxy S5 LTE (klte)": [
+    {
+      rom: "LineageOS 18.1",
+      android: "11",
+      date: "2020-11-07",
+      type: "OFFICIAL",
+      url: "https://b4.timschumi.net/lineage-archive/lineage-18.1-20240306-nightly-klte-signed.zip"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://dl.twrp.me/klte/twrp-3.7.0_9-0-klte.img.tar.html"
+    },
+    
+  ],
+
   "Samsung Galaxy S5 (k3g) (Exynos)": [
     {
       rom: "LineageOS 14.1",
@@ -514,6 +555,13 @@ const romData = {
       date: "2018-11-09",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/nyxq6maj6ikk44h/lineage-14.1-20181109-nightly-k3gxx-signed.zip/file"
+    },
+    {
+      rom: "LineageOS 15.1",
+      android: "8.1",
+      date: "2018-11-09",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=5862345805528060513"
     },
     {
       rom: "TWRP",
@@ -541,6 +589,7 @@ const romData = {
     },
     
   ],
+  
    "Samsung Galaxy S6 (zeroflte)(Exynos)": [
     {
       rom: "TWRP",
@@ -869,11 +918,60 @@ const romData = {
       url: "https://drive.google.com/file/d/1sKKT30SKLq523oqyD3cT8hm3W_5uuOWC/view"
     },
     {
+      rom: "CyanogenMod 13",
+      android: "6",
+      date: "2016-11-25",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=601275311581037380"
+    },
+    {
+      rom: "LineageOS 14.1",
+      android: "7.1",
+      date: "2018-11-08",
+      type: "OFFICIAL",
+      url: "https://b4.timschumi.net/lineage-archive/lineage-14.1-20181108-nightly-ha3g-signed.zip"
+    },
+    {
+      rom: "LineageOS 14.1",
+      android: "7.1",
+      date: "2018-11-08",
+      type: "OFFICIAL (Mirror)",
+      url: "https://androidfilehost.com/?fid=11410963190603910613"
+    },
+    {
+      rom: "ViperOS",
+      android: "7.1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1hYOHtzZWdRN_-xxt__WaLaUaAl4ZSMAC/view"
+    },
+    {
+      rom: "LineageOS 15.1",
+      android: "8.1",
+      date: "2018-06-23",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=674106145207498006"
+    },
+    {
       rom: "LineageOS 17.1",
       android: "10",
       date: "2025-03-20",
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1CFECeHLyRMzCeZ-xSO1GacWxgTMlbApq/view"
+    },
+    {
+      rom: "LineageOS 18.1",
+      android: "11",
+      date: "2026-03-29",
+      type: "UNOFFICIAL",
+      url: "https://github.com/couths/ota_provider/releases/download/lineage-18.1-20260309-UNOFFICIAL-ha3g/lineage-18.1-20260309-UNOFFICIAL-ha3g.zip"
+    },
+    {
+      rom: "CrDroid 7.60",
+      android: "11",
+      date: "2026-03-03",
+      type: "UNOFFICIAL",
+      url: "https://github.com/couths/ota_provider/releases/download/crDroidAndroid-11.0-20260303-ha3g-v7.60/crDroidAndroid-11.0-20260303-ha3g-v7.60.zip"
     },
     {
       rom: "LineageOS 19.1",
@@ -900,6 +998,27 @@ const romData = {
   ],
    "Samsung Note 4 (trelte)(Exynos)": [
     {
+      rom: "Cyanogenmod 14.1",
+      android: "7.1",
+      date: "2016-12-04",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=601300970940399937"
+    },
+    {
+      rom: "CrDroid",
+      android: "11",
+      date: "2026-02-10",
+      type: "UNOFFICIAL",
+      url: "https://github.com/couths/ota_provider/releases/download/crDroidAndroid-11.0-20260210-trelte-v7.60/crDroidAndroid-11.0-20260210-trelte-v7.60.zip"
+    },
+    {
+      rom: "LineageOS 17.1",
+      android: "10",
+      date: "2021-06-30",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=14943124697586358067"
+    },
+    {
       rom: "LineageOS 19.1",
       android: "12",
       date: "2025-06-17",
@@ -919,8 +1038,15 @@ const romData = {
       rom:"LineageOS 16.0",
       android:"9",
       date:"2019-09-14",
-      type:"UNOFFICIAL ",
+      type:"UNOFFICIAL",
       url:"https://www.mediafire.com/file/594ls0mcquqtllz/lineage-16.0-20201101-UNOFFICIAL-trelteskt.zip/file"
+    },
+    {
+      rom: "LineageOS 19.1",
+      android: "12",
+      date: "2025-05-16",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1lkY4mwA9z10BREnki8BPyDTSeGXd9JxH/view?usp=drive_link"
     },
     {
       rom: "TWRP",
@@ -1449,6 +1575,29 @@ const romData = {
       url: "https://www.mediafire.com/file/dii7terdcsu81l7/TWRP-3.6.1_9-grandpplte-20220313.tar/file"
     }
   ],
+    "Samsung J5 2015 (j5lte)": [
+    {
+      rom: "LineageOS 18.1",
+      android: "11",
+      date: "2021-11-15",
+      type: "UNOFFICIAL",
+      url: "https://github.com/damolmo/LineageOS_J5-2015/releases/download/j5lte_20211115/lineage-18.1-20211115-UNOFFICIAL-j5lte.zip"
+    },
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2022-09-28",
+      type: "UNOFFICIAL",
+      url: "https://github.com/Galaxy-J5-Unofficial-LineageOS-Sources/Releases/releases/download/september-thirteen-monet/lineage-20.0-20220928-UNOFFICIAL-j5lte.zip"
+    },
+    {
+      rom: "TWRP",
+      android: "3.6.1_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://eu.dl.twrp.me/j5lte/twrp-3.6.1_9-0-j5lte.img.tar.html"
+    }
+  ],
 
    "Samsung J7 2015 (j7elte)": [
     {
@@ -1581,6 +1730,22 @@ const romData = {
       date: "-",
       type: "OFFICIAL",
       url: "https://eu.dl.twrp.me/a7y17lte/twrp-3.7.0_9-0-a7y17lte.img.tar.html"
+    }
+  ],
+    "Samsung A50": [
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2023-05-25",
+      type: "UNOFFICIAL",
+      url: "https://github.com/GiovanYCringe-Experiments/OTA/releases/download/v1/lineage-20.0-20230525-UNOFFICIAL-a505f.zip"
+    },
+    {
+      rom:"TWRP",
+      android:"3.7.0_11-0",
+      date:"-",
+      type:"OFFICIAL",
+      url:"https://dl.twrp.me/a505f/twrp-3.7.0_11-0-a505f.img.tar.html"
     }
   ],
    "Samsung Wave (S8500)": [
@@ -1749,13 +1914,20 @@ const romData = {
       url: "https://www.mediafire.com/file/3373tj7ne1kg09s/cm-13.0-20160316-SNAPSHOT-ZNH0EAO1QD-jagnm.zip/file",
     }
   ],
-    "LG G4 (h815)": [
+    "LG G4 (h81x)": [
     {
-      rom: "LineageOS 18.1",
+      rom: "Android Ice Cold Project",
+      android: "13",
+      date: "-",
+      type: "(UNOFFICIAL) USU OLANLARI KULLANIN!!!",
+      url: "https://mega.nz/folder/gA9QUbSB#c-tspDgDeEjUOruCHGCM3g",
+    },
+    {
+      rom: "CrDroid",
       android: "11",
-      date: "2023-03-21",
-      type: "UNOFFICIAL",
-      url: "https://leech.binbash.rocks:8008/lineage/18.1/h815/lineage-18.1-20230321-UNOFFICIAL-h815.zip",
+      date: "-",
+      type: "(UNOFFICIAL) USU OLANLARI KULLANIN!!!",
+      url: "https://mega.nz/folder/pNsyETaL#-prGuWKtzK1dagpc6P9FhQ",
     },
     {
       rom: "TWRP",
