@@ -81,14 +81,14 @@ const romData = {
       rom: "LineageOS 14.1",
       android: "7.1",
       date: "2018-01-27",
-      type: " UNOFFICIAL[Android file host servers down...]",
+      type: " UNOFFICIAL",
       url: "https://androidfilehost.com/?fid=962187416754456594"
     },
     {
       rom: "Postinstall",
       android: "Postinstall",
       date: "-",
-      type: "LineageOS 14.1 den sonra kurun! [Android file host servers down...]",
+      type: "LineageOS 14.1 den sonra kurun!",
       url: "https://androidfilehost.com/?fid=673956719939815508"
     },
     {
@@ -544,10 +544,10 @@ const romData = {
    "Samsung Galaxy S6 (zeroflte)(Exynos)": [
     {
       rom: "TWRP",
-      android: "3.3.1-0",
+      android: "3.7.0_9-0",
       date: "-",
-      type: "OFFICIAL",
-      url: "https://www.mediafire.com/file/vsqhv5duzr2ivqn/twrp-3.3.1-0-zeroflte.img.tar/file"
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1CIWFSy9OIHl6kytkg9TeA-QGY6wkfm1-/view?usp=drive_link"
     },
     {
       rom: "LineageOS 19.1",
@@ -562,6 +562,22 @@ const romData = {
       date: "2025-12-04",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/inn198nxuqdstq1/lineage-20.0-20251204-UNOFFICIAL-zeroflte.zip/file"
+    },
+  ],
+   "Samsung Galaxy S6 Edge+ (Exynos)": [
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1JGmkGBGFJd22YnimjKbsoJVLFML4v6tA/view?usp=drive_link"
+    },
+    {
+      rom: "LineageOS 19.1",
+      android: "12",
+      date: "2026-01-08",
+      type: "UNOFFICIAL",
+      url: "https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-09012026/lineage-19.1-20260108-UNOFFICIAL-zenlte.zip"
     },
   ],
 
@@ -917,6 +933,13 @@ const romData = {
   
   "Samsung Note 5 (noblelte)(Exynos)": [
      {
+      rom: "Evoluiton X",
+      android: "10",
+      date: "",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=4349826312261827185"
+     },
+     {
       rom: "LineageOS 18.1",
       android: "11",
       date: "2026-01-05",
@@ -950,6 +973,13 @@ const romData = {
       date: "-",
       type: "OFFICIAL",
       url: "https://www.mediafire.com/file/c5nt0cexzdfmfvc/twrp-3.4.0-0-noblelte.img.tar/file"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9.0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1jDEV0Kvbhgph2HZYyHMJKpLtDitKbSIU/view?usp=drive_link"
     },
     
   ],
@@ -1076,7 +1106,7 @@ const romData = {
       rom: "TWRP",
       android: "3.2",
       date: "-",
-      type: "UNOFFICIAL [Android file host servers down...]",
+      type: "UNOFFICIAL",
       url: "https://androidfilehost.com/?fid=1395089523397913487"
     }
   ],
@@ -1147,8 +1177,23 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://droidbasement.com/galaxy/roms/cm10.1/p4wifi/cm-10.1-20130116-UNOFFICIAL-p4wifi.zip"
     },
+    {
+      rom: "Cyanogenmod 10.1",
+      android: "4.2",
+      date: "2013-11-03",
+      type: "OFFICIAL",
+      url: "https://archive.org/download/cyanogenmod-archive/10.1/nightly/cm-10.1-20131103-NIGHTLY-p4wifi.zip"
+    },
+    
   ],
   "Samsung Tab 10.1 (p4)": [
+    {
+      rom: "TWRP",
+      android: "2.8.7.0",
+      date: "2015-08-14",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/y35hnxz3tez7kwe/twrp2870-20150814-p4.tar/file"
+    },
     {
       rom: "Cyanogenmod 9",
       android: "4.0",
@@ -1169,6 +1214,13 @@ const romData = {
       date: "2013-01-16",
       type: "UNOFFICIAL",
       url: "https://droidbasement.com/galaxy/roms/cm10.1/p4/cm-10.1-20130116-UNOFFICIAL-p4.zip"
+    },
+    {
+      rom: "Cyanogenmod 10.1",
+      android: "4.2",
+      date: "2013-11-03",
+      type: "OFFICIAL",
+      url: "https://archive.org/download/cyanogenmod-archive/10.1/nightly/cm-10.1-20131103-NIGHTLY-p4.zip"
     },
   ],
   
@@ -1380,6 +1432,40 @@ const romData = {
       url: "https://www.mediafire.com/file/9exa0das0wsmk5u/TWRP-3.0.2-0-cooperve.zip/file"
     }
   ],
+
+   "Samsung J2 Prime/Grand prime plus (G532X)": [
+    {
+      rom: "LineageOS 14.1",
+      android: "7.1.2",
+      date: "2023-06-23",
+      type: "UNOFFICIAL",
+      url: "https://github.com/almondnguyen/android_OTA/releases/download/14.1-20230623/lineage-14.1-20230623-UNOFFICIAL-grandppltedx.zip"
+    },
+    {
+      rom: "TWRP",
+      android: "3.6.1_9",
+      date: "2022-03-13",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/dii7terdcsu81l7/TWRP-3.6.1_9-grandpplte-20220313.tar/file"
+    }
+  ],
+
+   "Samsung J7 2015 (j7elte)": [
+    {
+      rom: "LineageOS 18.1",
+      android: "11",
+      date: "2023-06-23",
+      type: "UNOFFICIAL",
+      url: "https://github.com/batuhantrkgl/Releases/releases/tag/LineageOS-18.1-30072025-j7elte"
+    },
+    {
+      rom: "TWRP",
+      android: "3.6.1_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/672oy2oq4o5ow9q/twrp-3.6.2_9-0-j7elte.img.tar/file"
+    }
+  ],
   
   "Samsung J6+ (j6primelte) (J610F)": [
     {
@@ -1502,35 +1588,35 @@ const romData = {
       rom: "AOSP",
       android: "4.4",
       date: "?",
-      type: "? [Android file host servers down...]",
+      type: "?",
       url: "https://androidfilehost.com/?fid=14655340768118440541"
     },
     {
       rom: "Cyanogenmod 11",
       android: "4.4",
       date: "?",
-      type: "? [Android file host servers down...]",
+      type: "?",
       url: "https://androidfilehost.com/?fid=14655340768118441874"
     },
     {
       rom: "Omni",
       android: "4.4",
       date: "?",
-      type: "? [Android file host servers down...]",
+      type: "?",
       url: "https://androidfilehost.com/?fid=14655340768118441836"
     },
     {
       rom: "Omni",
       android: "5.0.2",
       date: "?",
-      type: "? [Android file host servers down...]",
+      type: "?",
       url: "https://androidfilehost.com/?fid=14655340768118442606"
     },
     {
       rom: "Omni",
       android: "6.0.1",
       date: "?",
-      type: "? [Android file host servers down...]",
+      type: "?",
       url: "https://androidfilehost.com/?fid=14655340768118442592"
     },
     
@@ -1540,7 +1626,7 @@ const romData = {
       rom: "LineageOS 19.1",
       android: "11",
       date: "2022-10-21",
-      type: "UNOFFICIAL [Android file host servers down...]",
+      type: "UNOFFICIAL",
       url: "https://androidfilehost.com/?fid=14871746926876839216"
     }
   ],
@@ -1566,7 +1652,7 @@ const romData = {
       rom: "LineageOS 15.1",
       android: "8.1",
       date: "-",
-      type: "UNOFFICIAL [Android file host servers down...]",
+      type: "UNOFFICIAL",
       url: "https://androidfilehost.com/?fid=14943124697586351761"
     }
   ],
@@ -1705,7 +1791,7 @@ const romData = {
       rom: "CyanogenMod 12.1",
       android: "5.1",
       date: "2015-03-25",
-      type: "UNOFFICIAL [Android file host servers down...]",
+      type: "UNOFFICIAL",
       url: "https://androidfilehost.com/?fid=10620683726822065480"
     },
     {
