@@ -462,9 +462,9 @@ const romData = {
     {
       rom: "LineageOS 17.1",
       android: "10",
-      date: "2026-02-10",
-      type: "UNOFFICIAL",
-      url: "https://mega.nz/folder/QCgVzIbQ#oc-TOIB0aoD5xi-5s1BbiQ"
+      date: "2026-03-13",
+      type: "UNOFFICIAL (çoğu şey fixlendi!)",
+      url: "https://mega.nz/file/aMMHiJhK#rzpAkn4VF6XdsnL7X8xLrxHhEKzPceBU-RIVqb69FdQ"
     },
     {
       rom: "Cyanogenmod 12.1",
@@ -2129,3 +2129,4 @@ const romData = {
     }
   ],
 };
+
