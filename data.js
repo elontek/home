@@ -145,9 +145,23 @@ const romData = {
     {
       rom: "Cyanogenmod 11",
       android: "4.4.4",
-      date: "-",
+      date: "2015-06-14",
       type: "OFFICIAL",
       url: "https://www.mediafire.com/file/xdqp0pc2r81vedx/cm-11-20150614-NIGHTLY-i9100.zip/file"
+    },
+    {
+      rom: "Cyanogenmod 11",
+      android: "4.4.4",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: ""
+    },
+    {
+      rom: "Slimrom",
+      android: "5.1",
+      date: "2015-07-16",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/20sbgenoypjxipq/Slim.UNOFFICIAL-i9100-5.1.1.build.0.6-20150716.zip/file"
     },
     {
       rom: "Cyanogenmod 12.1",
@@ -397,6 +411,13 @@ const romData = {
       url: "https://drive.google.com/file/d/1zFjI5RY3J9_AUrvtCWGwbJYbg0dlCie1/view"
     },
     {
+      rom: "Validus",
+      android: "5.0.2",
+      date: "?",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/cyaffadb2az5zgz/Validus-5.0.1-OFFICIAL-03-27-14-_i9300.zip/file"
+    },
+    {
       rom: "CyanogenMod 12.1",
       android: "5.1",
       date: "2016-06-15",
@@ -515,6 +536,34 @@ const romData = {
   ],
   "Samsung S4 Mini 3G (serrano3gxx) (i9190)": [
     {
+      rom: "CarbonRom",
+      android: "4.4",
+      date: "",
+      type: "UNOFFICIAL",
+      url: ""
+    },
+    {
+      rom: "Cyanogenmod 13",
+      android: "6",
+      date: "2016-12-19",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/3085oxumuro60eg/cm-13.0-20161219-NIGHTLY-serrano3gxx.zip/file"
+    },
+    {
+      rom: "LineageOS 14.1",
+      android: "7.1.2",
+      date: "2018-06-24",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/13x1uhz1senqld8/lineage-14.1-20180624-nightly-serrano3gxx-signed.zip/file"
+    },
+    {
+      rom: "LineageOS 15.1",
+      android: "8.1.0",
+      date: "2019-12-16",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/6f94f4qhve8ti33/lineage-15.1-20191216-UNOFFICIAL-serrano3gxx.zip/file"
+    },
+    {
       rom: "LineageOS 17.1",
       android: "10",
       date: "2022-08-16",
@@ -622,11 +671,25 @@ const romData = {
       url: "https://drive.google.com/file/d/1JGmkGBGFJd22YnimjKbsoJVLFML4v6tA/view?usp=drive_link"
     },
     {
+      rom: "LineageOS 18.1",
+      android: "11",
+      date: "2026-02-26",
+      type: "UNOFFICIAL",
+      url: "https://github.com/fakemanoan/LineageOS-Releases/releases/download/A11-26022026/lineage-18.1-20260226-UNOFFICIAL-zenlte.zip"
+    },
+    {
       rom: "LineageOS 19.1",
       android: "12",
       date: "2026-01-08",
       type: "UNOFFICIAL",
       url: "https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-09012026/lineage-19.1-20260108-UNOFFICIAL-zenlte.zip"
+    },
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2026-01-10",
+      type: "UNOFFICIAL",
+      url: "https://github.com/fakemanoan/LineageOS-Releases/releases/download/13-10012026/lineage-20.0-20260110-UNOFFICIAL-zenlte.zip"
     },
   ],
 
