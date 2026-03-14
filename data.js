@@ -150,13 +150,6 @@ const romData = {
       url: "https://www.mediafire.com/file/xdqp0pc2r81vedx/cm-11-20150614-NIGHTLY-i9100.zip/file"
     },
     {
-      rom: "Cyanogenmod 11",
-      android: "4.4.4",
-      date: "-",
-      type: "UNOFFICIAL",
-      url: ""
-    },
-    {
       rom: "Slimrom",
       android: "5.1",
       date: "2015-07-16",
@@ -169,6 +162,13 @@ const romData = {
       date: "-",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/7vaa26w1tfmg4h3/cm-12.1-20150617-UNOFFICIAL-i9100.zip/file"
+    },
+    {
+      rom: "Cyanogenmod 13",
+      android: "6",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/tiwucesuhn71tou/cm-13.0-20161218-NIGHTLY-i9100.zip/file"
     },
     {
       rom: "LineageOS 14.1",
@@ -199,8 +199,15 @@ const romData = {
       url: "https://www.mediafire.com/file/jt8gpmo8do4ll64/lineage-17.1-20210301-UNOFFICIAL-i9100.zip/file"
     },
     {
+      rom: "LineageOS 18.1",
+      android: "11",
+      date: "2022-02-26",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/wm284tuxr7q97bv/lineage-18.1-20220226-UNOFFICIAL-i9100.zip/file"
+    },
+    {
       rom: "TWRP's",
-      android: "2.8-3.6...",
+      android: "2.8-3.6.1...",
       date: "-",
       type: "UNOFFICIAL",
       url: "https://app.mediafire.com/folder/08sb6fn9smlj0"
@@ -250,11 +257,25 @@ const romData = {
       url: "https://www.mediafire.com/file/nurzzn0rdzsk0yq/cm-11-20150712-NIGHTLY-i9300.zip/file"
     },
     {
+      rom: "CyanogenMod 11",
+      android: "4.4.4",
+      date: "2015-06-14",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/97ugtru9bntffwh/cm-11-20140523-UNOFFICIAL-temasek-i9300-V87.zip/file"
+    },
+    {
       rom: "CyanogenMod 12",
       android: "5.1",
       date: "2015-04-03",
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1J2DyUwmo6mcKICICDD6zRwFwBPv3mRzv/view"
+    },
+    {
+      rom: "Validus",
+      android: "5.0.2",
+      date: "?",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/cyaffadb2az5zgz/Validus-5.0.1-OFFICIAL-03-27-14-_i9300.zip/file"
     },
     {
       rom: "CyanogenMod 13",
@@ -285,7 +306,6 @@ const romData = {
       type: "NIGHTLY",
       url: "https://www.mediafire.com/file/6f4nep1pd539z6n/lineage-14.1-20190217-nightly-i9300-signed_%25281%2529.zip/file"
     },
-
     {
       rom: "LineageOS 15.1",
       android: "8.1",
@@ -293,8 +313,13 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1mNAKRhm0q_VJZJ3nRtjWRWnlU54vtso5/view"
     },
-
-     
+     {
+      rom: "CarbonRom",
+      android: "8.1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://mega.nz/file/wNJSCAIA#eusS3x3hpPv7VwsiU6bfxpuVLtl8VTvKVA5wtACimUA"
+    },
     {
       rom: "LineageOS 16.0",
       android: "9",
@@ -409,13 +434,6 @@ const romData = {
       date: "2016-10-03",
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1zFjI5RY3J9_AUrvtCWGwbJYbg0dlCie1/view"
-    },
-    {
-      rom: "Validus",
-      android: "5.0.2",
-      date: "?",
-      type: "OFFICIAL",
-      url: "https://www.mediafire.com/file/cyaffadb2az5zgz/Validus-5.0.1-OFFICIAL-03-27-14-_i9300.zip/file"
     },
     {
       rom: "CyanogenMod 12.1",
@@ -536,11 +554,18 @@ const romData = {
   ],
   "Samsung S4 Mini 3G (serrano3gxx) (i9190)": [
     {
+      rom: "Cyanogenmod 10.2.1",
+      android: "4.3.1",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/nv7xuhmraeyod4x/cm-10.2.1-serrano3gxx.zip/file"
+    },
+    {
       rom: "CarbonRom",
       android: "4.4",
-      date: "",
+      date: "2014-  05-23",
       type: "UNOFFICIAL",
-      url: ""
+      url: "https://www.mediafire.com/file/7gu59ycih7migwu/CARBON-KK-UNOFFICIAL-20140523-1207-serrano3gxx.zip/file"
     },
     {
       rom: "Cyanogenmod 13",
@@ -564,11 +589,25 @@ const romData = {
       url: "https://www.mediafire.com/file/6f94f4qhve8ti33/lineage-15.1-20191216-UNOFFICIAL-serrano3gxx.zip/file"
     },
     {
+      rom: "LineageOS 16",
+      android: "9",
+      date: "2022-08-17",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/chsjkgnb2os2m4h/lineage-16.0-20220817-UNOFFICIAL-serrano3gxx.zip/filez"
+    },
+    {
       rom: "LineageOS 17.1",
       android: "10",
       date: "2022-08-16",
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1KCXhiFM36Cu9Spmi-B6d3IqvNIbSzNU5/view?usp=drive_link"
+    },
+    {
+      rom: "LineageOS 18.1",
+      android: "11",
+      date: "2023-04-19",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/xlk1a08s0sek9rl/lineage-18.1-20230419-UNOFFICIAL-serrano3gxx.zip/file"
     },
     {
       rom: "TWRP",
@@ -583,7 +622,7 @@ const romData = {
     {
       rom: "LineageOS 18.1",
       android: "11",
-      date: "2020-11-07",
+      date: "2024-03-06",
       type: "OFFICIAL",
       url: "https://b4.timschumi.net/lineage-archive/lineage-18.1-20240306-nightly-klte-signed.zip"
     },
@@ -941,6 +980,23 @@ const romData = {
       url: "https://eu.dl.twrp.me/x1s/twrp-3.7.0_11-0-x1s.img.tar.html"
     },
   ],
+   "Samsung S20FE (r8q) (Snapdragon)": [
+    {
+      rom: "LineageOS 23",
+      android: "16",
+      date: "2025-12-29",
+      type: "OFFICIAL",
+      url: "https://b4.timschumi.net/lineage-archive/lineage-23.0-20251229-nightly-r8q-signed.zip"
+    },
+     {
+      rom: "TWRP",
+      android: "3.7.1_12-3",
+      date: "2024-10-23",
+      type: "OFFICIAL",
+      url: "https://dl.twrp.me/r8q/twrp-3.7.1_12-3-r8q.img.tar.html"
+    },
+  ],
+  
     "Samsung Note 2 (N7100)": [
     {
       rom: "LineageOS 18.1",
