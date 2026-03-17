@@ -272,7 +272,7 @@ const romData = {
     },
     {
       rom: "Validus",
-      android: "5.0.2",
+      android: "4.4",
       date: "?",
       type: "OFFICIAL",
       url: "https://www.mediafire.com/file/cyaffadb2az5zgz/Validus-5.0.1-OFFICIAL-03-27-14-_i9300.zip/file"
@@ -1152,6 +1152,36 @@ const romData = {
       url: "https://www.mediafire.com/file/ny0k8v551m9ifoh/twrp-3.7.0_9-0-treltexx.img.tar/file"
     }
   ],
+   "Samsung Note Edge (tblte)": [
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/4ww4nc68mo2d1v2/twrp-3.7.0_9-0-tblte.img.tar/file"
+    },
+    {
+      rom:"LineageOS 16.0",
+      android:"9",
+      date:"-",
+      type:"UNOFFICIAL",
+      url:"https://drive.google.com/file/d/1CpdRjluVOC8njHGdFUo9ZepgllGjv4XD/view?usp=drive_link"
+    },
+    {
+      rom:"LineageOS 17.1",
+      android:"10",
+      date:"-",
+      type:"UNOFFICIAL",
+      url:"https://drive.google.com/file/d/1ohNKCiPv2RgICaI30fUawbUwa0-BfD7z/view?usp=drive_link"
+    },
+    {
+      rom:"LineageOS 18.1",
+      android:"11",
+      date:"-",
+      type:"UNOFFICIAL",
+      url:"https://drive.google.com/file/d/1I5jSUu8GwyMYgVEVngLQ1ISJVZ0cVbgf/view?usp=drive_link"
+    },
+  ],
   "Samsung Note 4 N910K (trelteskt)(Exynos)": [
     {
       rom:"LineageOS 16.0",
@@ -1250,6 +1280,29 @@ const romData = {
       date: "-",
       type: "OFFICIAL",
       url: "https://www.mediafire.com/file/kdarns597haa8g5/twrp-3.7.0_9-0-gracelte.img.tar/file"
+    }
+  ],
+   "Samsung Note FE (gracelte)(Exynos)": [
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2025-05-15",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1orAyR2us5bn2WOv7YJgYFnP0fu0d57WJ/view"
+    },
+    {
+      rom: "LineageOS 21",
+      android: "14",
+      date: "2024-06-20",
+      type: "UNOFFICIAL",
+      url: "https://github.com/ivanmeler/ota_provider/releases/download/gracerlte_lineage-21.0_1718921571/lineage-21.0-20240620-UNOFFICIAL-gracerlte.zip"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://github.com/ananjaser1211/android_device_samsung_gracerlte/releases/download/3.7.0_9-gracelte-20231231/TWRP-3.7.0_9-gracerlte-20231231.tar"
     }
   ],
 
@@ -1590,7 +1643,7 @@ const romData = {
       rom: "CWM",
       android: "???",
       date: "-",
-      type: "UNOFFICIAL",
+      type: "UNOFFICIAL (çalışmıyor olabilir!)",
       url: "https://xdaforums.com/attachments/tass-recovery-cwm-tar.779527/"
     },
     {
@@ -1742,6 +1795,13 @@ const romData = {
       date: "2020-03-18",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/pmj41ik9tmh1hvj/lineage-17.1-20200318-UNOFFICIAL-j6primelte.zip/file"
+    },
+    {
+      rom: "LineageOS 19.1",
+      android: "12",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1YvNm06d4lXXyrAMDwNgOY5YR5zwDoHGR/view"
     },
     {
       rom: "TWRP",
@@ -2038,14 +2098,14 @@ const romData = {
       rom: "Android Ice Cold Project",
       android: "13",
       date: "-",
-      type: "(UNOFFICIAL) USU OLANLARI KULLANIN!!!",
+      type: "(UNOFFICIAL) USU OLANLARI KULLANIN!!!!!",
       url: "https://mega.nz/folder/gA9QUbSB#c-tspDgDeEjUOruCHGCM3g",
     },
     {
       rom: "CrDroid",
       android: "11",
       date: "-",
-      type: "(UNOFFICIAL) USU OLANLARI KULLANIN!!!",
+      type: "(UNOFFICIAL) USU OLANLARI KULLANIN!!!!!",
       url: "https://mega.nz/folder/pNsyETaL#-prGuWKtzK1dagpc6P9FhQ",
     },
     {
@@ -2055,6 +2115,15 @@ const romData = {
       type: "OFFICIAL",
       url: "https://www.mediafire.com/file/2il8o47mr08ijyq/twrp-3.7.0_9-0-g4.img/file",
     },
+  ],
+   "LG Optimus L3 (e400)": [
+    {
+      rom: "TWRP",
+      android: "2.7",
+      date: "2014",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/8am44skngf760bq/TWRP-2.7.0.0.zip/file"
+    }
   ],
      "LG Optimus L5 (e610)": [
     {
@@ -2148,6 +2217,22 @@ const romData = {
       url: "https://www.mediafire.com/file/fho2e9yb3wmby13/twrp-sirius.rar/file"
     }
   ],
+    "Sony Xperia M2 (eagle)": [
+    {
+      rom: "TWRP",
+      android: "3.5",
+      date: "2020-07-23",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/98r1f9rpn9wmvlz/TWRP-eagle-20200723.rar/file"
+    },
+    {
+      rom: "Cyanogenmod 11",
+      android: "4.4",
+      date: "2014-10-30",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/kxuwn6fkd2qv633/cm-11-20141030-UNOFFICIAL-eagle.zip/file"
+    }
+  ],  
    "Sony Xperia Z3 (d6603)": [
     {
       rom: "LineageOS 18.1",
@@ -2157,8 +2242,6 @@ const romData = {
       url: "https://www.mediafire.com/file/hxig5kbtq1i9inw/lineage-18.1-20240306-nightly-z3-signed.zip/file"
     }
   ],
-
-
   "Sony Xperia Z3 Compact (D5803)": [
 
     {
