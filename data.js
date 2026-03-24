@@ -106,17 +106,24 @@ const romData = {
       url: "https://xdaforums.com/attachments/kernel-tar.3515622/"
     },
     {
+      rom: "TWRP",
+      android: "2.8",
+      date: "-",
+      type: "DENEYSEL!!! (mirror)",
+      url: "https://www.mediafire.com/file/xxyzjjz3l20smwh/KERNEL.tar/file"
+    },
+    {
       rom: "CWM",
       android: "3.0",
       date: "-",
-      type: "???",
+      type: "-",
       url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/Odin/CF-Root-XX_OXA_JW4-v4.4-CWM3RFS.tar"
     },
     {
       rom: "CWM",
       android: "6.0",
       date: "-",
-      type: "???",
+      type: "-",
       url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/Odin/Semaphore_KK_3.4.3.tar"
     },
   ],
@@ -701,6 +708,23 @@ const romData = {
       url: "https://www.mediafire.com/file/inn198nxuqdstq1/lineage-20.0-20251204-UNOFFICIAL-zeroflte.zip/file"
     },
   ],
+    "Samsung Galaxy S6 Edge (zerolte)": [
+    {
+      rom: "Evoluiton X",
+      android: "13",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/edukdoua42pfw1q/evolution_zerofltexx-ota-tq3c.230901.001.b1-09222348-unofficial-unsigned.zip/file"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/5yzalpz9yy74zdi/twrp-3.7.0_9-0-kmini3g.img.tar/file"
+    },
+    
+  ],
    "Samsung Galaxy S6 Edge+ (Exynos)": [
     {
       rom: "TWRP",
@@ -1037,6 +1061,20 @@ const romData = {
       url: "https://drive.google.com/file/d/1sKKT30SKLq523oqyD3cT8hm3W_5uuOWC/view"
     },
     {
+      rom: "Ultralite stock",
+      android: "5",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/oia3x4i6qcatvrn/AlBa_n900_XXUENI1_UltraLite_Odex.zip/file"
+    },
+    {
+      rom: "MagMa (touchwiz port)",
+      android: "6",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/a9a0n50yepw3e2v/MagMa_NX_VX1_XDA_N900.zip/file"
+    },
+    {
       rom: "CyanogenMod 13",
       android: "6",
       date: "2016-11-25",
@@ -1189,6 +1227,13 @@ const romData = {
       date:"2019-09-14",
       type:"UNOFFICIAL",
       url:"https://www.mediafire.com/file/594ls0mcquqtllz/lineage-16.0-20201101-UNOFFICIAL-trelteskt.zip/file"
+    },
+    {
+      rom:"LineageOS 17.1",
+      android:"10",
+      date:"",
+      type:"UNOFFICIAL",
+      url:"https://www.mediafire.com/file/zd7sl5eo09b4fio/lineage-17.1-20210630-UNOFFICIAL-trelteskt.zip/file"
     },
     {
       rom: "LineageOS 19.1",
@@ -1435,6 +1480,15 @@ const romData = {
       url: "https://www.mediafire.com/file/3hbg2nwnwrpw6ot/twrp-3.7.0_9-0-fortuna3g.img.tar/file"
     },
 
+  ],
+   "Samsung Galaxy Tab S Wifi (SM-T800) (chagallwifi)": [
+    {
+      rom: "LineageOS 15.1",
+      android: "8.1",
+      date: "2025-07-21",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/bwbgngh4uzff2se/lineage-15.1-20180823-UNOFFICIAL-chagallwifi.zip/file"
+    },
   ],
    "Samsung Galaxy Tab 3 Lite (goyawifi)(T113)": [
     {
@@ -2009,6 +2063,13 @@ const romData = {
       url: "https://drive.google.com/file/d/1w2skZG1gp-OrVnc3BXYxsOt6ajZ-DZWF/view"
     },
     {
+      rom: "TWRP",
+      android: "3.3.1-0",
+      date: "—",
+      type: "UNOFFICIAL recovery update (.zip)",
+      url: "https://www.mediafire.com/file/jj31wurqph4m9y5/twrp-3.3.1-0-d802-bump-blastagator-signed.zip/file"
+    },
+    {
       rom: "Cyanogenmod 10.3",
       android: "4.3",
       date: "2013-11-02",
@@ -2062,6 +2123,13 @@ const romData = {
    
   "LG G3 (d855)": [
      {
+      rom: "Cyanogenmod 12.1",
+      android: "5.1",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/cd9rw1wetiojkmf/cm-12.1-20151117-SNAPSHOT-YOG7DAO1K8-d855.zip/file"
+    },
+    {
       rom: "LineageOS 17.1",
       android: "10",
       date: "2021-03-27",
@@ -2201,6 +2269,13 @@ const romData = {
       date: "2019-06-04",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/h9r2mb1lbxki1fc/PixelExperience_sirius-9.0-20190604-0848-UNOFFICIAL.zip/file"
+    },
+    {
+      rom: "LineageOS 17.1",
+      android: "10",
+      date: "2024-03-05",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/golbpdzuyimblga/lineage-17.1-20200730-UNOFFICIAL-sirius.zip/file"
     },
     {
       rom: "LineageOS 18.1",
