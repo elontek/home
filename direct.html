@@ -9,7 +9,7 @@
 <style>
   body {
     font-family: Roboto, -apple-system, BlinkMacSystemFont, sans-serif;
-    background-color: #f4f8ff; /* Açık mavi arka plan */
+    background-color: #000000; /* Açık mavi arka plan */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,10 +17,10 @@
   }
 
   #feedback-form {
-    background-color: #ffffff; /* Beyaz form arka planı */
-    padding: 30px;
+    background-color: #363636; /* Beyaz form arka planı */
+    padding: 34px;
     border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.158);
     width: 100%;
     max-width: 400000px;
   }
@@ -28,10 +28,10 @@
   #feedback-form textarea {
     width: 100%;
     padding: 12px;
-    margin-bottom: 15px;
-    border: 1px solid #cce0ff;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 15px;
     box-sizing: border-box;
   }
 
@@ -42,7 +42,7 @@
 
   #feedback-form button {
     background-color: #1a73e8;
-    color: white;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 12px;
     width: 100%;
@@ -60,7 +60,7 @@
   #feedback-form h2 {
     text-align: left;
     color: #2a86ff;
-    margin-bottom: 1px;
+    margin-bottom: 32px;
   }
 </style>
 </head>
@@ -68,14 +68,12 @@
 
   <form id="feedback-form">
   <h2>Feedback/Geri Bildirim</h2>
-  <p>Sitede hata varsa veya öneriniz varsa belirtmekten çekinmeyin.
-  </p>
+  <font color="white">Sitede hata varsa veya öneriniz varsa belirtmekten çekinmeyin.</font>
   <input type="text" name="name" placeholder="Name" required>
   <input type="email" name="email" placeholder="Email" required>
-  <p>(Girdiğiniz mailin gerçek olmasına gerek yoktur e@e.com yazsanız bile geçerlidir.)</p>
   <textarea name="message" placeholder="Text" required></textarea>
   <button type="submit" id="submit-btn">Gönder!</button>
-  <p id="form-message" style="color:green; display:none; margin-top:10px;"></p>
+  <p id="form-message" style="color:rgb(0, 150, 0); display:none; margin-top:10px;"></p>
 </form>
 
 <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
