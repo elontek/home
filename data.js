@@ -508,9 +508,9 @@ const romData = {
     {
       rom: "LineageOS 17.1",
       android: "10",
-      date: "2026-03-13",
-      type: "UNOFFICIAL (çoğu şey fixlendi!)",
-      url: "https://mega.nz/file/aMMHiJhK#rzpAkn4VF6XdsnL7X8xLrxHhEKzPceBU-RIVqb69FdQ"
+      date: "2026-03-31",
+      type: "UNOFFICIAL (wifi fixlendi!)",
+      url: "https://mega.nz/file/6dsExb4a#iubhoHn6uV6SDl3aNOnZleY7af6Vg8PeZWVHekmjV5U"
     },
     {
       rom: "Cyanogenmod 12.1",
