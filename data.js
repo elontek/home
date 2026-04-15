@@ -157,13 +157,6 @@ const romData = {
       url: "https://www.mediafire.com/file/xdqp0pc2r81vedx/cm-11-20150614-NIGHTLY-i9100.zip/file"
     },
     {
-      rom: "Slimrom",
-      android: "5.1",
-      date: "2015-07-16",
-      type: "UNOFFICIAL",
-      url: "https://www.mediafire.com/file/20sbgenoypjxipq/Slim.UNOFFICIAL-i9100-5.1.1.build.0.6-20150716.zip/file"
-    },
-    {
       rom: "Cyanogenmod 12.1",
       android: "5.1",
       date: "-",
@@ -2257,6 +2250,41 @@ const romData = {
     }
      
   ],
+    "Pocophone F1 (beryllium)": [
+    {
+      rom: "LineageOS 22.2",
+      android: "15",
+      date: "2026-03-17",
+      type: "OFFICIAL",
+      url: "https://b4.timschumi.net/lineage-archive/lineage-22.2-20260317-nightly-beryllium-signed.zip",
+    },
+
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/pmshncplfayijul/twrp-3.7.0_9-0-beryllium.img/file"
+    }
+  ],
+      "POCO X3 Pro": [
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2024-12-29",
+      type: "OFFICIAL",
+      url: "https://b4.timschumi.net/lineage-archive/lineage-20.0-20241229-nightly-vayu-signed.zip",
+    },
+
+    {
+      rom: "TWRP",
+      android: "3.7.1_12-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://eu.dl.twrp.me/vayu/twrp-3.7.1_12-0-vayu.img"
+    }
+  ],
+
    "Sony Xperia Z2 (sirius)": [
     {
       rom: "Cyanogenmod 11",
