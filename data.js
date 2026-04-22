@@ -1598,14 +1598,14 @@ const romData = {
       rom: "LineageOS 17.1",
       android: "10",
       date: "2021-03-20",
-      type: "UNOFFICIAL [Android file host servers down...]",
+      type: "UNOFFICIAL",
       url: "https://androidfilehost.com/?fid=2188818919693764995"
     },
     {
       rom: "TWRP",
       android: "3.5.1",
       date: "-",
-      type: "UNOFFICIAL [Android file host servers down...]",
+      type: "UNOFFICIAL",
       url: "https://androidfilehost.com/?fid=8889791610682936560"
     }
   ],
@@ -1644,7 +1644,7 @@ const romData = {
       rom: "LineageOS 11",
       android: "4.4",
       date: "2017-11-27",
-      type: "UNOFFICIAL [Android file host servers down...]",
+      type: "UNOFFICIAL",
       url: "https://ava2.androidfilehost.com/dl/0_wWwz1r5S46Wx4qK69Teg/1771769848/889964283620768863/lineage-11-20171127-UNOFFICIAL-gtelwifi.zip"
     },
      {
@@ -1817,6 +1817,22 @@ const romData = {
       url: "https://eu.dl.twrp.me/j5lte/twrp-3.6.1_9-0-j5lte.img.tar.html"
     }
   ],
+   "Samsung J5 2016 (j5xnlte)": [
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://eu.dl.twrp.me/j5xnlte/twrp-3.7.0_9-0-j5xnlte.img.tar.html"
+    },
+    {
+      rom: "LineageOS 17.1",
+      android: "10",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=8889791610682878177"
+    }
+  ],
 
    "Samsung J7 2015 (j7elte)": [
     {
@@ -1870,7 +1886,7 @@ const romData = {
       rom: "LineageOS 15.1",
       android: "8.1",
       date: "2018-06-24",
-      type: "UNOFFICIAL [Android file host servers down...]",
+      type: "UNOFFICIAL",
       url: "https://androidfilehost.com/?fid=818222786056041545"
     }
   ],
