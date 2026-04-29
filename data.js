@@ -2367,7 +2367,7 @@ const romData = {
       android: "11",
       date: "2024-03-06",
       type: "OFFICIAL",
-      url: "https://www.mediafire.com/file/hxig5kbtq1i9inw/lineage-18.1-20240306-nightly-z3-signed.zip/file"
+      url: "https://b4.timschumi.net/lineage-archive/lineage-18.1-20240306-nightly-z3-signed.zip"
     }
   ],
   "Sony Xperia Z3 Compact (D5803)": [
