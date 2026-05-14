@@ -521,10 +521,10 @@ const romData = {
     },
     {
       rom: "TWRP",
-      android: "3.1.1-0",
-      date: "-",
-      type: "OFFICIAL",
-      url: "https://www.mediafire.com/file/co67wukidu7g0j5/twrp-3.1.1-0-i9500.img.tar/file"
+      android: "3.2.1",
+      date: "2017-12-12",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/kttagapqkpvtgmh/twrp-ja3gxx-3.2.1-0-12.12.2017.img/file"
     }
   ],
    "Samsung S4 LTE (jfltexx) (i9505)": [
@@ -620,11 +620,53 @@ const romData = {
 
    "Samsung Galaxy S5 LTE (klte)": [
     {
+      rom: "Cyanogenmod 12.1",
+      android: "5.1",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/duh0rdo9lwsnzm9/cm-12.1-20151019-UNOFFICIAL-temasek-i9300-V18.0.zip/file"
+    },
+    {
+      rom: "Cyanogenmod 13",
+      android: "6",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://archive.org/download/cmarchive_snapshots/cm-13.0-20161013-SNAPSHOT-ZNH5YAO21L-klte.zip"
+    },
+    {
+      rom: "Cyanogenmod 14.1",
+      android: "7.1.1",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://archive.org/download/cmarchive_nighlies/cm-14.1-20161225-NIGHTLY-klte.zip"
+    },
+    {
       rom: "LineageOS 18.1",
       android: "11",
       date: "2024-03-06",
       type: "OFFICIAL",
       url: "https://b4.timschumi.net/lineage-archive/lineage-18.1-20240306-nightly-klte-signed.zip"
+    },
+    {
+      rom: "LineageOS 19.1",
+      android: "12",
+      date: "2024-03-06",
+      type: "UNOFFICIAL",
+      url: "https://sourceforge.net/projects/khalvat/files/Android%2012.1/lineage-19.1-20240910-UNOFFICIAL-klte.zip/download"
+    },
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2024-09-27",
+      type: "UNOFFICIAL",
+      url: "https://sourceforge.net/projects/khalvat/files/Android%2013/klte/lineage-20.0-20240927-UNOFFICIAL-klte.zip/download"
+    },
+    {
+      rom: "LineageOS 21",
+      android: "14",
+      date: "2024-04-23",
+      type: "UNOFFICIAL",
+      url: "https://sourceforge.net/projects/khalvat/files/Android%2014/klte/lineage-21.0-20240423-UNOFFICIAL-klte.zip/download"
     },
     {
       rom: "TWRP",
@@ -1640,13 +1682,6 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://mega.nz/file/PkURmKzK#uN9Vtt-gLj30UrENhiIpl-MZ7Dcy6-fmtdk2mgs6QAc"
     },
-    {
-      rom: "LineageOS 11",
-      android: "4.4",
-      date: "2017-11-27",
-      type: "UNOFFICIAL",
-      url: "https://ava2.androidfilehost.com/dl/0_wWwz1r5S46Wx4qK69Teg/1771769848/889964283620768863/lineage-11-20171127-UNOFFICIAL-gtelwifi.zip"
-    },
      {
       rom: "Touchwiz 6.0",
       android: "6.0",
@@ -1891,6 +1926,13 @@ const romData = {
     }
   ],
    "Samsung J7 Prime (on7xelte) (G610F)": [
+     {
+      rom: "Lineage 19.1",
+      android: "12",
+      date: "2026-02-15",
+      type: "UNOFFICIAL",
+      url: "https://mega.nz/file/180WjKiC#Mo5VaNLcf9Ze6yckhw_sVg8FTkS8MlLKfS9jsWd-XJo"
+    },
     {
       rom: "Lineage 18.1",
       android: "11",
@@ -1898,7 +1940,6 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/y6dhzrzsrhbjnq4/lineage-18.1-20240508-UNOFFICIAL-on7xelte.zip/file"
     },
-
     {
       rom: "LineageOS 16.0",
       android: "9",
@@ -1906,7 +1947,6 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/k6tqzw54n7x44qe/lineage-16.0-20181221-UNOFFICIAL-on7xelte.zip/file"
     },
-
     {
       rom: "TWRP",
       android: "3.7.1",
@@ -1914,14 +1954,34 @@ const romData = {
       type: ".img (recovery update), UNOFFICIAL",
       url: "https://www.mediafire.com/file/ijv5vkam65pvgxg/TWRP-3.7.1-on7xelte.img/file"
     },
-
-     {
+    {
+      rom: "TWRP",
+      android: "3.7.0",
+      date: "-",
+      type: ".img (recovery update), UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1PMTxt4niIyqYISXucG6lL36DcGkJrveP/view?usp=drive_link"
+    },
+    {
+      rom: "TWRP",
+      android: "3.6.0_9",
+      date: "-",
+      type: "(.tar) UNOFFICIAL",
+      url: "https://www.mediafire.com/file/atdhv4npw7jkgxk/twrp-3.6.0_9-on7xelte.tar/file"
+    },
+    {
+      rom: "TWRP",
+      android: "3.3.0",
+      date: "-",
+      type: ".tar (odin3) UNOFFICIAL",
+      url: "https://www.mediafire.com/file/2o4sstezla9vo0u/TWRP-3.3.0-Galaxy-J7-Prime.tar/file"
+    },
+    {
       rom: "TWRP",
       android: "3.2.1",
       date: "-",
       type: ".tar (odin3) UNOFFICIAL",
       url: "https://www.mediafire.com/file/1wu9j5febmb7dct/TWRP-3.2.1-For-Galaxy-J7-Prime.tar/file"
-    }
+    },
   ],
 
   "Samsung Trend Plus (kylepro)": [
@@ -1949,6 +2009,22 @@ const romData = {
       date:"-",
       type:"OFFICIAL",
       url:"https://www.mediafire.com/file/ne6xj4o5lrda5i7/twrp-3.7.0_9-0-core33g.img.tar/file"
+    }
+  ],
+    "Samsung A7 2016 (Exynos) (A710F)": [
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2023-09-25",
+      type: "UNOFFICIAL",
+      url: "https://ota.html6405.com/a7xelte/LOS20/20.0-20230925-HTML6405-a7xelte.zip"
+    },
+    {
+      rom:"TWRP",
+      android:"3.5.2_9-0",
+      date:"-",
+      type:"OFFICIAL",
+      url:"https://eu.dl.twrp.me/a7xelte/twrp-3.5.2_9-0-a7xelte.img.tar.html"
     }
   ],
    "Samsung A7 2017 (a7y17lte) (Exynos)": [
@@ -2402,15 +2478,28 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1dI21vinhmdcZoHvML-iBH7-BD-12T-2I/view"
     }
-    
   ],
   "Sony Xperia XZ Premium (G8141)": [
+     {
+      rom: "TWRP",
+      android: "3.6.2_12-0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://sourceforge.net/projects/yoshino/files/maple/twrp/twrp-3.6.2_12-0-20221002-maple.img/download",
+    },
    {
       rom: "LineageOS 20",
       android: "13",
       date: "2025-09-18",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/kpaywgz0chvgyur/[LineageOS20][G8141][4K].zip/file",
+    },
+    {
+      rom: "LineageOS 22",
+      android: "15",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://sourceforge.net/projects/sony-xperia-xz-premium-rom/files/lineage/maple/A15/2025-1-15/lineage-22.1-20250115-UNOFFICIAL-maple.zip/download",
     },
   ],
    "Turkcell T50 (ztebladevec4g)": [
@@ -2421,7 +2510,6 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1TWKbMTciGRh1xnEhksjAj-Zir8ZcnCxk/view?usp=drive_link"
     },
-
     {
       rom: "TWRP",
       android: "3.0_2.0",
@@ -2438,15 +2526,13 @@ const romData = {
       type: "OFFICIAL",
       url: "https://www.mediafire.com/file/athdzdwttheltsy/orangefox-ginkgo-stable.img/file"
     },
-
-    {
-      rom: "Crdroid",
-      android: "11",
-      date: "-",
-      type: "UNOFFICIAL",
-      url: "https://www.mediafire.com/file/3o04dk9bb0j5jyg/crDroidAndroid-11.0-20211010-ginkgo-v7.11+(3).zip/file"
-    }
-
+     {
+      rom: "LineageOS 23",
+      android: "16",
+      date: "2026-02-04",
+      type: "OFFICIAL",
+      url: "https://b4.timschumi.net/lineage-archive/lineage-23.0-20260204-nightly-ginkgo-signed.zip"
+    },
   ],
 
    "Redmi Note 8 Pro (Mediatek)": [
@@ -2456,7 +2542,14 @@ const romData = {
       date: "-",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/5x0iuirad9otryv/BRP3.5.2v3.1-fastboot.zip/file"
-    }
+    },
+     {
+      rom: "LineageOS 23.2",
+      android: "16",
+      date: "2026-03-28",
+      type: "UNOFFICIAL",
+      url: "https://sourceforge.net/projects/danascape/files/begonia/lineage-23.2/20260328/lineage-23.2-20260328-UNOFFICIAL-begonia.zip/download"
+    },
   ],
 };
 
