@@ -1903,10 +1903,10 @@ const romData = {
     },
     {
       rom: "TWRP",
-      android: "3.2.3-1",
+      android: "3.7.0_9-0",
       date: "-",
       type: "UNOFFICIAL",
-      url: "https://www.mediafire.com/file/jag0qpric5lpsc2/twrp_3.2.3-1_J610_21230.tar/file"
+      url: "https://www.mediafire.com/file/pnwc2ajnytwwsm6/twrp-3.7.0_9-0-j6primelte.img/file"
     }
   ],
    "Samsung J7 2016 (j7xelte) (Exynos)": [
