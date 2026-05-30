@@ -521,10 +521,24 @@ const romData = {
     },
     {
       rom: "TWRP",
+      android: "3.1.1",
+      date: "2017-12-12",
+      type: "UNOFFICIAL",
+      url: "https://eu.dl.twrp.me/i9500/twrp-3.1.1-0-i9500.img.tar.html"
+    },
+    {
+      rom: "TWRP",
       android: "3.2.1",
       date: "2017-12-12",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/kttagapqkpvtgmh/twrp-ja3gxx-3.2.1-0-12.12.2017.img/file"
+    },
+    {
+      rom: "TWRP",
+      android: "3.2.1",
+      date: "2017-12-12",
+      type: "TEST BUILD Çalışıyorsa mail gönderin!",
+      url: "https://www.mediafire.com/file/7ssdnzqvds8poss/twrp-3.2.1-0-ja3gxx.tar/file"
     }
   ],
    "Samsung S4 LTE (jfltexx) (i9505)": [
@@ -1901,7 +1915,7 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1YvNm06d4lXXyrAMDwNgOY5YR5zwDoHGR/view"
     },
-    {
+     {
       rom: "TWRP",
       android: "3.7.0_9-0",
       date: "-",
@@ -1914,7 +1928,7 @@ const romData = {
       date: "-",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/jag0qpric5lpsc2/twrp_3.2.3-1_J610_21230.tar/file"
-     }
+    }
   ],
    "Samsung J7 2016 (j7xelte) (Exynos)": [
     {
