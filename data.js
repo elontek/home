@@ -9,7 +9,7 @@ const romData = {
     },
     {
       rom: "Cyanogenmod 9",
-      android: "4.0.4",
+      android: "4.0",
       date: "-",
       type: "OFFICIAL",
       url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/cm-9.1.0-galaxysmtd.zip"
