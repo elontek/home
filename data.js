@@ -543,6 +543,13 @@ const romData = {
   ],
    "Samsung S4 LTE (jfltexx) (i9505)": [
     {
+      rom: "LineageOS 19.1",
+      android: "12",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1zKFZ4S8nlX35oksYoSxLHk5lbIyuaiwU/view?usp=drive_link"
+    },
+    {
       rom: "Crdroid",
       android: "11",
       date: "2024-08-28",
@@ -633,13 +640,6 @@ const romData = {
   ],
 
    "Samsung Galaxy S5 LTE (klte)": [
-    {
-      rom: "Cyanogenmod 12.1",
-      android: "5.1",
-      date: "-",
-      type: "OFFICIAL",
-      url: "https://www.mediafire.com/file/duh0rdo9lwsnzm9/cm-12.1-20151019-UNOFFICIAL-temasek-i9300-V18.0.zip/file"
-    },
     {
       rom: "Cyanogenmod 13",
       android: "6",
@@ -828,6 +828,13 @@ const romData = {
       url: "https://drive.google.com/file/d/14CSwq3q8MHm5eRF6xPHKFjLIbHLWE1FD/view"
     },
     {
+      rom: "LineageOS 23.2",
+      android: "16",
+      date: "2026-05-27",
+      type: "UNOFFICIAL",
+      url: "https://github.com/flo2theO/Samsung-Galaxy-S7-Lineageos/releases/download/Lineageos23-27-05-2026/lineage-23.2-20260527-UNOFFICIAL-herolte.zip"
+    },
+    {
       rom: "TWRP",
       android: "3.7.0_9-0",
       date: "2025-02-27",
@@ -894,13 +901,6 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1wnLD_-eLyKvQpOD__MYn3QzJ9PKPb1UU/view?usp=drive_link"
     },
-    {
-      rom: "ONE UI 7",
-      android: "15",
-      date: "2025-08-02",
-      type: "PORT",
-      url: "https://xdaforums.com/attachments/exynos8895-15-0-0_v1-0-5-1-rc-20250802-zip.6256165/"
-    },
      {
       rom: "TWRP",
       android: "3.7.0_9-0",
@@ -924,13 +924,6 @@ const romData = {
       date: "?",
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1KS4YJ2hSP_Ro457oT9NO_X8Ux7m9rA7b/view?usp=drive_link"
-    },
-    {
-      rom: "ONE UI 7",
-      android: "15",
-      date: "2025-08-02",
-      type: "PORT",
-      url: "https://xdaforums.com/attachments/exynos8895-15-0-0_v1-0-5-1-rc-20250802-zip.6256165/"
     },
     {
       rom: "TWRP",
@@ -1099,6 +1092,22 @@ const romData = {
       type: "OFFICIAL",
       url: "https://www.mediafire.com/file/gx7hzi0tqg4c6cy/twrp-3.7.0_9-0-n7100.img.tar/file"
     }
+  ],
+  "Samsung Galaxy Note 3 (hlte)(Snapdragon)": [
+    {
+      rom: "LineageOS 21",
+      android: "14",
+      date: "2025-04-06",
+      type: "UNOFFICIAL",
+      url: "https://ota.html6405.com/hlte/LOS21/21.0-20250406-HTML6405-hlte.zip"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://eu.dl.twrp.me/hlte/twrp-3.7.0_9-0-hlte.img.tar.html"
+    },
   ],
 
   "Samsung Galaxy Note 3 (ha3g)(Exynos)": [
@@ -1437,13 +1446,6 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://github.com/ivanmeler/ota_provider/releases/download/greatlte_lineage-21.0_1718805359/lineage-21.0-20240619-UNOFFICIAL-greatlte.zip"
     },
-    {
-      rom: "ONE UI 7",
-      android: "15",
-      date: "2025-08-02",
-      type: "PORT",
-      url: "https://xdaforums.com/attachments/exynos8895-15-0-0_v1-0-5-1-rc-20250802-zip.6256165/"
-    }
   ],
   
    "Samsung Note 9 (crownlte)(Exynos)": [
@@ -2570,6 +2572,36 @@ const romData = {
       date: "2026-03-28",
       type: "UNOFFICIAL",
       url: "https://sourceforge.net/projects/danascape/files/begonia/lineage-23.2/20260328/lineage-23.2-20260328-UNOFFICIAL-begonia.zip/download"
+    },
+  ],
+  "Redmi Note 11s (fleur)": [
+    {
+      rom: "Orangefox Recovery",
+      android: "OrangeFox-R12.1",
+      date: "-",
+      type: "-",
+      url: "https://sourceforge.net/projects/fleur/files/OFOX/OrangeFox-R12.1-29092023-Stable-Fleur.zip/download"
+    },
+     {
+      rom: "LineageOS 23",
+      android: "16",
+      date: "2026-02-04",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1z94ZXPcYpURFgRTlEhAEt47NesjHuqPH/view?usp=drive_link"
+    },
+    {
+      rom: "LineageOS 22.1",
+      android: "15",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://github.com/mt6781-devs/releases/releases/download/lineage-22/lineage-22.1-20250303-UNOFFICIAL-fleur.zip"
+    },
+    {
+      rom: "Evolution X",
+      android: "15",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://pixeldrain.com/u/8qJ1vrMv"
     },
   ],
 };
