@@ -9,7 +9,7 @@ const romData = {
     },
     {
       rom: "Cyanogenmod 9",
-      android: "4.0",
+      android: "4.0.4",
       date: "-",
       type: "OFFICIAL",
       url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/cm-9.1.0-galaxysmtd.zip"
@@ -765,12 +765,19 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/edukdoua42pfw1q/evolution_zerofltexx-ota-tq3c.230901.001.b1-09222348-unofficial-unsigned.zip/file"
     },
+     {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://github.com/fakemanoan/LineageOS-Releases/releases/download/A13-09042026/lineage-20.0-20260409-UNOFFICIAL-zerolte.zip"
+    },
     {
       rom: "TWRP",
       android: "3.7.0_9-0",
       date: "-",
       type: "OFFICIAL",
-      url: "https://www.mediafire.com/file/5yzalpz9yy74zdi/twrp-3.7.0_9-0-kmini3g.img.tar/file"
+      url: "https://www.mediafire.com/file/782phjl2e4cgg28/TWRP_3.7.0-9-2-fakeman_zerolte.tar/file"
     },
     
   ],
