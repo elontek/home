@@ -910,10 +910,10 @@ const romData = {
     },
      {
       rom: "TWRP",
-      android: "3.7.0_9-0",
+      android: "3.5.2_9-0",
       date: "-",
       type: "OFFICIAL",
-      url: "https://www.mediafire.com/file/db3ha5stu37wu5o/twrp-3.7.0_9-0-dreamlte.img.tar/file"
+      url: "https://eu.dl.twrp.me/dreamlte/twrp-3.5.2_9-0-dreamlte.img.tar.html"
     }
     
   ],
