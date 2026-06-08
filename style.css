@@ -10,23 +10,72 @@
   --table-row-border: #ddd;
   --download-color: #2665ca;
   --logo-color: #ffffff;
+  --navbar-bg: #0d68d1;
 }
 
-body {
+body.dark {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --sidebar-bg: hsl(0, 2%, 9%);
+  --sidebar-text: #31a1fd;
+  --sidebar-title: #cccccc;
+  --main-bg: #000000;
+  --table-header-bg: #2a2a2a;
+  --table-border-color: #3a3a3a;
+  --table-row-border: #2b2a2a;
+  --download-color: #74c0fc;
+  --logo-color: #ffffff;
+}
+
+html, body {
   margin: 0;
-  background: var(--bg-color);
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
   font-family: 'Inter', sans-serif;
   font-size: 18px;
+  background: var(--bg-color);
   color: var(--text-color);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 60px;
+  background: var(--navbar-bg);
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
   color: var(--logo-color);
 }
 
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.navbar a:hover {
+  color: #049fec;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
 .wrapper {
   display: flex;
-  min-height: 122vh;
+  height: calc(100vh - 60px); 
+  width: 100%;
 }
 
 .sidebar {
@@ -34,6 +83,7 @@ body {
   background: var(--sidebar-bg);
   border-right: 1px solid #303030;
   padding: 15px;
+  overflow-y: auto; 
 }
 
 .sidebar-title {
@@ -45,8 +95,6 @@ body {
 
 .sidebar ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
 .sidebar li {
@@ -66,14 +114,19 @@ body {
 
 .main {
   flex: 1;
-  padding: 1px;
+  padding: 20px;
   background: var(--main-bg);
+  overflow-y: auto; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
+/* Tablo Tasarımı */
 .romtable {
   width: 100%;
   border-collapse: collapse;
-  border-spacing: 0 8px;
+  margin-bottom: 20px;
 }
 
 .romtable th {
@@ -81,19 +134,18 @@ body {
   background: var(--table-header-bg);
   font-weight: normal;
   text-align: left;
-  padding: 6px;
+  padding: 12px 6px;
   border-bottom: 3px solid var(--table-border-color);
 }
 
 .romtable tr {
   background: #1e1e1e;
-  border-radius: 10px;
 }
 
-.romtable td{
+.romtable td {
   padding: 12px;
   border-bottom: 1px solid var(--table-row-border);
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 .download {
@@ -101,28 +153,11 @@ body {
   text-decoration: none;
 }
 
-body.dark {
-  --bg-color: #121212;
-  --text-color: #e0e0e0;
-  --sidebar-bg: hsl(0, 2%, 9%);
-  --sidebar-text: #31a1fd;
-  --sidebar-title: #cccccc;
-  --main-bg: #000000;
-  --table-header-bg: #2a2a2a;
-  --table-border-color: #3a3a3a;
-  --table-row-border: #2b2a2a;
-  --download-color: #74c0fc;
-  --logo-color: #ffffff;
-}
-
-.nav-links {
-    display: flex;
-    align-items: center;
-}
-
-
-.dark-toggle:hover {
-    color: var(--navbar-link-hover);
+.footer-note {
+  text-align: center;
+  color: rgb(4, 184, 255);
+  margin-top: auto;
+  padding-top: 20px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -139,4 +174,35 @@ body.dark {
     --download-color: #74c0fc;
     --logo-color: #ffffff;
   }
+  
+  
+.sidebar::-webkit-scrollbar,
+.main::-webkit-scrollbar {
+  width: 8px; 
+}
+
+.sidebar::-webkit-scrollbar-track,
+.main::-webkit-scrollbar-track {
+  background: #000000; 
+}
+
+.sidebar::-webkit-scrollbar-thumb,
+.main::-webkit-scrollbar-thumb {
+  background: #333333; 
+  border-radius: 10px;
+  border: 2px solid #000000; 
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover,
+.main::-webkit-scrollbar-thumb:hover {
+  background: #444444; 
+}
+
+.sidebar, .main {
+  scrollbar-width: thin;
+  scrollbar-color: #333333 #000000;
+}
+  
+  
+  
 }
