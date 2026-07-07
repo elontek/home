@@ -1,5 +1,5 @@
 const romData = {
-  "Samsung Galaxy S (i9000)": [
+     "Samsung Galaxy S (i9000)": [
     {
       rom: "Cyanogenmod 7",
       android: "2.3",
@@ -9,7 +9,7 @@ const romData = {
     },
     {
       rom: "Cyanogenmod 9",
-      android: "4.0",
+      android: "4.0.4",
       date: "-",
       type: "OFFICIAL",
       url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/cm-9.1.0-galaxysmtd.zip"
@@ -125,9 +125,9 @@ const romData = {
       date: "-",
       type: "-",
       url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/Odin/Semaphore_KK_3.4.3.tar"
-    }
+    },
   ],
-  "Samsung S2 (i9100)": [
+   "Samsung S2 (i9100)": [
     {
       rom: "Cyanogenmod 9",
       android: "4.0",
@@ -218,7 +218,7 @@ const romData = {
       date: "-",
       type: "recovery,kernel,pit",
       url: "https://app.mediafire.com/folder/qqdmgync4hh07"
-    }
+    },
   ],
   "Samsung Galaxy S3 (i9300)": [
     {
@@ -284,7 +284,7 @@ const romData = {
       type: "SNAPSHOT",
       url: "https://drive.google.com/file/d/1lIrUKCVeCCzQeMLe0aIgH9uA3x4N2va2/view"
     },
-    {
+     {
       rom: "CyanogenMod 13",
       android: "6.0",
       date: "2016-06-25",
@@ -298,7 +298,8 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1VoQZdXSEfgaAzSP9bP1wFAfIq4R6-t2x/view"
     },
-    {
+
+     {
       rom: "LineageOS 14.1",
       android: "7.1",
       date: "2019-02-17",
@@ -312,7 +313,7 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1mNAKRhm0q_VJZJ3nRtjWRWnlU54vtso5/view"
     },
-    {
+     {
       rom: "CarbonRom",
       android: "8.1",
       date: "-",
@@ -326,6 +327,7 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1L8bh2tFpVGFa-zjxLjsBKQJIL8wmlVtS/view"
     },
+    
     {
       rom: "LineageOS 17.1",
       android: "10",
@@ -340,6 +342,7 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1o3PZ1di9mCd0kK44bwPEpOBPAtWtJp1Q/view"
     },
+
     {
       rom: "LineageOS 20",
       android: "13",
@@ -354,15 +357,16 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/bpmgudoj6b024fq/21.0-20241029-HTML6405-i9300.zip/file"
     },
+
     {
       rom: "chrono_kernel",
       android: "CM 14.1 de uyumlu",
       date: "-",
       type: "kernel",
       url: "https://www.mediafire.com/file/hev22jhzqisfrqk/chrono_kernel_r1.0-25-2dd151f1068-m0.zip/file"
-    }
+    },
   ],
-  "Samsung Galaxy S3 Neo (s3ve3gjv,s3ve3gds)": [
+   "Samsung Galaxy S3 Neo (s3ve3gjv,s3ve3gds)": [
     {
       rom: "LineageOS 20",
       android: "13",
@@ -376,15 +380,17 @@ const romData = {
       date: "2023-10-23",
       type: "s3ve3gds",
       url: "https://ota.html6405.com/s3ve3gds/LOS20/20.0-20231023-HTML6405-s3ve3gds.zip"
-    }
+    },
+    
   ],
   "Samsung Galaxy S3 Mini (i8190)": [
+     
     {
       rom: "TWRP'ler...",
       android: "2.6-3.1...",
       date: "-",
       type: "UNOFFICIAL",
-      url: "https://app.mediafire.com/folder/fxstqew10pcx2"
+      url:  "https://app.mediafire.com/folder/fxstqew10pcx2"
     },
     {
       rom: "CyanogenMod 10",
@@ -400,6 +406,7 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/qvvfwsr27o4tv3k/cm10.1_golden.nova.20140430.zip/file"
     },
+     
     {
       rom: "CyanogenMod 10.2",
       android: "4.3",
@@ -442,13 +449,14 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/4x0cd0h8aymqb5o/cm-13.0-20161120-UNOFFICIAL-golden.zip/file"
     },
-    {
+     {
       rom: "Cyanogenmod 13",
       android: "6",
       date: "2017-03-28",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/voqr6vpncay1sn0/los13.0_golden.nova.20170328.zip/file"
     },
+   
     {
       rom: "LineageOS 14.1",
       android: "7.1",
@@ -469,8 +477,10 @@ const romData = {
       date: "-",
       type: "(.zip) stock rom",
       url: "https://www.mediafire.com/file/kpnlom28ndqqm8t/i8190_XXAMG4_XXAMG4_rootfixed.zip/file"
-    }
+    },
+
   ],
+  
   "Samsung Galaxy S3 Mini Value Edition (i8200Q/N)": [
     {
       rom: "CyanogenMod 11",
@@ -487,7 +497,7 @@ const romData = {
       url: "https://www.mediafire.com/file/rgnsy89usw6qdjx/twrp-2.8.2.0-i8200Q.tar/file"
     }
   ],
-  "Samsung S4 (ja3g) (i9500)": [
+   "Samsung S4 (ja3g) (i9500)": [
     {
       rom: "LineageOS 17.1",
       android: "10",
@@ -500,7 +510,7 @@ const romData = {
       android: "5.1",
       date: "2015-08-10",
       type: "UNOFFICIAL",
-      url: "https://androidfilehost.com/?fid=2405280434779116"
+      url: "https://androidfilehost.com/?fid=24052804347791163"
     },
     {
       rom: "LineageOS 14.1",
@@ -520,18 +530,18 @@ const romData = {
       rom: "TWRP",
       android: "3.2.1",
       date: "2017-12-12",
-      type: "UNOFFICIAL (.img)",
+      type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/kttagapqkpvtgmh/twrp-ja3gxx-3.2.1-0-12.12.2017.img/file"
     },
     {
       rom: "TWRP",
       android: "3.2.1",
       date: "2017-12-12",
-      type: "UNOFFICIAL (.tar)",
+      type: "TEST BUILD Çalışıyorsa mail gönderin!",
       url: "https://www.mediafire.com/file/7ssdnzqvds8poss/twrp-3.2.1-0-ja3gxx.tar/file"
     }
   ],
-  "Samsung S4 LTE (jfltexx) (i9505)": [
+   "Samsung S4 LTE (jfltexx) (i9505)": [
     {
       rom: "LineageOS 19.1",
       android: "12",
@@ -554,14 +564,14 @@ const romData = {
       url: "https://www.mediafire.com/file/8ppv6znjuykfaah/twrp-3.6.1_9-0-jflte.img.tar/file"
     }
   ],
-  "Samsung S4 (i9506) (ks01ltexx)": [
+   "Samsung S4 (i9506) (ks01ltexx)": [
     {
       rom: "LineageOS",
       android: "12",
       date: "2022-09-07",
       type: "UNOFFICIAL",
       url: "https://androidfilehost.com/?fid=14871746926876821157"
-    }
+    },
   ],
   "Samsung S4 Mini 3G (serrano3gxx) (i9190)": [
     {
@@ -628,7 +638,8 @@ const romData = {
       url: "https://www.mediafire.com/file/plndofx9pd337i7/twrp-3.7.0_9-0-serrano3gxx.img.tar/file"
     }
   ],
-  "Samsung Galaxy S5 LTE (klte)": [
+
+   "Samsung Galaxy S5 LTE (klte)": [
     {
       rom: "Cyanogenmod 13",
       android: "6",
@@ -669,7 +680,7 @@ const romData = {
       android: "14",
       date: "2024-04-23",
       type: "UNOFFICIAL",
-      url: "https://sourceforge.net/projects/khalvat/files/Android%2014/klte/lineage-21.0-20240423-UNOFFICIAL-klte.zip/dows/Android%2014/klte/lineage-21.0-20240423-UNOFFICIAL-klte.zip/download"
+      url: "https://sourceforge.net/projects/khalvat/files/Android%2014/klte/lineage-21.0-20240423-UNOFFICIAL-klte.zip/download"
     },
     {
       rom: "TWRP",
@@ -899,10 +910,10 @@ const romData = {
     },
      {
       rom: "TWRP",
-      android: "3.5.2_9-0",
+      android: "3.7.0_9-0",
       date: "-",
       type: "OFFICIAL",
-      url: "https://eu.dl.twrp.me/dreamlte/twrp-3.5.2_9-0-dreamlte.img.tar.html"
+      url: "https://www.mediafire.com/file/db3ha5stu37wu5o/twrp-3.7.0_9-0-dreamlte.img.tar/file"
     }
     
   ],
@@ -1542,13 +1553,6 @@ const romData = {
       date: "-",
       type: "UNOFFICIAL",
       url: "https://sourceforge.net/projects/retiredtab/files/SM-T800/22.2/lineage-22.2-20260603-UNOFFICIAL-chagallwifi.zip/download"
-    },
-    {
-      rom: "LineageOS 20",
-      android: "13",
-      date: "-",
-      type: "UNOFFICIAL",
-      url: "https://github.com/davigamer987/releases/releases/download/los-chagallwifi/lineage-20.0-20230426-UNOFFICIAL-chagallwifi.zip"
     },
   ],
    "Samsung Galaxy Tab 3 Lite (goyawifi)(T113)": [
@@ -2302,6 +2306,13 @@ const romData = {
       date: "-",
       type: "(UNOFFICIAL) USU OLANLARI KULLANIN!!!!!",
       url: "https://mega.nz/folder/pNsyETaL#-prGuWKtzK1dagpc6P9FhQ",
+    },
+     {
+      rom: "TWRP",
+      android: "3.7.1_12",
+      date: "-",
+      type: "UNOFFICIAL (h815)",
+      url: "https://www.mediafire.com/file/xwhfe4u91o63u0n/TWRP-3.7.1_12-H815.img/file",
     },
     {
       rom: "TWRP",
