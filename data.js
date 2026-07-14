@@ -1119,6 +1119,13 @@ const romData = {
 
   "Samsung Galaxy Note 3 (ha3g)(Exynos)": [
     {
+      rom: "CyanogenMod 11",
+      android: "4.4.4",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://pixeldrain.com/u/Qv1zgFje"
+    },
+    {
       rom: "CyanogenMod 12.1",
       android: "5.1",
       date: "2015-07-31",
