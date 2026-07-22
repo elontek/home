@@ -2620,7 +2620,7 @@ const romData = {
       date: "-",
       type: "UNOFFICIAL",
       url: "https://archive.org/download/xperia-m2-firmware-archive/Xperia%20M2%20LTE%20%28eagle%2C%20D2303%29/ROM%27s/Lollipop/Custom/OmniRom%205.1%20eagle.zip"
-    },stom/
+    },
     {
       rom: "Cyanogenmod 13",
       android: "6.0.1",
