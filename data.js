@@ -222,6 +222,13 @@ const romData = {
   ],
   "Samsung Galaxy S3 (i9300)": [
     {
+      rom: "TWRP",
+      android: "3.7",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://eu.dl.twrp.me/i9300/twrp-3.7.0_9-0-i9300.img.tar.html"
+    },
+    {
       rom: "CyanogenMod 9",
       android: "4.0",
       date: "2012",
@@ -366,7 +373,7 @@ const romData = {
       url: "https://www.mediafire.com/file/hev22jhzqisfrqk/chrono_kernel_r1.0-25-2dd151f1068-m0.zip/file"
     },
   ],
-   "Samsung Galaxy S3 Neo (s3ve3gjv,s3ve3gds)": [
+   "Samsung Galaxy S3 Neo (s3ve3gjv,s3ve3gds,s3ve3g)": [
     {
       rom: "LineageOS 20",
       android: "13",
@@ -381,13 +388,21 @@ const romData = {
       type: "s3ve3gds",
       url: "https://ota.html6405.com/s3ve3gds/LOS20/20.0-20231023-HTML6405-s3ve3gds.zip"
     },
+     {
+      rom: "TWRP",
+      android: "3.7",
+      date: "-",
+      type: "s3ve3g/ds",
+      url: "https://dl.twrp.me/s3ve3g/twrp-3.7.0_9-1-s3ve3g.img.tar.html"
+    },
+    
     
   ],
   "Samsung Galaxy S3 Mini (i8190)": [
      
     {
       rom: "TWRP'ler...",
-      android: "2.6-3.1...",
+      android: "2.6-3.2...",
       date: "-",
       type: "UNOFFICIAL",
       url:  "https://app.mediafire.com/folder/fxstqew10pcx2"
@@ -521,13 +536,6 @@ const romData = {
     },
     {
       rom: "TWRP",
-      android: "3.1.1",
-      date: "2017-12-12",
-      type: "UNOFFICIAL",
-      url: "https://eu.dl.twrp.me/i9500/twrp-3.1.1-0-i9500.img.tar.html"
-    },
-    {
-      rom: "TWRP",
       android: "3.2.1",
       date: "2017-12-12",
       type: "UNOFFICIAL",
@@ -537,7 +545,7 @@ const romData = {
       rom: "TWRP",
       android: "3.2.1",
       date: "2017-12-12",
-      type: "TEST BUILD Çalışıyorsa mail gönderin!",
+      type: "UNOFFICIAL (.tar)",
       url: "https://www.mediafire.com/file/7ssdnzqvds8poss/twrp-3.2.1-0-ja3gxx.tar/file"
     }
   ],
@@ -566,14 +574,35 @@ const romData = {
   ],
    "Samsung S4 (i9506) (ks01ltexx)": [
     {
-      rom: "LineageOS",
-      android: "12",
-      date: "2022-09-07",
+      rom: "LineageOS 20",
+      android: "13",
+      date: "-",
       type: "UNOFFICIAL",
-      url: "https://androidfilehost.com/?fid=14871746926876821157"
+      url: "https://sourceforge.net/projects/khalvat/files/Android%2013/ks01lte/lineage-20.0-20240928-UNOFFICIAL-ks01lte.zip/download"
+    },
+    {
+      rom: "LineageOS 21",
+      android: "14",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://sourceforge.net/projects/khalvat/files/Android%2014/ks01lte/lineage-21.0-20240118-UNOFFICIAL-ks01lte.zip/download"
+    },
+    {
+      rom: "TWRP",
+      android: "3.5.2_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://dl.twrp.me/ks01lte/twrp-3.5.2_9-0-ks01lte.img.tar.html"
     },
   ],
   "Samsung S4 Mini 3G (serrano3gxx) (i9190)": [
+    {
+      rom: "TWRP",
+      android: "3.7.0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://eu.dl.twrp.me/serrano3gxx/twrp-3.7.0_9-0-serrano3gxx.img.tar.html"
+    },
     {
       rom: "Cyanogenmod 10.2.1",
       android: "4.3.1",
@@ -584,7 +613,7 @@ const romData = {
     {
       rom: "CarbonRom",
       android: "4.4",
-      date: "2014-  05-23",
+      date: "2014-05-23",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/7gu59ycih7migwu/CARBON-KK-UNOFFICIAL-20140523-1207-serrano3gxx.zip/file"
     },
@@ -614,7 +643,7 @@ const romData = {
       android: "9",
       date: "2022-08-17",
       type: "UNOFFICIAL",
-      url: "https://www.mediafire.com/file/chsjkgnb2os2m4h/lineage-16.0-20220817-UNOFFICIAL-serrano3gxx.zip/filez"
+      url: "https://www.mediafire.com/file/chsjkgnb2os2m4h/lineage-16.0-20220817-UNOFFICIAL-serrano3gxx.zip/file"
     },
     {
       rom: "LineageOS 17.1",
@@ -759,7 +788,7 @@ const romData = {
   ],
     "Samsung Galaxy S6 Edge (zerolte)": [
     {
-      rom: "Evoluiton X",
+      rom: "Evolution X",
       android: "13",
       date: "-",
       type: "UNOFFICIAL",
@@ -846,7 +875,7 @@ const romData = {
       android: "3.7.0_9-0",
       date: "2025-02-27",
       type: "UNOFFICIAL",
-      url: "https://www.mediafire.com/file/m2a7sj4wwlvlmsv/twrp-3.7.0_9-1-herolte.img.tar/file"
+      url: "https://github.com/ananjaser1211/android_device_samsung_hero/releases/download/3.7.0_9-herolte/TWRP-3.7.0_9-herolte-20231019.tar"
     }
   ],
   "Samsung Galaxy S7 Edge (hero2lte) (Exynos)": [
@@ -875,8 +904,8 @@ const romData = {
       rom: "TWRP",
       android: "3.7.0_9-0",
       date: "-",
-      type: "OFFICIAL",
-      url: "https://www.mediafire.com/file/68bicqr1hbx38a8/twrp-3.7.0_9-0-hero2lte.img.tar/file"
+      type: "UNOFFICIAL",
+      url: "https://github.com/ananjaser1211/android_device_samsung_hero/releases/download/3.7.0_9-hero2lte/TWRP-3.7.0_9-hero2lte-20231019.tar"
     }
   ],
    "Samsung Galaxy S8 (dreamlte) (Exynos)": [
@@ -902,7 +931,7 @@ const romData = {
       url: "https://github.com/ivanmeler/ota_provider/releases/download/dreamlte_lineage-21.0_1724172471/lineage-21.0-20240820-UNOFFICIAL-dreamlte.zip"
     },
     {
-      rom: "Evoluiton X",
+      rom: "Evolution X",
       android: "13",
       date: "-",
       type: "UNOFFICIAL",
@@ -926,7 +955,7 @@ const romData = {
       url: "https://github.com/ivanmeler/ota_provider/releases/download/dream2lte_lineage-20.0_1751125803/lineage-20.0-20250628-UNOFFICIAL-dream2lte.zip"
     },
     {
-      rom: "Evoluiton X",
+      rom: "Evolution X",
       android: "13",
       date: "?",
       type: "UNOFFICIAL",
@@ -1325,7 +1354,7 @@ const romData = {
   
   "Samsung Note 5 (noblelte)(Exynos)": [
      {
-      rom: "Evoluiton X",
+      rom: "Evolution X",
       android: "10",
       date: "",
       type: "UNOFFICIAL",
@@ -1447,7 +1476,7 @@ const romData = {
       url: "https://github.com/ivanmeler/ota_provider/releases/download/greatlte_lineage-20.0_1751127889/lineage-20.0-20250628-UNOFFICIAL-greatlte.zip"
     },
         {
-      rom: "Evoluiton X",
+      rom: "Evolution X",
       android: "13",
       date: "?",
       type: "UNOFFICIAL",
@@ -1511,11 +1540,25 @@ const romData = {
       url: "https://drive.google.com/file/d/13uQjchKf4ixSumhTY2qd6A5xL99-dZ7q/view"
     },
     {
-      rom: "TWRP",
-      android: "3.2",
+      rom: "LineageOS 19.1",
+      android: "12",
       date: "-",
       type: "UNOFFICIAL",
-      url: "https://androidfilehost.com/?fid=1395089523397913487"
+      url: "https://mega.nz/folder/lpFBBapA#QmhFvrcU75CukIexet_pwg"
+    },
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://ota.html6405.com/ms013g/LOS20/20.0-20231023-HTML6405-ms013g.zip"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/djbh0fk14el20e3/Twrp_3.7.0_9-0_ms013g.tar/file"
     }
   ],
   
@@ -1734,6 +1777,15 @@ const romData = {
       url: "https://www.mediafire.com/file/hx6fprgja879i9h/twrp_3.0.2-1_sm-t560%2528Tab-E-9.6%2529.tar/file"
     }
   ],
+  "Samsung Tab E (T560NU)(gtelwifiue)": [
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2026-05-04",
+      type: "UNOFFICIAL",
+      url: "https://sourceforge.net/projects/retiredtab/files/SM-T560NU/20/lineage-20.0-20260504-UNOFFICIAL-gtelwifiue.zip/download"
+    },
+  ],
    "Samsung Tab A (T350)": [
     {
       rom: "LineageOS 20",
@@ -1915,6 +1967,13 @@ const romData = {
       url: "https://github.com/batuhantrkgl/Releases/releases/tag/LineageOS-18.1-30072025-j7elte"
     },
     {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://ota.html6405.com/j7elte/LOS20/20.0-20230925-HTML6405-j7elte.zip"
+    },
+    {
       rom: "TWRP",
       android: "3.6.1_9-0",
       date: "-",
@@ -1967,7 +2026,7 @@ const romData = {
       date: "2018-06-24",
       type: "UNOFFICIAL",
       url: "https://androidfilehost.com/?fid=818222786056041545"
-    }
+    },
   ],
    "Samsung J7 Prime (on7xelte) (G610F)": [
      {
@@ -2109,6 +2168,22 @@ const romData = {
       type:"OFFICIAL",
       url:"https://dl.twrp.me/a505f/twrp-3.7.0_11-0-a505f.img.tar.html"
     }
+  ],
+   "Samsung Galaxy A21s (a21s)": [
+    {
+      rom: "TWRP",
+      android: "-",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/blwjqeukiyptri5/TWRPV2.tar/file"
+    },
+     {
+      rom: "LineageOS 23.2",
+      android: "16",
+      date: "2026-02-17",
+      type: "UNOFFICIAL",
+      url: "https://b4.timschumi.net/lineage-archive/lineage-23.2-20260217-nightly-a21s-signed.zip"
+    },
   ],
    "Samsung Wave (S8500)": [
     {
@@ -2340,6 +2415,13 @@ const romData = {
   ],
      "LG Optimus L5 (e610)": [
     {
+      rom: "TWRP",
+      android: "3.0.2-0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/6n1g3hpvgtnoduo/TWRP_3.0.2.0_Flashable[e610_e612].zip/file"
+    },
+    {
       rom: "CyanogenMod 10",
       android: "4.1",
       date: "2013-09-01",
@@ -2373,6 +2455,13 @@ const romData = {
       date: "2016-05-31",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/1iz6myut11qea9v/cm-13.0-20160531-UNOFFICIAL-e610.zip/file"
+    },
+     {
+      rom: "CyanogenMod 14.1",
+      android: "7.1.2",
+      date: "-",
+      type: "UNOFFICIAL [E610/E612/E617]",
+      url: "https://xdaforums.com/attachments/lineage-14-1-20170208-unofficial-e610-zip.6363842/"
     }
   ],
 
@@ -2427,6 +2516,23 @@ const romData = {
       url: "https://eu.dl.twrp.me/vayu/twrp-3.7.1_12-0-vayu.img"
     }
   ],
+   "POCO F5 (marble)": [
+    {
+      rom: "Evolution X 12",
+      android: "17",
+      date: "2026-07-20",
+      type: "OFFICIAL",
+      url: "https://cdn.evolution-x.org/marble/17/EvolutionX-17.0-20260720-marble-12.0-Official.zip/download",
+    },
+
+    {
+      rom: "Evolution X Recovery",
+      android: "-",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://cdn.evolution-x.org/marble/17/recovery/recovery.img/download"
+    }
+  ],
 
    "Sony Xperia Z2 (sirius)": [
     {
@@ -2465,6 +2571,13 @@ const romData = {
       url: "https://www.mediafire.com/file/sviu55kyuttfrdl/lineage-18.1-20240305-nightly-sirius-signed.zip/file"
     },
     {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2026-06-06",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/nz9znmeyg881ndx/lineage-20.0-20260606-UNOFFICIAL-sirius.zip/file"
+    },
+    {
       rom: "TWRP",
       android: "3.2",
       date: "-",
@@ -2486,15 +2599,113 @@ const romData = {
       date: "2014-10-30",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/kxuwn6fkd2qv633/cm-11-20141030-UNOFFICIAL-eagle.zip/file"
+    },
+    {
+      rom: "Cyanogenmod 11",
+      android: "4.4",
+      date: "2014-12-18",
+      type: "UNOFFICIAL",
+      url: "https://archive.org/download/xperia-m2-firmware-archive/Xperia%20M2%20LTE%20%28eagle%2C%20D2303%29/ROM%27s/KitKat/Custom/cm-11-20141218-UNOFFICIAL-eagle_D2303.zip"
+    },
+    {
+      rom: "Cyanogenmod 12.1",
+      android: "5.1",
+      date: "2016-07-27",
+      type: "UNOFFICIAL",
+      url: "https://archive.org/download/xperia-m2-firmware-archive/Xperia%20M2%20LTE%20%28eagle%2C%20D2303%29/ROM%27s/Lollipop/Custom/CM12.1/cm-12.1-20160727-UNOFFICIAL-eagle.zip"
+    },
+    {
+      rom: "OmniRom",
+      android: "5.1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://archive.org/download/xperia-m2-firmware-archive/Xperia%20M2%20LTE%20%28eagle%2C%20D2303%29/ROM%27s/Lollipop/Custom/OmniRom%205.1%20eagle.zip"
+    },stom/
+    {
+      rom: "Cyanogenmod 13",
+      android: "6.0.1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://archive.org/download/xperia-m2-firmware-archive/Xperia%20M2%20LTE%20%28eagle%2C%20D2303%29/ROM%27s/Marshmallow/cm-13.0-20161117-UNOFFICIAL-eagle.zip"
+    },
+    {
+      rom: "OmniRom",
+      android: "7.0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://archive.org/download/xperia-m2-firmware-archive/Xperia%20M2%20LTE%20%28eagle%2C%20D2303%29/ROM%27s/Nougat/Konstantinosj77%20%26%20galaxyfreak/omni-7.0-20161114-eagle-HOMEMADE.zip"
+    },
+    {
+      rom: "OmniRom",
+      android: "7.1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://archive.org/download/xperia-m2-firmware-archive/Xperia%20M2%20LTE%20%28eagle%2C%20D2303%29/ROM%27s/Nougat/Konstantinosj77%20%26%20galaxyfreak/omni-7.1-20161126-eagle-HOMEMADE.zip"
+    },
+    {
+      rom: "OmniRom",
+      android: "7.1.1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://archive.org/download/xperia-m2-firmware-archive/Xperia%20M2%20LTE%20%28eagle%2C%20D2303%29/ROM%27s/Nougat/Konstantinosj77%20%26%20galaxyfreak/omni-7.1.1-20170310-eagle-HOMEMADE.zip"
+    },
+    {
+      rom: "OmniRom",
+      android: "7.1.2",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://archive.org/download/xperia-m2-firmware-archive/Xperia%20M2%20LTE%20%28eagle%2C%20D2303%29/ROM%27s/Nougat/Konstantinosj77%20%26%20galaxyfreak/omni-7.1.2-20171108-eagle-HOMEMADE.zip"
+    },
+    {
+      rom: "CyanogenMod 14.1",
+      android: "7.1.2",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://archive.org/download/xperia-m2-firmware-archive/Xperia%20M2%20LTE%20%28eagle%2C%20D2303%29/ROM%27s/Nougat/freack/cm-14.1-20161220-UNOFFICIAL-D2303.zip"
+    },
+    {
+      rom: "LineageOS 15.0",
+      android: "8.0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://archive.org/download/xperia-m2-firmware-archive/Xperia%20M2%20LTE%20%28eagle%2C%20D2303%29/ROM%27s/Oreo/Konstantinosj77%20%26%20galaxyfreak/lineage-15.0-20171124_093057-UNOFFICIAL-eagle.zip"
+    },
+    {
+      rom: "LineageOS 15.1",
+      android: "8.1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://archive.org/download/xperia-m2-firmware-archive/Xperia%20M2%20LTE%20%28eagle%2C%20D2303%29/ROM%27s/Oreo/Konstantinosj77%20%26%20galaxyfreak/lineage-15.1-20180514-UNOFFICIAL-eagle.zip"
+    },
+    {
+      rom: "Pixel Experience",
+      android: "8.1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://archive.org/download/xperia-m2-firmware-archive/Xperia%20M2%20LTE%20%28eagle%2C%20D2303%29/ROM%27s/Oreo/Sikoka1989/PixelExperience_eagle-8.1.0-20190207-2007-UNOFFICIAL.zip"
+    },
+    {
+      rom: "LineageOS 15.1",
+      android: "8.1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "http://f2065.ru/en/download/1456/?tmstv=1784114273"
     }
   ],  
    "Sony Xperia Z3 (d6603)": [
+     {
+      rom: "TWRP",
+      android: "3.3",
+      date: "2019-10-28",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/ori1goramixp8wt/twrp-3.3.1-z3-20191028.img/file"
+    },
     {
-      rom: "LineageOS 18.1",
-      android: "11",
-      date: "2024-03-06",
-      type: "OFFICIAL",
-      url: "https://b4.timschumi.net/lineage-archive/lineage-18.1-20240306-nightly-z3-signed.zip"
+      rom: "LineageOS 20",
+      android: "13",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://sourceforge.net/projects/xperia-z3/files/Android13/LineageOS/lineage-20.0-20240531-UNOFFICIAL-z3-2.zip/download"
     }
   ],
   "Sony Xperia Z3 Compact (D5803)": [
@@ -2577,12 +2788,26 @@ const romData = {
       type: "OFFICIAL",
       url: "https://www.mediafire.com/file/athdzdwttheltsy/orangefox-ginkgo-stable.img/file"
     },
-     {
+    {
+      rom: "TWRP",
+      android: "3.7.1_12",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/0twt22o8oa21d3d/TWRP-Unified-Ginkgo.zip/file"
+    },
+    {
       rom: "LineageOS 23",
       android: "16",
       date: "2026-02-04",
       type: "OFFICIAL",
       url: "https://b4.timschumi.net/lineage-archive/lineage-23.0-20260204-nightly-ginkgo-signed.zip"
+    },
+    {
+      rom: "LineageOS 23.2",
+      android: "16",
+      date: "2026-07-15",
+      type: "OFFICIAL (official lineageos linki)",
+      url: "https://mirrorbits.lineageos.org/full/ginkgo/20260715/lineage-23.2-20260715-nightly-ginkgo-signed.zip"
     },
   ],
 
