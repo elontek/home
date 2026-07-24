@@ -43,35 +43,21 @@ const romData = {
       url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/cm-11-20150901-SNAPSHOT-XNG3CAO3G0-galaxysmtd.zip"
     },
     {
-      rom: "Omni",
+      rom: "OmniRom",
       android: "4.4",
       date: "-",
       type: "UNOFFICIAL",
       url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/omni-4.4.4-20150520-galaxysmtd-FINAL%20%281%29.zip"
     },
     {
-      rom: "CARBON",
-      android: "4.4",
+      rom: "CarbonRom",
+      android: "4.4.4",
       date: "-",
       type: "UNOFFICIAL",
       url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/CARBON-KK-UNOFFICIAL-20140713-1450-galaxysmtd.zip"
     },
     {
-      rom: "Full Advance",
-      android: "6.0",
-      date: "-",
-      type: "UNOFFICIAL",
-      url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/Full%2BAdvance-6.0.1-20160919-galaxysmtd-Final.zip"
-    },
-    {
-      rom: "Full Advance",
-      android: "5.1",
-      date: "-",
-      type: "UNOFFICIAL",
-      url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/OmniROM%205.1/Full%2BAdvance-5.1.1-20151205-galaxysmtd-stable.zip"
-    },
-    {
-      rom: "Omni",
+      rom: "OmniRom",
       android: "6.0",
       date: "-",
       type: "UNOFFICIAL",
@@ -97,20 +83,6 @@ const romData = {
       date: "-",
       type: "OFFICIAL",
       url: "https://odindownloader.com/wp-content/uploads/Odin3_v1.83.zip"
-    },
-    {
-      rom: "TWRP",
-      android: "2.8",
-      date: "-",
-      type: "DENEYSEL!!!",
-      url: "https://xdaforums.com/attachments/kernel-tar.3515622/"
-    },
-    {
-      rom: "TWRP",
-      android: "2.8",
-      date: "-",
-      type: "DENEYSEL!!! (mirror)",
-      url: "https://www.mediafire.com/file/xxyzjjz3l20smwh/KERNEL.tar/file"
     },
     {
       rom: "CWM",
@@ -206,6 +178,13 @@ const romData = {
       url: "https://www.mediafire.com/file/wm284tuxr7q97bv/lineage-18.1-20220226-UNOFFICIAL-i9100.zip/file"
     },
     {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://mega.nz/file/7AxAXIwK#L184KpvOykD-tzgLbEhz3f3OhpudfxqteKvJ74Vg83s"
+    },
+    {
       rom: "TWRP's",
       android: "2.8-3.6.1...",
       date: "-",
@@ -223,7 +202,7 @@ const romData = {
   "Samsung Galaxy S3 (i9300)": [
     {
       rom: "TWRP",
-      android: "3.7",
+      android: "3.7.0_9-0",
       date: "-",
       type: "OFFICIAL",
       url: "https://eu.dl.twrp.me/i9300/twrp-3.7.0_9-0-i9300.img.tar.html"
@@ -730,13 +709,6 @@ const romData = {
       url: "https://www.mediafire.com/file/nyxq6maj6ikk44h/lineage-14.1-20181109-nightly-k3gxx-signed.zip/file"
     },
     {
-      rom: "LineageOS 15.1",
-      android: "8.1",
-      date: "2018-11-09",
-      type: "UNOFFICIAL",
-      url: "https://androidfilehost.com/?fid=5862345805528060513"
-    },
-    {
       rom: "TWRP",
       android: "3.7",
       date: "-",
@@ -1098,6 +1070,22 @@ const romData = {
       url: "https://dl.twrp.me/r8q/twrp-3.7.1_12-3-r8q.img.tar.html"
     },
   ],
+   "Samsung Note 1 (N7000) (Exynos)": [
+    {
+      rom: "LineageOS 23",
+      android: "16",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://download.j0sh1x.funfeuro.net/ROMS/LineageOS/N7000/"
+    },
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1caRJ4mncDukerMXyA13LlxzwTJmIRZax/view?usp=drive_link"
+    },
+  ],
   
     "Samsung Note 2 (N7100)": [
     {
@@ -1287,8 +1275,8 @@ const romData = {
       rom: "TWRP",
       android: "3.7.0_9-0",
       date: "-",
-      type: "OFFICIAL",
-      url: "https://www.mediafire.com/file/ny0k8v551m9ifoh/twrp-3.7.0_9-0-treltexx.img.tar/file"
+      type: "UNOFFICIAL",
+      url: "https://github.com/universal5433/android_device_samsung_treltexx/releases/download/TWRP-3.7.0_9/TWRP-3.7.0_9-treltexx-20221231.tar"
     }
   ],
    "Samsung Note Edge (tblte)": [
@@ -1569,6 +1557,20 @@ const romData = {
       date: "2018-11-03",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/qilpm4u430fn8s6/lineage-14.1-20181103-UNOFFICIAL-ms01lte.zip/file"
+    },
+    {
+      rom: "LineageOS 17.1",
+      android: "10",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1su559nLNX2-vvv2HmJTcRiTtosaOTIU-/view?usp=drive_link"
+    },
+    {
+      rom: "TWRP",
+      android: "3.4",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://app.mediafire.com/folder/kof2o7f57d9yt"
     }
   ],
   
@@ -1591,11 +1593,32 @@ const romData = {
   ],
    "Samsung Galaxy Tab S Wifi (SM-T800) (chagallwifi)": [
     {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "2025-07-21",
+      type: "UNOFFICIAL",
+      url: "https://eu.dl.twrp.me/chagallwifi/twrp-3.7.0_9-0-chagallwifi.img.tar.html"
+    },
+    {
+      rom: "LineageOS 14.1",
+      android: "7.1.2",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://b4.timschumi.net/lineage-archive/lineage-14.1-20190205-nightly-chagallwifi-signed.zip"
+    },
+    {
       rom: "LineageOS 15.1",
       android: "8.1",
       date: "2025-07-21",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/bwbgngh4uzff2se/lineage-15.1-20180823-UNOFFICIAL-chagallwifi.zip/file"
+    },
+    {
+      rom: "LineageOS 21",
+      android: "14",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://sourceforge.net/projects/retiredtab/files/SM-T800/21/lineage-21.0-20260707-UNOFFICIAL-chagallwifi.zip/download"
     },
     {
       rom: "LineageOS 22",
@@ -1605,13 +1628,60 @@ const romData = {
       url: "https://sourceforge.net/projects/retiredtab/files/SM-T800/22.2/lineage-22.2-20260603-UNOFFICIAL-chagallwifi.zip/download"
     },
   ],
-   "Samsung Galaxy Tab 3 Lite (goyawifi)(T113)": [
+     "Samsung Galaxy Tab S 8.4 (klimtwifi)": [
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "",
+      type: "UNOFFICIAL",
+      url: "https://www.dropbox.com/s/fl0zfoqv8af7xad/lineage-20.0-UNOFFICIAL-MODIFIED-klimtlte.zip?dl=1"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://eu.dl.twrp.me/klimtwifi/twrp-3.7.0_9-0-klimtwifi.img.tar.html"
+    },
+
+  ],
+   "Samsung Galaxy Tab S2 Wifi (SM-T710) (gts28wifi)": [
+    {
+      rom: "TWRP",
+      android: "3.5.2_9-0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://sourceforge.net/projects/retiredtab/files/SM-T710/TWRP/TWRP_3.5.2_9_SM-T710_20210719_Unofficial.tar/download"
+    },
+     {
+      rom: "LineageOS 21",
+      android: "14",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://sourceforge.net/projects/lpedia-sf/files/lineage-21/lineage-21.0-20260603-UNOFFICIAL-gts28wifi.zip/download"
+    },
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://sourceforge.net/projects/lpedia-sf/files/gts28wifi-20/lineage-20.0-20260506-UNOFFICIAL-gts28wifi.zip/download"
+    },
+  ],
+   "Samsung Galaxy Tab 3 Lite (goyawifi) (T113)": [
     {
       rom: "LineageOS 15.1",
       android: "8.1",
       date: "2025-07-21",
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1ZIE8f006V1CRh_Mf6JCT6fH5BUjmrLag/view"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/wkui29rqp975ohq/twrp-3.7.0_9-0-goyave.tar/file"
     },
     {
       rom: "TWRP",
@@ -1801,8 +1871,24 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://androidfilehost.com/?fid=673791459329063717"
     }
+    ],
+     "Samsung Galaxy Alpha (slte)(Exynos)": [
+    {
+      rom: "LineageOS 14.1",
+      android: "7.1.2",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=745849072291691877"
+    },
+    {
+      rom: "TWRP",
+      android: "3.1.1-1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/oepy9p5dsrmpbgb/twrp-3.1.1-slte-2.tar.md5/file"
+    }
   ],
-   "Samsung Mini (tass) (GT-S5570)": [
+   "Samsung Mini (tass)": [
     {
       rom: "Cyanogenmod 11",
       android: "4.4",
@@ -2095,7 +2181,6 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/96zcqhh19swh74u/cm-12.1-20160603-UNOFFICIAL-kylepro.zip/file"
     },
-    
   ],
   
    "Samsung Galaxy Core Prime (core33g) (G360H)": [
@@ -2533,6 +2618,45 @@ const romData = {
       url: "https://cdn.evolution-x.org/marble/17/recovery/recovery.img/download"
     }
   ],
+    "Sony Xperia XZ1 (poplar)": [
+     {
+      rom: "TWRP",
+      android: "3.6.2_12-0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://sourceforge.net/projects/yoshino/files/poplar/twrp/twrp-3.6.2_12-0-20221002-poplar.img/download"
+    },
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://sourceforge.net/projects/yoshino/files/poplar/lineage-20.0/lineage-20.0-20231227-UNOFFICIAL-1.5-poplar.zip/download"
+    },
+    {
+      rom: "LineageOS 21",
+      android: "14",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://sourceforge.net/projects/yoshino/files/poplar/lineage-21.0/lineage-21.0-20240615-UNOFFICIAL-1.1-poplar.zip/download"
+    }
+  ],
+   "Sony Xperia Z2 Tablet (castor)": [
+     {
+      rom: "TWRP",
+      android: "3.4.0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/pa3qzsezuosco60/castor.img/file"
+    },
+    {
+      rom: "LineageOS 18.1",
+      android: "11",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://b4.timschumi.net/lineage-archive/lineage-18.1-20240306-nightly-castor-signed.zip"
+    },
+  ],
 
    "Sony Xperia Z2 (sirius)": [
     {
@@ -2780,6 +2904,22 @@ const romData = {
       url: "https://www.mediafire.com/file/ak1ruh301z8r1xv/TWRP_ZTE.zip/file"
     }
   ],
+   "Redmi Note 11 (spes/spesn)": [
+    {
+      rom: "TWRP (Android 13)",
+      android: "3.7",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://xiaomitools.com/download/redmi-note-11-spes-spesn-a13-twrp/"
+    },
+    {
+      rom: "LineageOS",
+      android: "20",
+      date: "2023-05-13",
+      type: "UNOFFICIAL",
+      url: "https://sourceforge.net/projects/lineageos-spes/files/Roms/lineage-20.0-20230513-GAPPS-spes.zip/download"
+    }
+  ],
    "Redmi Note 8 ginkgo": [
     {
       rom: "Orangefox Recovery",
@@ -2855,6 +2995,42 @@ const romData = {
       date: "-",
       type: "UNOFFICIAL",
       url: "https://pixeldrain.com/u/8qJ1vrMv"
+    },
+  ],
+   "": [
+    {
+      rom: "",
+      android: "",
+      date: "",
+      type: "",
+      url: ""
+    }
+  ],
+   "": [
+     {
+      rom: "",
+      android: "",
+      date: "",
+      type: "",
+      url: ""
+    },
+  ],
+    "": [
+    {
+      rom: "",
+      android: "",
+      date: "",
+      type: "",
+      url: ""
+    }
+  ],
+   "": [
+     {
+      rom: "",
+      android: "",
+      date: "",
+      type: "",
+      url: ""
     },
   ],
 };
