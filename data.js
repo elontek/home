@@ -851,6 +851,13 @@ const romData = {
     }
   ],
   "Samsung Galaxy S7 Edge (hero2lte) (Exynos)": [
+     {
+      rom: "CyanogenMod 13",
+      android: "6",
+      date: "2016-12-20",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/otsqfh1bp9ostqg/cm-13.0-20161220-UNOFFICIAL-hero2ltexx.zip/file"
+    },
     {
       rom: "LineageOS 17.1",
       android: "10",
@@ -1072,11 +1079,11 @@ const romData = {
   ],
    "Samsung Note 1 (N7000) (Exynos)": [
     {
-      rom: "LineageOS 23",
+      rom: "LineageOS 23.2",
       android: "16",
       date: "-",
       type: "UNOFFICIAL",
-      url: "https://download.j0sh1x.funfeuro.net/ROMS/LineageOS/N7000/"
+      url: "https://drive.google.com/file/d/1e8q9D01L8H2id5EYEpYOlNFdUw8inDz9/view?usp=drive_link"
     },
     {
       rom: "LineageOS 20",
@@ -1243,6 +1250,13 @@ const romData = {
     
   ],
    "Samsung Note 4 (trelte)(Exynos)": [
+    {
+      rom: "Cyanogenmod 13",
+      android: "6",
+      date: "2016-11-09",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/jh192pbvpc2sb95/cm-13.0-20161109-UNOFFICIAL-treltexx.zip/file"
+    },
     {
       rom: "Cyanogenmod 14.1",
       android: "7.1",
@@ -2371,13 +2385,6 @@ const romData = {
       rom: "Cyanogenmod 10.3",
       android: "4.3",
       date: "2013-11-02",
-      type: "SNAPSHOT",
-      url: "https://drive.google.com/file/d/1K_YfhO9IzBdDzknobIzJRyP29wFZ8wBR/view?usp=drive_link"
-    },
-    {
-      rom: "Cyanogenmod 13",
-      android: "6",
-      date: "2016-11-19",
       type: "SNAPSHOT",
       url: "https://drive.google.com/file/d/1K_YfhO9IzBdDzknobIzJRyP29wFZ8wBR/view?usp=drive_link"
     },
