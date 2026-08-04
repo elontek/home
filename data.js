@@ -1964,6 +1964,13 @@ const romData = {
     },
     {
       rom: "TWRP",
+      android: "2.8.7.0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/do6ys2hith1q6dv/TWRP-v2.8.7.0-jena.zip/file"
+    },
+    {
+      rom: "TWRP",
       android: "3.0.2-0",
       date: "-",
       type: "UNOFFICIAL",
