@@ -1605,6 +1605,16 @@ const romData = {
     },
 
   ],
+       "Samsung Galaxy Wonder (ancora)": [
+    {
+      rom: "Cyanogenmod 9",
+      android: "4.0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/li01z2f1i88ca0l/cm-9-20130730-UNOFFICIAL-ancora_%25281%2529.zip/file"
+    }
+
+  ],
    "Samsung Galaxy Tab S Wifi (SM-T800) (chagallwifi)": [
     {
       rom: "TWRP",
