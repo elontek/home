@@ -2782,13 +2782,6 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/fho2e9yb3wmby13/twrp-sirius.rar/file"
     },
-    {
-      rom: "TWRP",
-      android: "3.7.0",
-      date: "-",
-      type: "UNOFFICIAL (togari twrp but works)",
-      url: "https://www.mediafire.com/file/dh8mo0w4ieivcee/twrp-3.7.0_9-0-togari.img/file"
-    }
   ],
     "Sony Xperia M2 (eagle)": [
     {
