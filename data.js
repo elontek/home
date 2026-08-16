@@ -1605,15 +1605,45 @@ const romData = {
     },
 
   ],
-       "Samsung Galaxy Wonder (ancora)": [
+   "Samsung Galaxy Young": [
+    {
+      rom: "Cyanogenmod 11",
+      android: "4.4.4",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/pl6zrwgdtwjwaxe/cm-11.0.0-RC14-GT-S5360-totoro.zip/file"
+    },
+    {
+      rom: "TWRP",
+      android: "3.0.2-0",
+      date: "-",
+      type: "UNOFFICIAL (.tar)",
+      url: "https://app.mediafire.com/folder/f248dd3933v2l"
+    },
+
+  ],
+  "Samsung Galaxy Wonder (ancora)": [
     {
       rom: "Cyanogenmod 9",
       android: "4.0",
-      date: "-",
+      date: "2013-07-30",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/li01z2f1i88ca0l/cm-9-20130730-UNOFFICIAL-ancora_%25281%2529.zip/file"
+    },
+    {
+      rom: "Lineage 14.1",
+      android: "7.1.2",
+      date: "2017-06-03",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/4libkkcxid0cfqj/lineage-14.1-20170603-UNOFFICIAL-ancora-EOL.zip/file"
+    },
+    {
+      rom: "CWM",
+      android: "6.0.5.1",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/w9572joswtpsrkl/recovery-clockwork-6.0.5.1-ancora.zip/file"
     }
-
   ],
    "Samsung Galaxy Tab S Wifi (SM-T800) (chagallwifi)": [
     {
@@ -1809,6 +1839,23 @@ const romData = {
       url: "https://ota.html6405.com/n8020/LOS21/21.0-20240721-HTML6405-n8020.zip"
     }
   ],
+
+     "Samsung Galaxy Tab A7 10.4 2020 (gta4lwifi)": [
+    {
+      rom: "LineageOS 23",
+      android: "16",
+      date: "2026-02-03",
+      type: "OFFICIAL",
+      url: "https://b4.timschumi.net/lineage-archive/lineage-23.0-20260203-nightly-gta4lwifi-signed.zip"
+    },
+    {
+      rom: "LineageOS 22.2",
+      android: "15",
+      date: "2025-10-07",
+      type: "OFFICIAL",
+      url: "https://b4.timschumi.net/lineage-archive/lineage-22.2-20251007-nightly-gta4lwifi-signed.zip"
+    },
+  ],
    "Samsung Note 10.1 2014 (P605)(lt03lte)": [
     {
       rom: "LineageOS 17.1",
@@ -1895,7 +1942,10 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://androidfilehost.com/?fid=673791459329063717"
     }
+    
     ],
+    
+    
      "Samsung Galaxy Alpha (slte)(Exynos)": [
     {
       rom: "LineageOS 14.1",
@@ -2731,6 +2781,13 @@ const romData = {
       date: "-",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/fho2e9yb3wmby13/twrp-sirius.rar/file"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0",
+      date: "-",
+      type: "UNOFFICIAL (togari twrp but works)",
+      url: "https://www.mediafire.com/file/dh8mo0w4ieivcee/twrp-3.7.0_9-0-togari.img/file"
     }
   ],
     "Sony Xperia M2 (eagle)": [
