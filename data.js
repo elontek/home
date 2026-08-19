@@ -185,6 +185,13 @@ const romData = {
       url: "https://mega.nz/file/7AxAXIwK#L184KpvOykD-tzgLbEhz3f3OhpudfxqteKvJ74Vg83s"
     },
     {
+      rom: "LineageOS 23.2",
+      android: "16",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1PD06ycSz2jnkzD9ZRzSeChBc_Vex00Cg/view"
+    },
+    {
       rom: "TWRP's",
       android: "2.8-3.6.1...",
       date: "-",
@@ -646,7 +653,22 @@ const romData = {
       url: "https://www.mediafire.com/file/plndofx9pd337i7/twrp-3.7.0_9-0-serrano3gxx.img.tar/file"
     }
   ],
-
+   "Samsung S4 Mini Plus/Value Edition (i9195i) (serranovelte)": [
+    {
+      rom: "LineageOS 21",
+      android: "14",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://androidfilehost.com/?fid=9180008750105231816"
+    },
+    {
+      rom: "TWRP",
+      android: "3.6.0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/ohz44rpakx2tbft/TWRP-3.6.0_9-serranovelte.zip/file"
+    },
+  ],
    "Samsung Galaxy S5 LTE (klte)": [
     {
       rom: "Cyanogenmod 13",
@@ -710,7 +732,7 @@ const romData = {
     },
     {
       rom: "TWRP",
-      android: "3.7",
+      android: "3.7.0_9-0",
       date: "-",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/rvmo43glmefrage/twrp-3.7.0_9-0-k3g.img.tar/file"
@@ -1285,12 +1307,26 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/12hKpbaNeG0KvXyyvnqz3BnMiiPr5CzN4/view"
     },
+     {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/drive/u/0/folders/1lLtRTDHMTgSqJ4hUG-9Vz2-o0RxZyMDK"
+    },
     {
       rom: "TWRP",
       android: "3.7.0_9-0",
       date: "-",
       type: "UNOFFICIAL",
       url: "https://github.com/universal5433/android_device_samsung_treltexx/releases/download/TWRP-3.7.0_9/TWRP-3.7.0_9-treltexx-20221231.tar"
+    },
+     {
+      rom: "OrangeFox",
+      android: "-",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://xdaforums.com/attachments/orangefox-unofficial-treltexx-zip.6189020/"
     }
   ],
    "Samsung Note Edge (tblte)": [
@@ -1314,14 +1350,7 @@ const romData = {
       date:"-",
       type:"UNOFFICIAL",
       url:"https://drive.google.com/file/d/1ohNKCiPv2RgICaI30fUawbUwa0-BfD7z/view?usp=drive_link"
-    },
-    {
-      rom:"LineageOS 18.1",
-      android:"11",
-      date:"-",
-      type:"UNOFFICIAL",
-      url:"https://drive.google.com/file/d/1I5jSUu8GwyMYgVEVngLQ1ISJVZ0cVbgf/view?usp=drive_link"
-    },
+    }
   ],
   "Samsung Note 4 N910K (trelteskt)(Exynos)": [
     {
@@ -1389,13 +1418,6 @@ const romData = {
       date: "2025-12-04",
       type: "UNOFFICIAL",
       url: "https://github.com/fakemanoan/LineageOS-Releases/releases/download/A14pre-08122025/lineage-21.0-20251208-UNOFFICIAL-noblelte.zip"
-    },
-    {
-      rom: "TWRP",
-      android: "3.4.0-0",
-      date: "-",
-      type: "OFFICIAL",
-      url: "https://www.mediafire.com/file/c5nt0cexzdfmfvc/twrp-3.4.0-0-noblelte.img.tar/file"
     },
     {
       rom: "TWRP",
@@ -1722,7 +1744,14 @@ const romData = {
       url: "https://sourceforge.net/projects/lpedia-sf/files/gts28wifi-20/lineage-20.0-20260506-UNOFFICIAL-gts28wifi.zip/download"
     },
   ],
-   "Samsung Galaxy Tab 3 Lite (goyawifi) (T113)": [
+   "Samsung Galaxy Tab 3 Lite (goyavewifi) (T113)": [
+     {
+      rom: "CyanogenMod 11",
+      android: "4.4.4",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/51novjdxd6m7e74/cm-11-20170105-UNOFFICIAL-goyave3g.zip/file"
+    },
     {
       rom: "LineageOS 15.1",
       android: "8.1",
@@ -1838,6 +1867,22 @@ const romData = {
       type: "N8020 için",
       url: "https://ota.html6405.com/n8020/LOS21/21.0-20240721-HTML6405-n8020.zip"
     }
+  ],
+    "Samsung Galaxy Tab 3 7.0 LTE (lt02ltespr)": [
+    {
+      rom: "LineageOS 14.1",
+      android: "7.1.2",
+      date: "2019-02-03",
+      type: "OFFICIAL",
+      url: "https://b4.timschumi.net/lineage-archive/lineage-14.1-20190203-nightly-lt02ltespr-signed.zip"
+    },
+    {
+      rom: "TWRP",
+      android: "3.6.2_9-0",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://eu.dl.twrp.me/lt02/twrp-3.6.2_9-0-lt02.img.tar.html"
+    },
   ],
 
      "Samsung Galaxy Tab A7 10.4 2020 (gta4lwifi)": [
@@ -2068,7 +2113,61 @@ const romData = {
       url: "https://www.mediafire.com/file/9exa0das0wsmk5u/TWRP-3.0.2-0-cooperve.zip/file"
     }
   ],
-
+   "Samsung Ace 2 (codina)": [
+    {
+      rom: "LineageOS 16",
+      android: "9",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://xdaforums.com/attachments/lineage-16-0-20181231-unofficial-unified-zip.6357444/"
+    },
+  ],
+   "Samsung Ace 3 (GT-S7275R/B/T)(loganreltexx)": [
+    {
+      rom: "LineageOS 16",
+      android: "9",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://mega.nz/file/LxVikTAT#WLXQZSNsd-zq_ZLgLh6mVmpKHn7QqygVdu6Bz0539rE"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://xdaforums.com/attachments/twrp-3-7-0_9-0-loganrelte-tar.6366634/"
+    }
+  ],
+    "Samsung Galaxy V (SM-G313H)(vivalto3gvn)": [
+    {
+      rom: "Cyanogenmod 14.1",
+      android: "7.1.2",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/mplyy5zauu7ivrr/Link+to+cm-14.1-20161204-BETA2-vivalto3gvn.zip"
+    },
+    {
+      rom: "Cyanogenmod 13",
+      android: "6.0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/download/agfnuuqdb1v9mzn/cm-13.0-20160908-UNOFFICIAL-vivalto3gvn.zip"
+    },
+    {
+      rom: "TWRP",
+      android: "2.6.1.0",
+      date: "-",  
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/download/9q428fa34q8aps5/TWRP_2.6.1.0_Vivalto_RC1.tar.md5"
+    },
+    {
+      rom: "TWRP",
+      android: "3.1.1-0",
+      date: "-",  
+      type: "UNOFFICIAL",
+      url: "https://xdaforums.com/attachments/recovery-img-tar.4700100/"
+    }
+  ],
    "Samsung J2 Prime/Grand prime plus (G532X)": [
     {
       rom: "LineageOS 14.1",
