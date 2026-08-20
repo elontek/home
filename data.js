@@ -468,9 +468,9 @@ const romData = {
     {
       rom: "LineageOS 15.1",
       android: "8.1",
-      date: "2018-10-30",
-      type: "DENEYSEL!!!",
-      url: "https://drive.google.com/file/d/1cYMPDCKz8G2XwlHOShJwSmAL3EKumLk4/view?usp=drive_link"
+      date: "2026-08-19",
+      type: "UNOFFICIAL (bug fixed build)",
+      url: "https://xdaforums.com/attachments/lineage-15-1-20260819-unofficial-golden-beta2-zip.6375165/"
     },
     {
       rom: "Samsung Touchwiz",
@@ -2168,7 +2168,7 @@ const romData = {
       url: "https://xdaforums.com/attachments/recovery-img-tar.4700100/"
     }
   ],
-   "Samsung J2 Prime/Grand prime plus (G532X)": [
+   "Samsung J2 Prime/Grand Prime plus (G532X)": [
     {
       rom: "LineageOS 14.1",
       android: "7.1.2",
@@ -3022,7 +3022,6 @@ const romData = {
       type: "OFFICIAL",
       url: "https://www.mediafire.com/file/cbl3yavtgkb4cyj/lineage-15.1-20191114-UNOFFICIAL-z3c.zip/file"
     },
-
     {
       rom: "LineageOS 17.1",
       android: "10",
@@ -3036,7 +3035,14 @@ const romData = {
       date: "2024-03-06",
       type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1dI21vinhmdcZoHvML-iBH7-BD-12T-2I/view"
-    }
+    },
+     {
+      rom: "TWRP",
+      android: "3.3",
+      date: "2019-10-28",
+      type: "UNOFFICIAL (z3 twrp but works)",
+      url: "https://www.mediafire.com/file/ori1goramixp8wt/twrp-3.3.1-z3-20191028.img/file"
+    },
   ],
   "Sony Xperia XZ Premium (G8141)": [
      {
