@@ -57,13 +57,6 @@ const romData = {
       url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/CARBON-KK-UNOFFICIAL-20140713-1450-galaxysmtd.zip"
     },
     {
-      rom: "OmniRom",
-      android: "6.0",
-      date: "-",
-      type: "UNOFFICIAL",
-      url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/omni-6.0.1-20160309-galaxysmtd-HOMEMADE.zip"
-    },
-    {
       rom: "LineageOS 14.1",
       android: "7.1",
       date: "2018-01-27",
@@ -92,11 +85,48 @@ const romData = {
       url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/Odin/CF-Root-XX_OXA_JW4-v4.4-CWM3RFS.tar"
     },
     {
+      rom: "TWRP",
+      android: "3.0.0-0",
+      date: "-",
+      type: "DENEYSEL!!!",
+      url: "https://www.mediafire.com/file/qzcs28eh3ojooz7/zImage.tar/file"
+    },
+  ],
+   "Samsung SL (i9003)": [
+    {
+      rom: "TWRP",
+      android: "3.1.1-1",
+      date: "-",
+      type: "DENEYSEL!!!",
+      url: "https://www.mediafire.com/file/hd597i2cxa49c0z/twrp-3.1.1-0-galaxysl.tar/file"
+    },
+    {
+      rom: "CWM",
+      android: "3.0",
+      date: "-",
+      type: "-",
+      url: "https://www.mediafire.com/file/30pyzewk9npfpa3/bagaria-09.GT-I9003_PDA.tar/file"
+    },
+     {
+      rom: "CyanogenMod 11",
+      android: "4.4.4",
+      date: "-",
+      type: "-",
+      url: "https://www.mediafire.com/file/27s35kvajk7vloj/cm-11-20160705-UNOFFICIAL-galaxysl.zip/file"
+    },
+    {
+      rom: "LineageOS",
+      android: "14.1",
+      date: "2018-10-08",
+      type: "UNOFFICIAL",
+      url: "https://xdaforums.com/attachments/lineage-14-1-20181008-unofficial-galaxysl-zip.5554399/"
+    },
+    {
       rom: "CWM",
       android: "6.0",
       date: "-",
-      type: "-",
-      url: "https://archive.org/download/samsung-galaxy-s-i9000-rom-archive/galaxysmtd/Odin/Semaphore_KK_3.4.3.tar"
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/ah5w7a8vuez8so1/normalboot.tar/file"
     },
   ],
    "Samsung S2 (i9100)": [
@@ -1749,7 +1779,7 @@ const romData = {
       rom: "CyanogenMod 11",
       android: "4.4.4",
       date: "-",
-      type: "UNOFFICIAL",
+      type: "DENEYSEL!!!",
       url: "https://www.mediafire.com/file/51novjdxd6m7e74/cm-11-20170105-UNOFFICIAL-goyave3g.zip/file"
     },
     {
@@ -3113,6 +3143,13 @@ const romData = {
       date: "-",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/0twt22o8oa21d3d/TWRP-Unified-Ginkgo.zip/file"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0-9-0",
+      date: "-",
+      type: "UNOFFICIAL (best)",
+      url: "https://www.mediafire.com/file/dxtmw9b41n1c2ec/twrp-3.7.0_12-0-ginkgo.zip/file"
     },
     {
       rom: "LineageOS 23",
