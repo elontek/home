@@ -1366,20 +1366,6 @@ const romData = {
       date: "-",
       type: "OFFICIAL",
       url: "https://www.mediafire.com/file/4ww4nc68mo2d1v2/twrp-3.7.0_9-0-tblte.img.tar/file"
-    },
-    {
-      rom:"LineageOS 16.0",
-      android:"9",
-      date:"-",
-      type:"UNOFFICIAL",
-      url:"https://drive.google.com/file/d/1CpdRjluVOC8njHGdFUo9ZepgllGjv4XD/view?usp=drive_link"
-    },
-    {
-      rom:"LineageOS 17.1",
-      android:"10",
-      date:"-",
-      type:"UNOFFICIAL",
-      url:"https://drive.google.com/file/d/1ohNKCiPv2RgICaI30fUawbUwa0-BfD7z/view?usp=drive_link"
     }
   ],
   "Samsung Note 4 N910K (trelteskt)(Exynos)": [
