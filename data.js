@@ -532,9 +532,9 @@ const romData = {
     {
       rom: "LineageOS 17.1",
       android: "10",
-      date: "2026-03-13",
+      date: "2026-03-31",
       type: "UNOFFICIAL (çoğu şey fixlendi!)",
-      url: "https://mega.nz/file/aMMHiJhK#rzpAkn4VF6XdsnL7X8xLrxHhEKzPceBU-RIVqb69FdQ"
+      url: "https://mega.nz/file/rZsUSYhB#iubhoHn6uV6SDl3aNOnZleY7af6Vg8PeZWVHekmjV5U"
     },
     {
       rom: "Cyanogenmod 12.1",
@@ -1950,6 +1950,13 @@ const romData = {
     }
   ],
      "Samsung Tab E (t560)": [
+   {
+      rom: "LineageOS 16.0",
+      android: "9",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1aKLzsQuZY5M1aEfphK-bNzckYgEH34bV/view"
+    },
     {
       rom: "ViperOS v5.1",
       android: "7.1",
@@ -2003,10 +2010,7 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://androidfilehost.com/?fid=673791459329063717"
     }
-    
     ],
-    
-    
      "Samsung Galaxy Alpha (slte)(Exynos)": [
     {
       rom: "LineageOS 14.1",
@@ -2466,44 +2470,7 @@ const romData = {
       url: "https://b4.timschumi.net/lineage-archive/lineage-23.2-20260217-nightly-a21s-signed.zip"
     },
   ],
-   "Samsung Wave (S8500)": [
-    {
-      rom: "AOSP",
-      android: "4.4",
-      date: "?",
-      type: "?",
-      url: "https://androidfilehost.com/?fid=14655340768118440541"
-    },
-    {
-      rom: "Cyanogenmod 11",
-      android: "4.4",
-      date: "?",
-      type: "?",
-      url: "https://androidfilehost.com/?fid=14655340768118441874"
-    },
-    {
-      rom: "Omni",
-      android: "4.4",
-      date: "?",
-      type: "?",
-      url: "https://androidfilehost.com/?fid=14655340768118441836"
-    },
-    {
-      rom: "Omni",
-      android: "5.0.2",
-      date: "?",
-      type: "?",
-      url: "https://androidfilehost.com/?fid=14655340768118442606"
-    },
-    {
-      rom: "Omni",
-      android: "6.0.1",
-      date: "?",
-      type: "?",
-      url: "https://androidfilehost.com/?fid=14655340768118442592"
-    },
-    
-  ],
+
    "HTC Dream G1 (dream)": [
     {
       rom: "Cyanogenmod 10",
@@ -3093,7 +3060,7 @@ const romData = {
     },
     {
       rom: "TWRP",
-      android: "3.0_2.0",
+      android: "3.0_2-0",
       date: "-",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/ak1ruh301z8r1xv/TWRP_ZTE.zip/file"
