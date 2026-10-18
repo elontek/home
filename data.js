@@ -796,13 +796,6 @@ const romData = {
   
    "Samsung Galaxy S6 (zeroflte)(Exynos)": [
     {
-      rom: "TWRP",
-      android: "3.7.0_9-0",
-      date: "-",
-      type: "UNOFFICIAL",
-      url: "https://drive.google.com/file/d/1CIWFSy9OIHl6kytkg9TeA-QGY6wkfm1-/view?usp=drive_link"
-    },
-    {
       rom: "LineageOS 19.1",
       android: "12",
       date: "2025-08-22",
@@ -816,6 +809,20 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/inn198nxuqdstq1/lineage-20.0-20251204-UNOFFICIAL-zeroflte.zip/file"
     },
+    {
+      rom: "LineageOS 22.2",
+      android: "15",
+      date: "2026-10-17",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/pig3x590u1zuh1g/lineage-22.2-20261017-UNOFFICIAL-zeroflte-test1.zip/file"
+    },
+    {
+      rom: "TWRP",
+      android: "3.7.0_9-0",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://drive.google.com/file/d/1CIWFSy9OIHl6kytkg9TeA-QGY6wkfm1-/view?usp=drive_link"
+    },
   ],
     "Samsung Galaxy S6 Edge (zerolte)": [
     {
@@ -825,12 +832,19 @@ const romData = {
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/edukdoua42pfw1q/evolution_zerofltexx-ota-tq3c.230901.001.b1-09222348-unofficial-unsigned.zip/file"
     },
-     {
+    {
       rom: "LineageOS 20",
       android: "13",
       date: "-",
       type: "UNOFFICIAL",
       url: "https://github.com/fakemanoan/LineageOS-Releases/releases/download/A13-09042026/lineage-20.0-20260409-UNOFFICIAL-zerolte.zip"
+    },
+    {
+      rom: "LineageOS 22.2",
+      android: "15",
+      date: "2026-10-17",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/imr2u8c3lkp5kap/lineage-22.2-20261017-UNOFFICIAL-zerolte.zip/file"
     },
     {
       rom: "TWRP",
@@ -1384,6 +1398,20 @@ const romData = {
   ],
    "Samsung Note Edge (tblte)": [
     {
+      rom: "LineageOS 19.1",
+      android: "12",
+      date: "2026-10-18",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/p38aoqal72e5mpj/lineage-19.1-20261018-UNOFFICIAL-tblte.zip/file"
+    },
+    {
+      rom: "LineageOS 19.1",
+      android: "12",
+      date: "2022-05-07",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/uwvtgksb0tcdjmf/lineage-18.1-20220507-UNOFFICIAL-tblte.zip/file"
+    },
+    {
       rom: "TWRP",
       android: "3.7.0_9-0",
       date: "-",
@@ -1464,6 +1492,13 @@ const romData = {
       date: "2026-10-01",
       type: "UNOFFICIAL",
       url: "https://github.com/sepgamer999-ux/Exynos7420-LineageOS/releases/download/los22.2-sep-2026-hf2/hotfix-lineage-22.2-20261001-UNOFFICIAL-noblelte.zip"
+    },
+    {
+      rom: "LineageOS 23.2",
+      android: "16",
+      date: "2026-10-06",
+      type: "UNOFFICIAL",
+      url: "https://github.com/Haldexx/Note-5-Exynos7420-LineageOS/releases/download/v1.0/lineage-23.2-20261006-UNOFFICIAL-noblelte-v1.0.zip"
     },
     {
       rom: "TWRP",
@@ -1558,6 +1593,13 @@ const romData = {
       date: "2024-06-19",
       type: "UNOFFICIAL",
       url: "https://github.com/ivanmeler/ota_provider/releases/download/greatlte_lineage-21.0_1718805359/lineage-21.0-20240619-UNOFFICIAL-greatlte.zip"
+    },
+    {
+      rom: "LineageOS 23.2",
+      android: "16",
+      date: "2026-08-29",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/3czd0tqp1pxfg73/lineage-23.2-20260829-UNOFFICIAL-greatlte.zip/file"
     },
   ],
   
@@ -2010,8 +2052,22 @@ const romData = {
       url: "https://www.mediafire.com/file/j4v8wimygtw92z2/twrp-3.1.1-0-p3110%2528Tab2-7.0%2529.tar/file"
     }
   ],
-     "Samsung Tab E (t560)": [
-   {
+     "Samsung Tab E (T560)": [
+    {
+      rom: "LineageOS 18.1",
+      android: "11",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://gofile.io/d/MHgfd4fh"
+    },
+    {
+      rom: "LineageOS 17.1",
+      android: "10",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://gofile.io/d/uH4GzVED"
+    },
+    {
       rom: "LineageOS 16.0",
       android: "9",
       date: "-",
