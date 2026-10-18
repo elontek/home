@@ -1405,8 +1405,8 @@ const romData = {
       url: "https://www.mediafire.com/file/p38aoqal72e5mpj/lineage-19.1-20261018-UNOFFICIAL-tblte.zip/file"
     },
     {
-      rom: "LineageOS 19.1",
-      android: "12",
+      rom: "LineageOS 18.1",
+      android: "11",
       date: "2022-05-07",
       type: "UNOFFICIAL",
       url: "https://www.mediafire.com/file/uwvtgksb0tcdjmf/lineage-18.1-20220507-UNOFFICIAL-tblte.zip/file"
