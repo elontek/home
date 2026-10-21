@@ -3246,7 +3246,7 @@ const romData = {
    "Redmi Note 8 ginkgo": [
      {
       rom: "LineageOS 24.0",
-      android: "16",
+      android: "17",
       date: "-",
       type: "OFFICIAL",
       url: "https://mirrorbits.lineageos.org/full/ginkgo/20261011/lineage-24.0-20261011-nightly-ginkgo-signed.zip"
