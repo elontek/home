@@ -498,9 +498,9 @@ const romData = {
     {
       rom: "LineageOS 15.1",
       android: "8.1",
-      date: "2026-08-19",
-      type: "UNOFFICIAL (bug fixed build)",
-      url: "https://xdaforums.com/attachments/lineage-15-1-20260819-unofficial-golden-beta2-zip.6375165/"
+      date: "2026-09-01",
+      type: "UNOFFICIAL (newest bug fixed build)",
+      url: "https://www.mediafire.com/file/ohhkb7qwkseuhgh/lineage-15.1-20260901-UNOFFICIAL-golden.zip/file"
     },
     {
       rom: "Samsung Touchwiz",
