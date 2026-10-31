@@ -706,7 +706,14 @@ const romData = {
       url: "https://www.mediafire.com/file/ohz44rpakx2tbft/TWRP-3.6.0_9-serranovelte.zip/file"
     },
   ],
-   "Samsung Galaxy S5 LTE (klte)": [
+   "Samsung Galaxy S5 LTE (klte) (G900F)": [
+    {
+      rom: "Cyanogenmod 11",
+      android: "4.4.4",
+      date: "2019-03-07",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/jwa8rnkzfxmruej/cm-11-20190307-UNOFFICIAL-SPL-klte.zip/file"
+    },
     {
       rom: "Cyanogenmod 13",
       android: "6",
@@ -716,10 +723,24 @@ const romData = {
     },
     {
       rom: "Cyanogenmod 14.1",
-      android: "7.1.1",
+      android: "7.1.2",
       date: "-",
       type: "OFFICIAL",
       url: "https://archive.org/download/cmarchive_nighlies/cm-14.1-20161225-NIGHTLY-klte.zip"
+    },
+    {
+      rom: "Cyanogenmod 15.1",
+      android: "7.1.1",
+      date: "2019-02-25",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/pnvixlhi4q4roao/lineage-15.1-20190225-nightly-klte-signed.zip/file"
+    },
+    {
+      rom: "LineageOS 16.0",
+      android: "9",
+      date: "2020-01-04",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/lo5lt59pyx3c41h/lineage-16.0-20201004-nightly-klte-signed.zip/file"
     },
     {
       rom: "LineageOS 18.1",
@@ -825,12 +846,47 @@ const romData = {
     },
   ],
     "Samsung Galaxy S6 Edge (zerolte)": [
-    {
-      rom: "Evolution X",
-      android: "13",
-      date: "-",
+     {
+      rom: "LineageOS 13",
+      android: "6",
+      date: "2017-01-08",
       type: "UNOFFICIAL",
-      url: "https://www.mediafire.com/file/edukdoua42pfw1q/evolution_zerofltexx-ota-tq3c.230901.001.b1-09222348-unofficial-unsigned.zip/file"
+      url: "https://www.mediafire.com/file/3z93sa2us8vlmca/lineage-13.0-20170108-UNOFFICIAL-zeroltexx.zip/file"
+    },
+    {
+      rom: "LineageOS 14.1",
+      android: "7.1.2",
+      date: "2021-07-21",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/0sd8qbx1otomvao/lineage-14.1-20210727-UNOFFICIAL-zeroltexx.zip/file"
+    },
+    {
+      rom: "LineageOS 15.1",
+      android: "8.1",
+      date: "2021-10-22",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/jrr3l7z2zi34p4p/lineage-15.1-20211022-UNOFFICIAL-zeroltexx.zip/file"
+    },
+    {
+      rom: "Crdroid",
+      android: "9",
+      date: "2019-11-26",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/mav5k8gym6k0o2d/crDroidAndroid-9.0-20191126-zerolte-v5.10.zip/file"
+    },
+    {
+      rom: "LineageOS 17.1",
+      android: "10",
+      date: "2022-09-17",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/t17r7odbtzu50l6/lineage-17.1-20220917-UNOFFICIAL-zeroltexx.zip/file"
+    },
+    {
+      rom: "LineageOS 19.1",
+      android: "12",
+      date: "2026-04-02",
+      type: "UNOFFICIAL",
+      url: "https://github.com/fakemanoan/LineageOS-Releases/releases/download/A12L-02042026/lineage-19.1-20260402-UNOFFICIAL-zerolte.zip"
     },
     {
       rom: "LineageOS 20",
@@ -838,6 +894,13 @@ const romData = {
       date: "-",
       type: "UNOFFICIAL",
       url: "https://github.com/fakemanoan/LineageOS-Releases/releases/download/A13-09042026/lineage-20.0-20260409-UNOFFICIAL-zerolte.zip"
+    },
+    {
+      rom: "Evolution X",
+      android: "13",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/edukdoua42pfw1q/evolution_zerofltexx-ota-tq3c.230901.001.b1-09222348-unofficial-unsigned.zip/file"
     },
     {
       rom: "LineageOS 22.2",
@@ -888,6 +951,13 @@ const romData = {
 
   "Samsung Galaxy S7 (herolte) (Exynos)": [
     {
+      rom: "LineageOS 14.1",
+      android: "7.1.2",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://b4.timschumi.net/lineage-archive/lineage-14.1-20190224-nightly-herolte-signed.zip"
+    },
+    {
       rom: "LineageOS 18.1",
       android: "11",
       date: "2025-02-27",
@@ -902,6 +972,13 @@ const romData = {
       url: "https://drive.google.com/file/d/14CSwq3q8MHm5eRF6xPHKFjLIbHLWE1FD/view"
     },
     {
+      rom: "LineageOS 21",
+      android: "14",
+      date: "2024-06-20",
+      type: "UNOFFICIAL",
+      url: "https://github.com/ivanmeler/ota_provider/releases/download/herolte_lineage-21.0_1718924016/lineage-21.0-20240620-UNOFFICIAL-herolte.zip"
+    },
+    {
       rom: "LineageOS 22.2",
       android: "15",
       date: "2026-05-08",
@@ -911,9 +988,9 @@ const romData = {
     {
       rom: "LineageOS 23.2",
       android: "16",
-      date: "2026-05-27",
+      date: "2026-07-14",
       type: "UNOFFICIAL",
-      url: "https://github.com/flo2theO/Samsung-Galaxy-S7-Lineageos/releases/download/Lineageos23-27-05-2026/lineage-23.2-20260527-UNOFFICIAL-herolte.zip"
+      url: "https://github.com/flo2theO/Samsung-Galaxy-S7-Lineageos/releases/download/Lineageos-23-14-7-2026/lineage-23.2-20260714-UNIFFICIAL-herolte.zip"
     },
     {
       rom: "TWRP",
@@ -951,6 +1028,13 @@ const romData = {
       date: "2025-06-28",
       type: "UNOFFICIAL",
       url: "https://github.com/ivanmeler/ota_provider/releases/download/hero2lte_lineage-20.0_1751115276/lineage-20.0-20250628-UNOFFICIAL-hero2lte.zip"
+    },
+    {
+      rom: "LineageOS 21",
+      android: "14",
+      date: "2024-06-20",
+      type: "UNOFFICIAL",
+      url: "https://github.com/ivanmeler/ota_provider/releases/download/hero2lte_lineage-21.0_1718909507/lineage-21.0-20240620-UNOFFICIAL-hero2lte.zip"
     },
     {
       rom: "TWRP",
@@ -1072,15 +1156,15 @@ const romData = {
   ],
   "Samsung S10 (beyond1lte) (Exynos)": [
     {
-      rom: "LineageOS 22.2",
-      android: "15",
-      date: "2025-10-10",
+      rom: "LineageOS 23.0",
+      android: "16",
+      date: "-",
       type: "OFFICIAL",
-      url: "https://b4.timschumi.net/lineage-archive/lineage-22.2-20251010-nightly-beyond1lte-signed.zip"
+      url: "https://b4.timschumi.net/lineage-archive/lineage-23.0-20260206-nightly-beyond1lte-signed.zip"
     },
      {
       rom: "TWRP",
-      android: "3.7",
+      android: "3.7.0_9-0",
       date: "-",
       type: "OFFICIAL",
       url: "https://eu.dl.twrp.me/beyond1lte/twrp-3.7.0_9-1-beyond1lte.img.tar.html"
@@ -1088,15 +1172,15 @@ const romData = {
   ],
    "Samsung S10+ (beyond2lte) (Exynos)": [
     {
-      rom: "LineageOS 22.2",
-      android: "15",
-      date: "2025-10-10",
+      rom: "LineageOS 23.2",
+      android: "16",
+      date: "-",
       type: "OFFICIAL",
-      url: "https://b4.timschumi.net/lineage-archive/lineage-22.2-20251011-nightly-beyond2lte-signed.zip"
+      url: "https://b4.timschumi.net/lineage-archive/lineage-23.2-20261003-nightly-beyond2lte-signed.zip"
     },
      {
       rom: "TWRP",
-      android: "3.7",
+      android: "3.7.0_9-0",
       date: "-",
       type: "OFFICIAL",
       url: "https://eu.dl.twrp.me/beyond2lte/twrp-3.7.0_9-1-beyond2lte.img.tar"
@@ -1104,15 +1188,15 @@ const romData = {
   ],
    "Samsung S10e (beyond0lte) (Exynos)": [
     {
-      rom: "LineageOS 22.2",
-      android: "15",
-      date: "2025-10-10",
+      rom: "LineageOS 23.0",
+      android: "16",
+      date: "2026-02-07",
       type: "OFFICIAL",
-      url: "https://b4.timschumi.net/lineage-archive/lineage-22.2-20251011-nightly-beyond0lte-signed.zip"
+      url: "https://b4.timschumi.net/lineage-archive/lineage-23.0-20260207-nightly-beyond0lte-signed.zip"
     },
      {
       rom: "TWRP",
-      android: "3.7",
+      android: "3.7.0_9-0",
       date: "-",
       type: "OFFICIAL",
       url: "https://eu.dl.twrp.me/beyond0lte/twrp-3.7.0_9-1-beyond0lte.img.tar"
@@ -1496,9 +1580,9 @@ const romData = {
     {
       rom: "LineageOS 23.2",
       android: "16",
-      date: "2026-10-06",
+      date: "2026-10-16",
       type: "UNOFFICIAL",
-      url: "https://github.com/Haldexx/Note-5-Exynos7420-LineageOS/releases/download/v1.0/lineage-23.2-20261006-UNOFFICIAL-noblelte-v1.0.zip"
+      url: "https://github.com/Haldexx/Note-5-Exynos7420-LineageOS/releases/download/v1.2/lineage-23.2-20261016-UNOFFICIAL-noblelte-v1.2.zip"
     },
     {
       rom: "TWRP",
@@ -3246,7 +3330,7 @@ const romData = {
    "Redmi Note 8 ginkgo": [
      {
       rom: "LineageOS 24.0",
-      android: "16",
+      android: "17",
       date: "-",
       type: "OFFICIAL",
       url: "https://mirrorbits.lineageos.org/full/ginkgo/20261011/lineage-24.0-20261011-nightly-ginkgo-signed.zip"
@@ -3264,6 +3348,13 @@ const romData = {
       date: "-",
       type: "OFFICIAL",
       url: "https://www.mediafire.com/file/athdzdwttheltsy/orangefox-ginkgo-stable.img/file"
+    },
+    {
+      rom: "Project Infinity X",
+      android: "17",
+      date: "2026-10-20",
+      type: "OFFICIAL",
+      url: "https://mirror.tejas101k.workers.dev/0:/Project_Infinity-X-4.1-ginkgo-20.10.2026-GAPPS-OFFICIAL.zip"
     },
     {
       rom: "TWRP",
