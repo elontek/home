@@ -729,8 +729,8 @@ const romData = {
       url: "https://archive.org/download/cmarchive_nighlies/cm-14.1-20161225-NIGHTLY-klte.zip"
     },
     {
-      rom: "Cyanogenmod 15.1",
-      android: "7.1.1",
+      rom: "LineageOS 15.1",
+      android: "8.1",
       date: "2019-02-25",
       type: "OFFICIAL",
       url: "https://www.mediafire.com/file/pnvixlhi4q4roao/lineage-15.1-20190225-nightly-klte-signed.zip/file"
