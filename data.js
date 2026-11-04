@@ -993,6 +993,13 @@ const romData = {
       url: "https://github.com/flo2theO/Samsung-Galaxy-S7-Lineageos/releases/download/Lineageos-23-14-7-2026/lineage-23.2-20260714-UNIFFICIAL-herolte.zip"
     },
     {
+      rom: "LineageOS 24.0",
+      android: "17",
+      date: "2026-11-02",
+      type: "UNOFFICIAL",
+      url: "https://gofile.io/d/CosLCudL"
+    },
+    {
       rom: "TWRP",
       android: "3.7.0_9-0",
       date: "2025-02-27",
@@ -1035,6 +1042,13 @@ const romData = {
       date: "2024-06-20",
       type: "UNOFFICIAL",
       url: "https://github.com/ivanmeler/ota_provider/releases/download/hero2lte_lineage-21.0_1718909507/lineage-21.0-20240620-UNOFFICIAL-hero2lte.zip"
+    },
+    {
+      rom: "LineageOS 24.0",
+      android: "17",
+      date: "2026-11-02",
+      type: "UNOFFICIAL",
+      url: "https://gofile.io/d/oKi6uZfP"
     },
     {
       rom: "TWRP",
@@ -1610,14 +1624,21 @@ const romData = {
       url: "https://github.com/ivanmeler/ota_provider/releases/download/gracerlte_lineage-21.0_1718921571/lineage-21.0-20240620-UNOFFICIAL-gracerlte.zip"
     },
     {
+      rom: "LineageOS 24.0",
+      android: "17",
+      date: "2026-11-02",
+      type: "UNOFFICIAL",
+      url: "https://gofile.io/d/oKi6uZfP"
+    },
+    {
       rom: "TWRP",
       android: "3.7.0_9-0",
       date: "-",
       type: "OFFICIAL",
-      url: "https://www.mediafire.com/file/kdarns597haa8g5/twrp-3.7.0_9-0-gracelte.img.tar/file"
+      url: "https://github.com/ananjaser1211/android_device_samsung_gracerlte/releases/download/3.7.0_9-gracelte-20231231/TWRP-3.7.0_9-gracerlte-20231231.tar"
     }
   ],
-   "Samsung Note FE (gracelte)(Exynos)": [
+   "Samsung Note FE (gracerlte)(Exynos)": [
     {
       rom: "LineageOS 20",
       android: "13",
@@ -1631,6 +1652,13 @@ const romData = {
       date: "2024-06-20",
       type: "UNOFFICIAL",
       url: "https://github.com/ivanmeler/ota_provider/releases/download/gracerlte_lineage-21.0_1718921571/lineage-21.0-20240620-UNOFFICIAL-gracerlte.zip"
+    },
+    {
+      rom: "LineageOS 24.0",
+      android: "17",
+      date: "2026-11-02",
+      type: "UNOFFICIAL",
+      url: "https://gofile.io/d/oKi6uZfP"
     },
     {
       rom: "TWRP",
