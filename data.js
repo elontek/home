@@ -1757,18 +1757,11 @@ const romData = {
   ],
    "Samsung Galaxy Mega (melius)": [
     {
-      rom: "LineageOS 18.1",
-      android: "11",
-      date: "2025-05-16",
+      rom: "LineageOS 21",
+      android: "14",
+      date: "2026-10-24",
       type: "UNOFFICIAL",
-      url: "https://sourceforge.net/projects/samsungmega6-3/files/ROMS/LineageOS-EOL/18.1/lineage-18.1-20250516-UNOFFICIAL-meliusltexx.zip/download"
-    },
-    {
-      rom: "Crdroid 7",
-      android: "11",
-      date: "2024-03-21",
-      type: "UNOFFICIAL",
-      url: "https://sourceforge.net/projects/samsungmega6-3/files/ROMS/CrDroid-EOL/7.x/crDroidAndroid-11.0-20240321-meliusltexx-v7.39.zip/download"
+      url: "https://github.com/SherifMoShalaby/android_patches_samsung_melius/releases/download/b11/lineage-21.0-20261024-UNOFFICIAL-meliusltexx.zip"
     },
     {
       rom: "Cyanogenmod 12.1",
@@ -3032,11 +3025,11 @@ const romData = {
   ],
    "POCO F5 (marble)": [
     {
-      rom: "Evolution X 12",
+      rom: "Evolution X 12.3",
       android: "17",
-      date: "2026-07-20",
+      date: "2026-10-24",
       type: "OFFICIAL",
-      url: "https://cdn.evolution-x.org/marble/17/EvolutionX-17.0-20260720-marble-12.0-Official.zip/download",
+      url: "https://cdn.evolution-x.org/marble/17/EvolutionX-17.0-20261024-marble-12.3-Official.zip/download",
     },
 
     {
@@ -3348,11 +3341,25 @@ const romData = {
       url: "https://xiaomitools.com/download/redmi-note-11-spes-spesn-a13-twrp/"
     },
     {
-      rom: "LineageOS",
-      android: "20",
+      rom: "LineageOS 20",
+      android: "13",
       date: "2023-05-13",
       type: "UNOFFICIAL",
       url: "https://sourceforge.net/projects/lineageos-spes/files/Roms/lineage-20.0-20230513-GAPPS-spes.zip/download"
+    },
+    {
+      rom: "PixelOS",
+      android: "17",
+      date: "-",
+      type: "UNOFFICIAL",
+      url: "https://pixelos-xaga-worker.angxddeep.workers.dev/Spes/PixelOS_spes-17.0-20261029-0904.zip"
+    },
+    {
+      rom: "Evolution X 11.10",
+      android: "16",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://cdn.evolution-x.org/spes/16/EvolutionX-16.0-20260807-spes-11.10-Official.zip/download",
     }
   ],
    "Redmi Note 8 ginkgo": [
@@ -3364,6 +3371,13 @@ const romData = {
       url: "https://mirrorbits.lineageos.org/full/ginkgo/20261011/lineage-24.0-20261011-nightly-ginkgo-signed.zip"
     },
     {
+      rom: "Evolution X 12.3",
+      android: "17",
+      date: "2026-11-02",
+      type: "OFFICIAL",
+      url: "https://drive.google.com/file/d/1rrWzKz1TxNiWzN1C2E42xKucnqx_JZB8/view",
+    },
+    {
       rom: "PixelOS",
       android: "17",
       date: "-",
@@ -3371,18 +3385,18 @@ const romData = {
       url: "https://download.pixelos.net/seventeen/ginkgo/PixelOS_ginkgo-17.0-20260918-1135.zip"
     },
     {
-      rom: "Orangefox Recovery",
-      android: "OrangeFox-ginkgo-stable@R10.1_3",
-      date: "-",
-      type: "OFFICIAL",
-      url: "https://www.mediafire.com/file/athdzdwttheltsy/orangefox-ginkgo-stable.img/file"
-    },
-    {
       rom: "Project Infinity X",
       android: "17",
       date: "2026-10-20",
       type: "OFFICIAL",
       url: "https://mirror.tejas101k.workers.dev/0:/Project_Infinity-X-4.1-ginkgo-20.10.2026-GAPPS-OFFICIAL.zip"
+    },
+    {
+      rom: "Orangefox Recovery",
+      android: "OrangeFox-ginkgo-stable@R10.1_3",
+      date: "-",
+      type: "OFFICIAL",
+      url: "https://www.mediafire.com/file/athdzdwttheltsy/orangefox-ginkgo-stable.img/file"
     },
     {
       rom: "TWRP",
