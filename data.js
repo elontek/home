@@ -3366,9 +3366,9 @@ const romData = {
      {
       rom: "LineageOS 24.0",
       android: "17",
-      date: "-",
+      date: "2026-11-11",
       type: "OFFICIAL",
-      url: "https://mirrorbits.lineageos.org/full/ginkgo/20261011/lineage-24.0-20261011-nightly-ginkgo-signed.zip"
+      url: "https://mirrorbits.lineageos.org/full/ginkgo/20261111/lineage-24.0-20261111-nightly-ginkgo-signed.zip"
     },
     {
       rom: "Evolution X 12.3",
