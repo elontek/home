@@ -3363,7 +3363,7 @@ const romData = {
     }
   ],
    "Redmi Note 8 ginkgo": [
-     {
+    {
       rom: "LineageOS 24.0",
       android: "17",
       date: "2026-11-11",
@@ -3371,16 +3371,44 @@ const romData = {
       url: "https://mirrorbits.lineageos.org/full/ginkgo/20261111/lineage-24.0-20261111-nightly-ginkgo-signed.zip"
     },
     {
+      rom: "LineageOS 23.2",
+      android: "16",
+      date: "2026-07-22",
+      type: "UNOFFICIAL",
+      url: "https://b4.timschumi.net/lineage-archive/lineage-23.2-20260722-nightly-ginkgo-signed.zip"
+    },
+    {
+      rom: "LineageOS 22.2",
+      android: "15",
+      date: "2025-10-08",
+      type: "UNOFFICIAL",
+      url: "https://b4.timschumi.net/lineage-archive/lineage-22.2-20251008-nightly-ginkgo-signed.zip"
+    },
+    {
+      rom: "LineageOS 21",
+      android: "14",
+      date: "2024-03-27",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/mh4zh8mra73e1u4/lineage-21.0-20240327-UNOFFICIAL-ginkgo.zip/file"
+    },
+    {
+      rom: "LineageOS 20",
+      android: "13",
+      date: "2023-12-15",
+      type: "UNOFFICIAL",
+      url: "https://www.mediafire.com/file/54isv9h435si0i1/lineage-20.0-20231215-UNOFFICIAL-ginkgo.zip/file"
+    },
+    {
       rom: "Evolution X 12.3",
       android: "17",
       date: "2026-11-02",
-      type: "OFFICIAL",
+      type: "UNOFFICIAL",
       url: "https://drive.google.com/file/d/1rrWzKz1TxNiWzN1C2E42xKucnqx_JZB8/view",
     },
     {
       rom: "PixelOS",
       android: "17",
-      date: "-",
+      date: "2026-09-18",
       type: "OFFICIAL",
       url: "https://download.pixelos.net/seventeen/ginkgo/PixelOS_ginkgo-17.0-20260918-1135.zip"
     },
